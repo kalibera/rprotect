@@ -13,7 +13,7 @@ them is somewhat difficult because one needs to build native code into LLVM
 bitcode (using Link-Time-Optimization, Clang and Clang++), which is a rather
 painful process.
 
-##The danger of PROTECT errors
+## The danger of PROTECT errors
 
 Failure to PROTECT an R object can lead to memory corruption, which usually
 causes crash (segfault) of all of R.  It is very hard to track down these
@@ -31,7 +31,7 @@ which increases the chances that PROTECT errors will trigger (cause a crash
 or error that can be detected with strict barrier checking) while running
 tests.
 
-##How to protect pointers
+## How to protect pointers
 
 One has to make sure that at any allocation from the R heap, all R objects
 (values) that may still be used by the program are reachable by the garbage
