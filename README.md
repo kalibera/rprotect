@@ -36,8 +36,8 @@ tests.
 One has to make sure that during any allocation from the R heap, all R
 objects (values) that may still be used by the program are reachable by the
 garbage collector.  The garbage collector will find objects that are on the
-`precious list` (`Rf_PreserveObject` and `Rf_ReleaseObject`), on the
-`protect stack` (`PROTECT`, `PROTECT_WITH_INDEX`, `REPROTECT`, `UNPROTECT`)
+*precious list* (`Rf_PreserveObject` and `Rf_ReleaseObject`), on the
+*protect stack* (`PROTECT`, `PROTECT_WITH_INDEX`, `REPROTECT`, `UNPROTECT`)
 or in some known locations, such as the symbol table.  The garbage collector
 will also find objects that are pointed to (via SEXP) by objects it already
 knows about. In the following, the word "pointer" refers to SEXPs (not to
