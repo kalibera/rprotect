@@ -40,14 +40,14 @@ garbage collector.  The garbage collector will find objects that are on the
 `protect stack` (`PROTECT`, `PROTECT_WITH_INDEX`, `REPROTECT`, `UNPROTECT`)
 or in some known locations, such as the symbol table.  The garbage collector
 will also find objects that are pointed to (via SEXP) by objects it already
-knows about. In the following, the word ``pointer'' refers to SEXPs (not to
+knows about. In the following, the word "pointer" refers to SEXPs (not to
 raw C pointers pointing outside R heap).
 
 These general rules are recommended to keep the source code readable and to
 reduce the risk of new errors being introduced as the code evolves.  They
 are based on analyzing and fixing a number of PROTECT bugs in the R runtime:
 
-1. *pointer protection balance* inside every C function: balance
+1. **pointer protection balance** inside every C function: balance
 PROTECT/UNPROTECT so that the usage of the pointer protection stack is the
 same at the beginning and at the end of the function. A non-local return in
 case of R error (`Rf_error`) is an exception: the balance there is handled
@@ -55,10 +55,10 @@ by R runtime. In particular, return values from functions are unprotected -
 they have to be protected by the caller. From this it follows that one
 should never wrap `PROTECT` or `UNPROTECT` functions.
 
-2. *caller protection*: all arguments passed to a function must be protected
+2. **caller protection**: all arguments passed to a function must be protected
 by the caller before the call.
 
-3.  *all functions allocate*: it is highly recommended to conservatively
+3.  **all functions allocate**: it is highly recommended to conservatively
 assume that all functions allocate, and hence to have all local variables
 protected before calling a function.  There have been a large number of
 PROTECT bugs because of incorrect assumptions that a function does not
@@ -69,7 +69,7 @@ won't allocate and allocation gets often introduced (note that e.g. a
 typical thing such as introducing a ``warning'' means introducing also
 allocation).
 
-4.  *any return value may need protection*: it is highly recommended to
+4.  **any return value may need protection**: it is highly recommended to
 conservatively assume that a pointer returned from any function needs
 protection.  The only sane exception to this rule is `install`: it is safe
 to assume that the returned pointer is protected implicitly by the symbol
