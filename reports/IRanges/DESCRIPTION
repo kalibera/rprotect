@@ -1,0 +1,42 @@
+Package: IRanges
+Title: Infrastructure for manipulating intervals on sequences
+Description: Provides efficient low-level and highly reusable S4
+	     classes for storing, manipulating and aggregating over annotated
+             ranges of integers. Implements an algebra of range operations,
+             including efficient algorithms for finding
+             overlaps and nearest neighbors. Defines efficient
+             list-like classes for storing, transforming and aggregating
+             large grouped data, i.e., collections of atomic vectors and
+             DataFrames.
+Version: 2.9.19
+Encoding: UTF-8
+Author: H. Pagès, P. Aboyoun and M. Lawrence
+Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+biocViews: Infrastructure, DataRepresentation
+Depends: R (>= 3.1.0), methods, utils, stats, BiocGenerics (>= 0.21.1),
+        S4Vectors (>= 0.13.13)
+Imports: stats4, S4Vectors
+LinkingTo: S4Vectors
+Suggests: XVector, GenomicRanges, GenomicFeatures, GenomicAlignments,
+        BSgenome.Celegans.UCSC.ce2, RUnit
+License: Artistic-2.0
+Collate: Vector-class-leftovers.R List-class-leftovers.R
+        AtomicList-class.R Ranges-class.R subsetting-utils.R
+        Ranges-comparison.R IRanges-class.R IRanges-constructor.R
+        IRanges-utils.R Grouping-class.R CompressedList-class.R
+        CompressedList-comparison.R Views-class.R Rle-class-leftovers.R
+        RleViews-class.R RleViews-utils.R extractList.R seqapply.R
+        multisplit.R AtomicList-impl.R AtomicList-utils.R
+        ListGrouping-class.R Hits-class-leftovers.R DataFrame-utils.R
+        DataFrameList-class.R DataFrameList-utils.R RangesList-class.R
+        ViewsList-class.R RleViewsList-class.R RleViewsList-utils.R
+        MaskCollection-class.R RangedData-class.R RangedData-utils.R
+        CompressedHitsList-class.R NCList-class.R
+        RangedSelection-class.R read.Mask.R findOverlaps-methods.R
+        intra-range-methods.R inter-range-methods.R reverse-methods.R
+        coverage-methods.R slice-methods.R setops-methods.R
+        nearest-methods.R cbind-Rle-methods.R tile-methods.R
+        bind-arrays.R zzz.R
+NeedsCompilation: yes
+Packaged: 2017-03-14 22:13:06 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:15:06 UTC; unix

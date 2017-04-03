@@ -1,0 +1,2 @@
+Function R_Load_CData(CData&, SEXPREC*)
+  [UP] unprotected variable names while calling allocating function CData::_Mark_Var_As_Read(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) LCMCR/src/daniel2/R_Environ_Simple.cpp:516

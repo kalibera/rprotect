@@ -1,0 +1,20 @@
+Package: extracat
+Type: Package
+Title: Categorical Data Analysis and Visualization
+Version: 1.7-4
+Date: 2015-11-21
+Author: Alexander Pilhoefer <alexander.pilhoefer@gmail.com>
+Maintainer: Alexander Pilhoefer <alexander.pilhoefer@gmail.com>
+Description: Categorical Data Analysis and Visualization.
+Depends: R (>= 3.1.0)
+Suggests: ca, amap, MASS, proto
+Imports: grid, colorspace, hexbin, scales, ggplot2, plyr, TSP, methods,
+        data.table, reshape2
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2015-11-21 15:40:57 UTC; Alexander
+Repository: CRAN
+Date/Publication: 2015-11-21 16:49:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:29:54 UTC; unix

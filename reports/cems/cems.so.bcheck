@@ -1,0 +1,11 @@
+Function cem_create
+  [UP] unprotected variable list while calling allocating function BlockCEM<double>::cleanup() cems/src/cems.cc:82
+
+Function cem_curvature
+  [UP] unprotected variable list while calling allocating function BlockCEM<double>::cleanup() cems/src/cems.cc:286
+
+Function cem_geodesic
+  [UP] unprotected variable Xg while calling allocating function BlockCEM<double>::cleanup() cems/src/cems.cc:416
+
+Function cem_optimize
+  [UP] unprotected variable list while calling allocating function BlockCEM<double>::cleanup() cems/src/cems.cc:144

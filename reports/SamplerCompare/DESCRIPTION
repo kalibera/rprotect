@@ -1,0 +1,24 @@
+Package: SamplerCompare
+Type: Package
+Title: A Framework for Comparing the Performance of MCMC Samplers
+Version: 1.2.7
+Date: 2015-07-03
+Author: Madeleine Thompson, except dchud.f and dchdd.f, which were written by
+  G. W. Stewart.
+Maintainer: Madeleine Thompson <madeleineth@gmail.com>
+Description: A framework for running sets of MCMC samplers on sets of
+  distributions with a variety of tuning parameters, along with plotting
+  functions to visualize the results of those simulations.  See sc-intro.pdf
+  for an introduction.
+License: GPL-2
+Copyright: (c) 2010-2015 Madeleine Thompson, except dchud.f and
+        dchdd.f, which are from LINPACK and are in the public domain in
+        the United States.
+LazyLoad: yes
+Depends: R (>= 2.15.1), mvtnorm
+Suggests: ggplot2 (>= 0.9.2), synchronicity
+NeedsCompilation: yes
+Packaged: 2015-07-04 00:14:23 UTC; madeleine
+Repository: CRAN
+Date/Publication: 2015-07-06 00:15:24
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:59:33 UTC; unix

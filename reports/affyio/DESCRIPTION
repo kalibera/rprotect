@@ -1,0 +1,15 @@
+Package: affyio
+Version: 1.45.0
+Title: Tools for parsing Affymetrix data files
+Author: Benjamin Milo Bolstad <bmb@bmbolstad.com>
+Maintainer: Benjamin Milo Bolstad <bmb@bmbolstad.com>
+Depends: R (>= 2.6.0)
+Imports: zlibbioc
+Description: Routines for parsing Affymetrix data files based upon file format information. Primary focus is on accessing the CEL and CDF file formats.
+License: LGPL (>= 2)
+URL: https://github.com/bmbolstad/affyio
+biocViews: Microarray, DataImport, Infrastructure
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:09:24 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:01:11 UTC; unix

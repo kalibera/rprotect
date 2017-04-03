@@ -1,0 +1,55 @@
+Function axt_info
+  [UP] unprotected variable filepath while calling allocating function Rprintf CNEr/src/io.c:60
+  [UP] unprotected variable filepath while calling allocating function new_IntAE CNEr/src/io.c:64
+  [UP] unprotected variable filepath while calling allocating function R_CheckUserInterrupt CNEr/src/io.c:67
+  [UP] unprotected variable filepath while calling allocating function R_alloc CNEr/src/io.c:69
+  [UP] unprotected variable filepath while calling allocating function lineFileOpen CNEr/src/io.c:71
+  [UP] unprotected variable filepath while calling allocating function axtRead CNEr/src/io.c:72
+  [UP] unprotected variable filepath while calling allocating function IntAE_get_nelt CNEr/src/io.c:73
+  [UP] unprotected variable filepath while calling allocating function IntAE_insert_at CNEr/src/io.c:73
+  [UP] unprotected variable filepath while calling allocating function axtFree CNEr/src/io.c:74
+  [UP] unprotected variable filepath while calling allocating function lineFileClose CNEr/src/io.c:76
+
+Function bin_from_coord_range
+  [UP] unprotected variable starts while calling allocating function Rf_coerceVector CNEr/src/utils.c:22
+  [UP] unprotected variable ends while calling allocating function Rf_allocVector CNEr/src/utils.c:27
+  [UP] unprotected variable starts while calling allocating function Rf_allocVector CNEr/src/utils.c:27
+
+Function bin_ranges_from_coord_range_extended
+  [UP] unprotected variable start while calling allocating function Rf_coerceVector CNEr/src/utils.c:74
+
+Function bin_ranges_from_coord_range_standard
+  [UP] unprotected variable start while calling allocating function Rf_coerceVector CNEr/src/utils.c:46
+
+Function myReadAxt
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:99
+  [UP] allocating function axt_info may destroy its unprotected argument (filepath <arg 1>), which is later used. CNEr/src/io.c:100
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:102
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:104
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:106
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:108
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:111
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:113
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:115
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:117
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:119
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:122
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:124
+  [UP] unprotected variable filepath while calling allocating function Rf_allocVector CNEr/src/io.c:126
+  [UP] unprotected variable filepath while calling allocating function R_CheckUserInterrupt CNEr/src/io.c:143
+  [UP] unprotected variable filepath while calling allocating function R_alloc CNEr/src/io.c:145
+  [UP] unprotected variable filepath while calling allocating function lineFileOpen CNEr/src/io.c:147
+  [UP] unprotected variable filepath while calling allocating function axtRead CNEr/src/io.c:148
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:149
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:153
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:155
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:159
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:160
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:164
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:166
+  [UP] unprotected variable filepath while calling allocating function Rf_mkChar CNEr/src/io.c:170
+  [UP] unprotected variable filepath while calling allocating function axtFree CNEr/src/io.c:174
+  [UP] unprotected variable filepath while calling allocating function lineFileClose CNEr/src/io.c:176
+
+Function myReadBed
+  [UP] unprotected variable filepath while calling allocating function R_alloc CNEr/src/io.c:16

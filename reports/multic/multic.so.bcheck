@@ -1,0 +1,82 @@
+Function calculateCorrelations
+  [UP] allocating function setDim(SEXPREC*, int, int)(V,?,?) may destroy its unprotected argument (cors), which is later used. multic/src/calculateCorrelations.cpp:65
+  [UP] allocating function setDimNames(SEXPREC*, SEXPREC*, int)(V,?,?) may destroy its unprotected argument (cors), which is later used. multic/src/calculateCorrelations.cpp:66
+
+Function getFamilySizes
+  [UP] unprotected variable familySizes while calling allocating function Rf_allocVector multic/src/getFamilySizes.cpp:79
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (familyLabels), which is later used. multic/src/getFamilySizes.cpp:81
+  [UP] unprotected variable familySizes while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/getFamilySizes.cpp:81
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (familyLabels), which is later used. multic/src/getFamilySizes.cpp:97
+  [UP] unprotected variable familySizes while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/getFamilySizes.cpp:97
+  [UP] unprotected variable familyLabels while calling allocating function Rf_lengthgets(V,?) multic/src/getFamilySizes.cpp:104
+  [UP] unprotected variable familySizes while calling allocating function Rf_lengthgets(V,?) multic/src/getFamilySizes.cpp:105
+
+Function getShareOutOrder
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (shareOutOrder), which is later used. multic/src/getShareOutOrder.cpp:65
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (shareOutOrder), which is later used. multic/src/getShareOutOrder.cpp:96
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (shareOutOrder), which is later used. multic/src/getShareOutOrder.cpp:106
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (shareOutOrder), which is later used. multic/src/getShareOutOrder.cpp:119
+  [UP] unprotected variable shareOutOrder while calling allocating function std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf() /usr/include/c++/v1/fstream:1013
+
+Function loadFamilyLogLikelihoods
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (familyIds), which is later used. multic/src/loadFamilyLogLikelihoods.cpp:68
+  [UP] unprotected variable familyIds while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:74
+  [UP] unprotected variable familyIds while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:76
+  [UP] unprotected variable lociNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:76
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (lociNames), which is later used. multic/src/loadFamilyLogLikelihoods.cpp:84
+  [UP] unprotected variable familyIds while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:84
+  [UP] unprotected variable familyLogLiks while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:84
+  [UP] unprotected variable familyIds while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:108
+  [UP] unprotected variable familyLogLiks while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:108
+  [UP] unprotected variable lociNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:108
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (likelihoodNames), which is later used. multic/src/loadFamilyLogLikelihoods.cpp:109
+  [UP] unprotected variable familyIds while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:109
+  [UP] unprotected variable familyLogLiks while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:109
+  [UP] unprotected variable lociNames while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:109
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (likelihoodNames), which is later used. multic/src/loadFamilyLogLikelihoods.cpp:110
+  [UP] unprotected variable familyIds while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:110
+  [UP] unprotected variable familyLogLiks while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:110
+  [UP] unprotected variable lociNames while calling allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) multic/src/loadFamilyLogLikelihoods.cpp:110
+  [UP] unprotected variable familyIds while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:114
+  [UP] unprotected variable familyLogLiks while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:114
+  [UP] unprotected variable likelihoodNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:114
+  [UP] unprotected variable lociNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:114
+  [UP] unprotected variable familyIds while calling allocating function Rf_setAttrib(V,S:dim,V) multic/src/loadFamilyLogLikelihoods.cpp:124
+  [UP] unprotected variable likelihoodNames while calling allocating function Rf_setAttrib(V,S:dim,V) multic/src/loadFamilyLogLikelihoods.cpp:124
+  [UP] unprotected variable lociNames while calling allocating function Rf_setAttrib(V,S:dim,V) multic/src/loadFamilyLogLikelihoods.cpp:124
+  [UP] unprotected variable familyIds while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:126
+  [UP] unprotected variable familyLogLiks while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:126
+  [UP] unprotected variable likelihoodNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:126
+  [UP] unprotected variable lociNames while calling allocating function Rf_allocVector multic/src/loadFamilyLogLikelihoods.cpp:126
+
+Function loadVMatrixFile
+  [UP] unprotected variable list while calling allocating function S_alloc multic/src/loadVMatrixFile.cpp:53
+  [UP] unprotected variable list while calling allocating function S_alloc multic/src/loadVMatrixFile.cpp:54
+  [UP] unprotected variable list while calling allocating function Rf_allocVector multic/src/loadVMatrixFile.cpp:56
+  [UP] unprotected variable list while calling allocating function Rf_allocVector multic/src/loadVMatrixFile.cpp:65
+  [UP] unprotected variable list while calling allocating function Rf_setAttrib(?,S:dim,?) multic/src/loadVMatrixFile.cpp:76
+  [UP] unprotected variable list while calling allocating function std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf() /usr/include/c++/v1/fstream:1013
+
+Function loadYBetaDiffFile
+  [UP] unprotected variable list while calling allocating function S_alloc multic/src/loadYBetaDiffFile.cpp:46
+  [UP] unprotected variable list while calling allocating function Rf_allocVector multic/src/loadYBetaDiffFile.cpp:51
+  [UP] unprotected variable list while calling allocating function std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf() /usr/include/c++/v1/fstream:1013
+
+Function makeBlockIdPair
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (idPairs), which is later used. multic/src/makeBlockIdPair.cpp:71
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (idPairs), which is later used. multic/src/makeBlockIdPair.cpp:74
+  [UP] unprotected variable idPairs while calling allocating function Rf_allocVector multic/src/makeBlockIdPair.cpp:86
+  [UP] unprotected variable idPairs while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) multic/src/makeBlockIdPair.cpp:92
+
+Function setDimNames(SEXPREC*, SEXPREC*, int)
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (correlationNames), which is later used. multic/src/calculateCorrelations.cpp:241
+  [UP] unprotected variable correlationNames while calling allocating function Rf_allocVector multic/src/calculateCorrelations.cpp:247
+
+Function splitTempMloci
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (lociNames), which is later used. multic/src/splitTempMloci.cpp:105
+  [UP] unprotected variable lociNames while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) multic/src/splitTempMloci.cpp:109
+  [UP] allocating function multic_SET_STRING_ELT(SEXPREC*, int, char const*)(V,?,?) may destroy its unprotected argument (lociNames), which is later used. multic/src/splitTempMloci.cpp:138
+  [UP] unprotected variable lociNames while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) multic/src/splitTempMloci.cpp:142
+  [UP] unprotected variable lociNames while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) multic/src/splitTempMloci.cpp:148
+  [UP] unprotected variable lociNames while calling allocating function std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf() /usr/include/c++/v1/fstream:1013
+  [UP] unprotected variable lociNames while calling allocating function std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf() /usr/include/c++/v1/fstream:1165

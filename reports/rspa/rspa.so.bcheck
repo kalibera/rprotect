@@ -1,0 +1,2 @@
+Function R_print_sc
+  [PB] has possible protection stack imbalance rspa/src/R_sparseConstraints.c:82

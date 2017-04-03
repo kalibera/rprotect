@@ -1,0 +1,2 @@
+Function initJavaGD
+  [UP] unprotected variable cl while calling allocating function chkX JavaGD/src/jGDtalk.c:800

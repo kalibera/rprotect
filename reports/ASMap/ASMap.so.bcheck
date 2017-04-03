@@ -1,0 +1,23 @@
+Function genetic_map::read_raw_mapping_data(SEXPREC*&, SEXPREC*&)
+  [UP] unprotected variable names while calling allocating function Rf_getAttrib(?,S:row.names) ASMap/src/genetic_map_DH.cpp:39
+  [UP] unprotected variable names while calling allocating function Rf_install ASMap/src/genetic_map_DH.cpp:39
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:46
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:46
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:52
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:52
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:59
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:59
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:62
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:62
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:65
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:65
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:68
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:68
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:70
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:70
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:71
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:71
+  [UP] unprotected variable names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:73
+  [UP] unprotected variable row_names while calling allocating function elem(SEXPREC*, char const*) ASMap/src/genetic_map_DH.cpp:73
+  [UP] unprotected variable row_names while calling allocating function Rf_coerceVector ASMap/src/genetic_map_DH.cpp:130
+  [UP] unprotected variable row_names while calling allocating function Rprintf ASMap/src/genetic_map_DH.cpp:141

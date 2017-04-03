@@ -1,0 +1,19 @@
+Package: Rpoppler
+Version: 0.0-3
+Title: PDF Tools Based on Poppler
+Description: PDF tools based on the Poppler PDF rendering library.
+  See <http://poppler.freedesktop.org/> for more information on Poppler.
+Authors@R: person("Kurt", "Hornik", role = c("aut", "cre"),
+                  email = "Kurt.Hornik@R-project.org")
+License: GPL-2
+SystemRequirements: Poppler Glib interface headers and libraries
+        (<http://poppler.freedesktop.org/>) [Debian/Ubuntu:
+        libpoppler-glib-dev, Fedora: poppler-glib-devel]
+OS_type: unix
+NeedsCompilation: yes
+Packaged: 2017-01-22 18:08:28 UTC; hornik
+Author: Kurt Hornik [aut, cre]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2017-01-22 19:14:31
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:08 UTC; unix

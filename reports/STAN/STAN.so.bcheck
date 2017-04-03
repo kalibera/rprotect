@@ -1,0 +1,5 @@
+Function inverseR(double**, int)
+  [PB] has possible protection stack imbalance STAN/src/matUtils.cpp:76
+
+Function prepareEmission
+  [PB] has possible protection stack imbalance STAN/src/RWrapper.cpp:1162

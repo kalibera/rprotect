@@ -1,0 +1,27 @@
+Package: Rblpapi
+Title: R Interface to 'Bloomberg'
+Version: 0.3.5
+Date: 2016-10-25
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Author: Whit Armstrong, Dirk Eddelbuettel and John Laing
+Imports: Rcpp (>= 0.11.0), utils
+Suggests: fts, xts, zoo, data.table, knitr, RUnit
+VignetteBuilder: knitr
+LazyLoad: yes
+LinkingTo: Rcpp, BH
+Description: An R Interface to 'Bloomberg' is provided via the 'Blp API'.
+SystemRequirements: A valid Bloomberg installation. The API headers and
+        dynamic library are downloaded from
+        <https://github.com/Rblp/blp> during the build step. See
+        <https://bloomberg.github.io/blpapi-docs/cpp/3.8> as well as
+        <http://www.bloomberglabs.com/api/> for API documentation. A
+        compiler recent enough for (at least partial) C++11 support;
+        g++-4.6.* or later should be sufficient and g++-4.9.* or later
+        is preferred.
+License: file LICENSE
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-10-25 10:44:52.537472 UTC; edd
+Repository: CRAN
+Date/Publication: 2016-10-25 20:32:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:57:50 UTC; unix

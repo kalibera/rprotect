@@ -1,0 +1,65 @@
+Function CompressedIntegerList_is_unsorted
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:279
+  [UP] unprotected variable ans5 while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:279
+
+Function CompressedIntegerList_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:197
+
+Function CompressedIntegerList_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:149
+
+Function CompressedIntegerList_prod
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:117
+
+Function CompressedIntegerList_sum
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:93
+
+Function CompressedIntegerList_which_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:205
+
+Function CompressedIntegerList_which_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:157
+
+Function CompressedLogicalList_is_unsorted
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:271
+  [UP] unprotected variable ans5 while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:271
+
+Function CompressedLogicalList_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:181
+
+Function CompressedLogicalList_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:133
+
+Function CompressedLogicalList_prod
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:109
+
+Function CompressedLogicalList_sum
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:85
+
+Function CompressedLogicalList_which_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:189
+
+Function CompressedLogicalList_which_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:141
+
+Function CompressedNumericList_is_unsorted
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:287
+  [UP] unprotected variable ans5 while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:287
+
+Function CompressedNumericList_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:213
+
+Function CompressedNumericList_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:165
+
+Function CompressedNumericList_prod
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:125
+
+Function CompressedNumericList_sum
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:101
+
+Function CompressedNumericList_which_max
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:221
+
+Function CompressedNumericList_which_min
+  [UP] unprotected variable ans while calling allocating function _get_CompressedList_names IRanges/src/CompressedAtomicList_utils.c:173

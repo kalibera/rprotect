@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ibs_dist /home/tomas/packages/build/sruQDyoM/chopsticks/src/structure.c:414
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at snp_cbind /home/tomas/packages/build/sruQDyoM/chopsticks/src/bind.c:217

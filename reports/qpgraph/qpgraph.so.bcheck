@@ -1,0 +1,10 @@
+Function qp_fast_cov_upper_triangular
+  [UP] unprotected variable dimNamesSsd while calling allocating function Rf_duplicate qpgraph/src/qpgraph.c:8063
+
+Function qp_fast_rnd_graph
+  [UP] unprotected variable pb while calling allocating function Rf_allocVector qpgraph/src/qpgraph.c:8285
+  [UP] unprotected variable pb while calling allocating function R_CheckUserInterrupt qpgraph/src/qpgraph.c:8304
+  [UP] unprotected variable pb while calling allocating function Rf_allocList qpgraph/src/qpgraph.c:8323
+  [UP] unprotected variable pb while calling allocating function Rf_install qpgraph/src/qpgraph.c:8325
+  [UP] unprotected variable pb while calling allocating function Rf_allocList qpgraph/src/qpgraph.c:8418
+  [UP] unprotected variable pb while calling allocating function Rf_install qpgraph/src/qpgraph.c:8420

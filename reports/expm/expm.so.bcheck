@@ -1,0 +1,5 @@
+Function do_expm
+  [PB] has possible protection stack imbalance expm/src/expm.c:320
+
+Function do_expm_eigen
+  [PB] has possible protection stack imbalance expm/src/expm-eigen.c:227

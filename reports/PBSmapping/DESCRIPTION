@@ -1,0 +1,46 @@
+Package: PBSmapping
+Version: 2.69.76
+Date: 2015-04-23
+Title: Mapping Fisheries Data and Spatial Analysis Tools
+Authors@R: c(
+   person(c("Jon", "T."), "Schnute", role = "aut", email = "schnutej-dfo@shaw.ca"),
+   person("Nicholas", "Boers", role = "aut", email = "boersn@macewan.ca"),
+   person("Rowan", "Haigh", role = c("aut", "cre"), email = "rowan.haigh@dfo-mpo.gc.ca"),
+   person("Alex", "Couture-Beil", role = "ctb"),
+   person("Denis", "Chabot", role = "ctb", email = "denis.chabot@dfo-mpo.gc.ca"),
+   person("Chris", "Grandin", role = "ctb", email = "chris.grandin@dfo-mpo.gc.ca"),
+   person("Angus", "Johnson", role = "ctb"),
+   person("Paul", "Wessel", role = "ctb"),
+   person("Franklin", "Antonio", role = "ctb"),
+   person(c("Nicholas", "J."), "Lewin-Koh", role = "ctb"),
+   person("Roger", "Bivand", role = "ctb"))
+Author: Jon T. Schnute [aut], Nicholas Boers [aut], Rowan Haigh [aut, cre],
+   Alex Couture-Beil [ctb], Denis Chabot [ctb], Chris Grandin [ctb],
+   Angus Johnson [ctb], Paul Wessel [ctb], Franklin Antonio [ctb],
+   Nicholas J. Lewin-Koh [ctb], Roger Bivand [ctb]
+Maintainer: Rowan Haigh <rowan.haigh@dfo-mpo.gc.ca>
+Copyright: 2003-2015, Fisheries and Oceans Canada
+Depends: R (>= 2.15.0)
+Suggests: foreign, maptools, deldir
+SystemRequirements: C++11
+NeedsCompilation: yes
+Description: This software has evolved from fisheries research conducted at the
+   Pacific Biological Station (PBS) in `Nanaimo', British Columbia, Canada. It
+   extends the R language to include two-dimensional plotting features similar
+   to those commonly available in a Geographic Information System (GIS).
+   Embedded C code speeds algorithms from computational geometry, such as
+   finding polygons that contain specified point events or converting between
+   longitude-latitude and Universal Transverse Mercator (UTM) coordinates.
+   Additionally, we include `C++' code developed by Angus Johnson for the `Clipper'
+   library. Also included are data for a global shoreline and other
+   data sets in the public domain. The R directory `.../library/PBSmapping/doc'
+   offers a complete user's guide, which should be consulted to use package
+   functions effectively.
+License: GPL (>= 2)
+URL: http://code.google.com/p/pbs-mapping/,
+        http://code.google.com/p/pbs-mapx/,
+        http://www.angusj.com/delphi/clipper.php
+Packaged: 2015-04-23 21:42:50 UTC; HaighR
+Repository: CRAN
+Date/Publication: 2015-04-24 06:26:16
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:20 UTC; unix

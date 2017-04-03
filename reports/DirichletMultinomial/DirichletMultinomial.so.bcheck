@@ -1,0 +1,10 @@
+Function dirichlet_fit
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:26
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:27
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:28
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:35
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:36
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:37
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:38
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:63
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar DirichletMultinomial/src/dirichlet_fit.c:64

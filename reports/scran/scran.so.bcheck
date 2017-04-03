@@ -1,0 +1,23 @@
+Function combine_corP
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:461
+
+Function compute_rho
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:369
+
+Function data_holder::data_holder(int)
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:142
+
+Function estimate_variance
+  [PB] has possible protection stack imbalance scran/src/estimate_variance.cpp:70
+
+Function forge_system
+  [PB] has possible protection stack imbalance scran/src/forge_system.cpp:142
+
+Function get_null_rho
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:50
+
+Function get_null_rho_design
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:132
+
+Function get_residuals
+  [PB] has possible protection stack imbalance scran/src/compute_rho.cpp:309

@@ -1,0 +1,6 @@
+WARNING Suspicious call (two or more unprotected arguments) to C_LinStatExpCov at C_GlobalTest /home/tomas/packages/build/fdryPdMd/party/src/IndependenceTest.c:228
+WARNING Suspicious call (two or more unprotected arguments) to C_LinStatExpCov at C_GlobalTest /home/tomas/packages/build/fdryPdMd/party/src/IndependenceTest.c:253
+WARNING Suspicious call (two or more unprotected arguments) to C_LinStatExpCov at C_IndependenceTest /home/tomas/packages/build/fdryPdMd/party/src/IndependenceTest.c:85
+WARNING Suspicious call (two or more unprotected arguments) to C_MPinv at C_LinStatExpCovMPinv /home/tomas/packages/build/fdryPdMd/party/src/Convenience.c:61
+WARNING Suspicious call (two or more unprotected arguments) to CR_La_svd at C_svd /home/tomas/packages/build/fdryPdMd/party/src/Utils.c:177
+WARNING Suspicious call (two or more unprotected arguments) to C_LinStatExpCov at R_splitcategorical /home/tomas/packages/build/fdryPdMd/party/src/Splits.c:334

@@ -1,0 +1,22 @@
+Package: rzmq
+Title: R Bindings for ZeroMQ
+Version: 0.9.0
+Authors@R: c(
+    person("Whit", "Armstrong", , "armstrong.whit@gmail.com", role = c("aut", "cre")),
+    person("Jeroen", "Ooms", , "jeroen.ooms@stat.ucla.edu", role = "aut"))
+Description: Interface to the 'ZeroMQ' lightweight messaging kernel (see <http://www.zeromq.org/> for more information).
+License: GPL-3
+Depends: R (>= 3.1.0)
+SystemRequirements: ZeroMQ >= 3.0.0 libraries and headers (see
+        <http://www.zeromq.org/>; Debian packages libzmq3, libzmq3-dev,
+        Fedora packages zeromq3, zeromq3-devel)
+URL: http://github.com/armstrtw/rzmq
+BugReports: http://github.com/armstrtw/rzmq/issues
+NeedsCompilation: yes
+Packaged: 2017-01-06 17:19:12 UTC; jeroen
+Author: Whit Armstrong [aut, cre],
+  Jeroen Ooms [aut]
+Maintainer: Whit Armstrong <armstrong.whit@gmail.com>
+Repository: CRAN
+Date/Publication: 2017-01-07 00:07:32
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:16 UTC; unix

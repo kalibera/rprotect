@@ -1,0 +1,16 @@
+Function fitModel
+  [UP] unprotected variable ans while calling allocating function Rprintf PING/src/ping.c:601
+  [UP] unprotected variable para while calling allocating function Rprintf PING/src/ping.c:607
+  [UP] allocating function printPara(V) may destroy its unprotected argument (para), which is later used. PING/src/ping.c:608
+  [UP] allocating function iterEM(?,?,?,?,V,?,?,?,?,?,?,?,?,?,?,?,?) may destroy its unprotected argument (para), which is later used. PING/src/ping.c:610
+  [UP] unprotected variable iter while calling allocating function Rprintf PING/src/ping.c:611
+  [UP] unprotected variable para while calling allocating function Rprintf PING/src/ping.c:611
+  [UP] allocating function printPara(V) may destroy its unprotected argument (para), which is later used. PING/src/ping.c:612
+  [UP] unprotected variable iter while calling allocating function printPara(V) PING/src/ping.c:612
+  [UP] unprotected variable ans while calling allocating function Rprintf PING/src/ping.c:627
+  [UP] allocating function BIC(?,?,?,V,?,?,?,?,?,?,?) may destroy its unprotected argument (para), which is later used. PING/src/ping.c:635
+  [UP] allocating function BICPE(?,?,?,V,?,?,?,?,?,?,?) may destroy its unprotected argument (para), which is later used. PING/src/ping.c:638
+  [UP] unprotected variable bic while calling allocating function Rprintf PING/src/ping.c:643
+  [UP] unprotected variable para while calling allocating function Rprintf PING/src/ping.c:643
+  [UP] unprotected variable bic while calling allocating function Rf_mkChar PING/src/ping.c:645
+  [UP] unprotected variable para while calling allocating function Rf_mkChar PING/src/ping.c:645

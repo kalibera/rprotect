@@ -1,0 +1,19 @@
+Package: TargetSearch
+Type: Package
+Title: A package for the analysis of GC-MS metabolite profiling data
+Version: 1.31.0
+Date: 2016-05-10
+Author: Alvaro Cuadros-Inostroza <inostroza@mpimp-golm.mpg.de>,
+        Jan Lisec <lisec@mpimp-golm.mpg.de>,
+        Henning Redestig <henning.red@googlemail.com>,
+        Matt Hannah <matthew.hannah@bayercropscience.com>
+Maintainer: Alvaro Cuadros-Inostroza <inostroza@mpimp-golm.mpg.de>
+Depends: ncdf4
+Imports: graphics, grDevices, methods, stats, tcltk, utils
+Suggests: TargetSearchData
+Description: This packages provides a targeted pre-processing method for GC-MS data. 
+biocViews: MassSpectrometry, Preprocessing, DecisionTree
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:25:10 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:01:33 UTC; unix

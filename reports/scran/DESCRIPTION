@@ -1,0 +1,28 @@
+Package: scran
+Version: 1.3.10
+Date: 2017-02-10
+Title: Methods for Single-Cell RNA-Seq Data Analysis
+Authors@R: c(person("Aaron", "Lun", role = c("aut", "cre"), email =
+        "alun@wehi.edu.au"), person("Karsten", "Bach", role = "aut"),
+        person("Jong Kyoung", "Kim", role = "ctb"), person("Antonio", 
+        "Scialdone", role="ctb"))
+Maintainer: Aaron Lun <alun@wehi.edu.au>
+Depends: R (>= 3.4), BiocParallel, scater
+Imports: dynamicTreeCut, zoo, edgeR, stats, BiocGenerics, methods,
+        Biobase, utils, Matrix, shiny, graphics, grDevices, statmod,
+        limma, splines
+Suggests: limSolve, testthat, knitr, BiocStyle, org.Mm.eg.db, DESeq2,
+        monocle, S4Vectors, ggplot2
+biocViews: Normalization, Sequencing, RNASeq, Software, GeneExpression,
+        Transcriptomics, SingleCell
+Description: Implements a variety of low-level analyses of single-cell 
+        RNA-seq data. Methods are provided for normalization of 
+        cell-specific biases, assignment of cell cycle phase, and 
+        detection of highly variable and significantly correlated genes.
+License: GPL-3
+NeedsCompilation: yes
+VignetteBuilder: knitr
+Author: Aaron Lun [aut, cre], Karsten Bach [aut], Jong Kyoung Kim [ctb],
+        Antonio Scialdone [ctb]
+Packaged: 2017-02-14 01:48:04 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:59:12 UTC; unix

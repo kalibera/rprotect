@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at bfork_fork /home/tomas/packages/build/y8BWRJ2i/bfork/src/fork.c:16
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at bfork_wait /home/tomas/packages/build/y8BWRJ2i/bfork/src/fork.c:33

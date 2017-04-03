@@ -1,0 +1,4 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at _part_index /home/tomas/packages/build/0E3byJBn/slam/src/util.c:18
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at tcrossprod_stm_matrix /home/tomas/packages/build/0E3byJBn/slam/src/sparse.c:546
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at tcrossprod_stm_stm /home/tomas/packages/build/0E3byJBn/slam/src/sparse.c:311
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at tcrossprod_stm_stm /home/tomas/packages/build/0E3byJBn/slam/src/sparse.c:335

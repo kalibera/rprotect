@@ -1,0 +1,13 @@
+Package: ifs
+Version: 0.1.5
+Title: Iterated Function Systems
+Author: S. M. Iacus
+Date: 2015-08-21
+Maintainer: S. M. Iacus <stefano.iacus@unimi.it>
+Description: Iterated Function Systems Estimator.
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2015-08-21 21:41:31 UTC; jago
+Repository: CRAN
+Date/Publication: 2015-08-21 23:55:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:03 UTC; unix

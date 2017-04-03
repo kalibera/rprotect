@@ -1,0 +1,14 @@
+Package: relevent
+Version: 1.0-4
+Date: March 9, 2015
+Title: Relational Event Models
+Author: Carter T. Butts <buttsc@uci.edu>
+Maintainer: Carter T. Butts <buttsc@uci.edu>
+Depends: trust, sna (>= 2.0), coda
+Description: Tools to fit relational event models.
+License: GPL (>= 2)
+Packaged: 2015-03-09 23:29:53 UTC; buttsc
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-03-10 07:00:13
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:10:45 UTC; unix

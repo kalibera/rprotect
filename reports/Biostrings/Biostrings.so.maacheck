@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at XStringSet_two_way_letter_frequency_by_quality /home/tomas/packages/build/2jenh9tM/Biostrings/src/letter_frequency.c:1076

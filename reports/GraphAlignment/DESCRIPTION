@@ -1,0 +1,20 @@
+Package: GraphAlignment
+Version: 1.39.0
+Date: 2013-01-15
+Title: GraphAlignment
+Author: Joern P. Meier <mail@ionflux.org>, Michal Kolar, Ville
+        Mustonen, Michael Laessig, and Johannes Berg.
+Maintainer: Joern P. Meier <mail@ionflux.org>
+Description: Graph alignment is an extension package for the R
+        programming environment which provides functions for finding an
+        alignment between two networks based on link and node
+        similarity scores. (J. Berg and M. Laessig, "Cross-species
+        analysis of biological networks by Bayesian alignment", PNAS
+        103 (29), 10967-10972 (2006))
+License: file LICENSE
+License_restricts_use: yes
+URL: http://www.thp.uni-koeln.de/~berg/GraphAlignment/
+biocViews: GraphAndNetwork, Network
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:21:00 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:29 UTC; unix

@@ -1,0 +1,16 @@
+Function SimDefect
+  [UP] unprotected variable Rs while calling allocating function Rf_asReal simLife/src/sim2Life.cpp:512
+  [UP] unprotected variable Rs while calling allocating function Rf_coerceVector simLife/src/sim2Life.cpp:512
+  [UP] unprotected variable Rs while calling allocating function Rf_asReal simLife/src/sim2Life.cpp:513
+  [UP] unprotected variable Rs while calling allocating function Rf_coerceVector simLife/src/sim2Life.cpp:513
+  [UP] unprotected variable Rs while calling allocating function Rf_asChar simLife/src/sim2Life.cpp:515
+  [UP] unprotected variable Rs while calling allocating function Rf_translateChar simLife/src/sim2Life.cpp:515
+
+Function convert_C_Cylinder(SEXPREC*)
+  [UP] unprotected variable R_angles while calling allocating function Rf_asReal simLife/src/convert.cpp:114
+  [UP] unprotected variable R_angles while calling allocating function getListElement(SEXPREC*, char const*) simLife/src/convert.cpp:114
+  [UP] unprotected variable R_angles while calling allocating function Rf_asReal simLife/src/convert.cpp:115
+  [UP] unprotected variable R_angles while calling allocating function getListElement(SEXPREC*, char const*) simLife/src/convert.cpp:115
+
+Function convert_C_Sphere(SEXPREC*)
+  [PB] has possible protection stack imbalance simLife/src/convert.cpp:78

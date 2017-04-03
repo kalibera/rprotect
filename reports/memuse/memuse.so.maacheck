@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull /home/tomas/packages/build/AVnI7xpN/memuse/src/../inst/RNACI/RNACI.h:245

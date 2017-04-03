@@ -1,0 +1,33 @@
+Package: mzR
+Type: Package
+Title: parser for netCDF, mzXML, mzData and mzML and mzIdentML files
+        (mass spectrometry data)
+Version: 2.9.8
+Author: Bernd Fischer, Steffen Neumann, Laurent Gatto, Qiang Kou
+Maintainer: Bernd Fischer <b.fischer@dkfz.de>,
+ Steffen Neumann <sneumann@ipb-halle.de>,
+ Laurent Gatto <lg390@cam.ac.uk>,
+ Qiang Kou <qkou@umail.iu.edu>
+Description: mzR provides a unified API to the common file formats and
+        parsers available for mass spectrometry data. It comes with a
+        wrapper for the ISB random access parser for mass spectrometry
+        mzXML, mzData and mzML files. The package contains the
+        original code written by the ISB, and a subset of the
+        proteowizard library for mzML and mzIdentML. The netCDF
+        reading code has previously been used in XCMS.
+License: Artistic-2.0
+LazyLoad: yes
+Depends: Rcpp (>= 0.10.1), methods, utils
+Imports: Biobase, BiocGenerics (>= 0.13.6), ProtGenerics
+Suggests: msdata (>= 0.15.1), RUnit, mzID, BiocStyle, knitr, XML
+VignetteBuilder: knitr
+LinkingTo: Rcpp, zlibbioc
+RcppModules: Ramp, Pwiz, Ident
+SystemRequirements: C++11, GNU make, NetCDF
+URL: https://github.com/sneumann/mzR/
+BugReports: https://github.com/sneumann/mzR/issues/
+biocViews: Infrastructure, DataImport, Proteomics, Metabolomics,
+        MassSpectrometry
+NeedsCompilation: yes
+Packaged: 2017-03-10 00:04:54 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:15:18 UTC; unix

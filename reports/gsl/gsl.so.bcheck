@@ -1,0 +1,34 @@
+Function df_wrapper
+  [UP] unprotected variable df_body while calling allocating function Rf_findVar(S:rho,?) gsl/src/multimin.c:60
+  [UP] unprotected variable df_body while calling allocating function Rf_install gsl/src/multimin.c:60
+  [UP] unprotected variable df_body while calling allocating function vector_R_from_gsl gsl/src/multimin.c:61
+  [UP] unprotected variable rho while calling allocating function vector_R_from_gsl gsl/src/multimin.c:61
+  [UP] unprotected variable df_body while calling allocating function Rf_defineVar(S:x,V,?) gsl/src/multimin.c:64
+  [UP] unprotected variable df_body while calling allocating function Rf_install gsl/src/multimin.c:64
+  [UP] unprotected variable rho while calling allocating function Rf_install gsl/src/multimin.c:64
+
+Function f_wrapper
+  [UP] unprotected variable f_body while calling allocating function Rf_findVar(S:rho,?) gsl/src/multimin.c:46
+  [UP] unprotected variable f_body while calling allocating function Rf_install gsl/src/multimin.c:46
+  [UP] unprotected variable f_body while calling allocating function vector_R_from_gsl gsl/src/multimin.c:47
+  [UP] unprotected variable rho while calling allocating function vector_R_from_gsl gsl/src/multimin.c:47
+  [UP] unprotected variable f_body while calling allocating function Rf_defineVar(S:x,V,?) gsl/src/multimin.c:50
+  [UP] unprotected variable f_body while calling allocating function Rf_install gsl/src/multimin.c:50
+  [UP] unprotected variable rho while calling allocating function Rf_install gsl/src/multimin.c:50
+
+Function fdf_wrapper
+  [UP] unprotected variable fdf_body while calling allocating function Rf_findVar(S:rho,?) gsl/src/multimin.c:74
+  [UP] unprotected variable fdf_body while calling allocating function Rf_install gsl/src/multimin.c:74
+  [UP] unprotected variable fdf_body while calling allocating function vector_R_from_gsl gsl/src/multimin.c:75
+  [UP] unprotected variable rho while calling allocating function vector_R_from_gsl gsl/src/multimin.c:75
+  [UP] unprotected variable fdf_body while calling allocating function Rf_defineVar(S:x,V,?) gsl/src/multimin.c:79
+  [UP] unprotected variable fdf_body while calling allocating function Rf_install gsl/src/multimin.c:79
+  [UP] unprotected variable rho while calling allocating function Rf_install gsl/src/multimin.c:79
+
+Function multimin_f_new
+  [UP] unprotected variable ptr while calling allocating function Rf_install gsl/src/multimin.c:141
+  [UP] unprotected variable ptr while calling allocating function Rf_install gsl/src/multimin.c:145
+
+Function multimin_fdf_new
+  [UP] unprotected variable ptr while calling allocating function Rf_install gsl/src/multimin.c:190
+  [UP] unprotected variable ptr while calling allocating function Rf_install gsl/src/multimin.c:194

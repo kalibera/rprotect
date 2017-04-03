@@ -1,0 +1,4 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RCatnet::genRcatnet(char const*) /home/tomas/packages/build/7qOMq6n6/sdnet/src/./rcatnet.cpp:279
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RCatnet::genRcatnetFromDagEvaluate(SEXPREC*, SEXPREC*) /home/tomas/packages/build/7qOMq6n6/sdnet/src/./rcatnet.cpp:549
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RCatnetP::genRcatnet(char const*) /home/tomas/packages/build/7qOMq6n6/sdnet/src/./rcatnet.cpp:279
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RCatnetP::genRcatnetFromDagEvaluate(SEXPREC*, SEXPREC*) /home/tomas/packages/build/7qOMq6n6/sdnet/src/./rcatnet.cpp:549

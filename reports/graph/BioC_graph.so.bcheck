@@ -1,0 +1,15 @@
+Function graph_bitarray_getEdgeAttrOrder
+  [UP] unprotected variable newRightPos while calling allocating function Rf_lengthgets(V,?) graph/src/graph.c:919
+  [UP] unprotected variable newLeftPos while calling allocating function Rf_allocVector graph/src/graph.c:921
+  [UP] unprotected variable newRightPos while calling allocating function Rf_allocVector graph/src/graph.c:921
+
+Function graph_intersection
+  [PB] has possible protection stack imbalance graph/src/graph.c:166
+
+Function graph_sublist_assign
+  [UP] allocating function Rf_match may destroy its unprotected argument (names), which is later used. graph/src/graph.c:380
+  [UP] unprotected variable names while calling allocating function Rf_allocVector graph/src/graph.c:381
+  [UP] unprotected variable names while calling allocating function Rf_allocVector graph/src/graph.c:387
+  [UP] unprotected variable names while calling allocating function Rf_allocVector graph/src/graph.c:388
+  [UP] unprotected variable names while calling allocating function Rf_duplicate graph/src/graph.c:390
+  [UP] unprotected variable names while calling allocating function Rf_duplicate graph/src/graph.c:391

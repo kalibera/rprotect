@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at TransitionMatrix::callRsolnp(SEXPREC*) /home/tomas/packages/build/xCgxgC3m/STAN/src/TransitionMatrix.cpp:651

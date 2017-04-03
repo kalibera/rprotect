@@ -1,0 +1,15 @@
+Package: wtest
+Type: Package
+Title: The W-Test on Genetic Interactions Testing
+Version: 1.0
+Author: Rui Sun, Maggie Haitian Wang
+Maintainer: Rui Sun <rsunzju@gmail.com>
+Description: Perform the calculation of W-test, diagnostic checking, calculate minor allele frequency (MAF) and odds ratio.
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-08-05 20:50:58 UTC; rui
+Repository: CRAN
+Date/Publication: 2016-08-05 23:02:36
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:19 UTC; unix

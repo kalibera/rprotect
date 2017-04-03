@@ -1,0 +1,25 @@
+Package: multic
+Type: Package
+Title: Quantitative Linkage Analysis Tools using the Variance
+        Components Approach
+Version: 0.4.3.1
+Depends: R (>= 2.2.0)
+Suggests: kinship2 (>= 1.3), bdsmatrix
+Date: 2016-01-29
+Author: Eric Lunde, Mariza de Andrade, Beth Atkinson, Pat Votruba
+Maintainer: Pat Votruba <votruba.patrick@mayo.edu>
+Description: 
+  Calculate the polygenic and major gene models for quantitative trait
+  linkage analysis using variance components approach. The 0.2.2
+  release includes bug fixes that allow 'multic' to run properly
+  on 64-bit systems. The 0.3.0 release includes a fully implemented
+  sw2mloci() function. As of 0.3.8, Splus version is no longer
+  supported. Additional documentation and examples can be found
+  in the inst directory.
+License: GPL (>= 2) | file LICENSE
+Packaged: 2016-01-29 10:08:01 UTC; ripley
+NeedsCompilation: yes
+OS_type: unix
+Repository: CRAN
+Date/Publication: 2016-01-29 11:18:30
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:58 UTC; unix

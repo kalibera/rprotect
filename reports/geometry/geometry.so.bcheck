@@ -1,0 +1,20 @@
+Function convhulln
+  [UP] unprotected variable retlist while calling allocating function qh_freeqhull geometry/src/Rconvhulln.c:160
+  [UP] unprotected variable retlist while calling allocating function Rf_warning geometry/src/Rconvhulln.c:164
+
+Function delaunayn
+  [UP] unprotected variable areas while calling allocating function qh_freeqhull geometry/src/Rdelaunayn.c:186
+  [UP] unprotected variable neighbours while calling allocating function qh_freeqhull geometry/src/Rdelaunayn.c:186
+  [UP] unprotected variable tri while calling allocating function qh_freeqhull geometry/src/Rdelaunayn.c:186
+  [UP] unprotected variable areas while calling allocating function Rf_warning geometry/src/Rdelaunayn.c:190
+  [UP] unprotected variable neighbours while calling allocating function Rf_warning geometry/src/Rdelaunayn.c:190
+  [UP] unprotected variable tri while calling allocating function Rf_warning geometry/src/Rdelaunayn.c:190
+  [UP] unprotected variable areas while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:204
+  [UP] unprotected variable neighbours while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:204
+  [UP] unprotected variable tri while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:204
+  [UP] unprotected variable areas while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:205
+  [UP] unprotected variable neighbours while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:205
+  [UP] unprotected variable tri while calling allocating function Rf_allocVector geometry/src/Rdelaunayn.c:205
+  [UP] unprotected variable areas while calling allocating function Rf_mkChar geometry/src/Rdelaunayn.c:207
+  [UP] unprotected variable neighbours while calling allocating function Rf_mkChar geometry/src/Rdelaunayn.c:207
+  [UP] unprotected variable areas while calling allocating function Rf_mkChar geometry/src/Rdelaunayn.c:209

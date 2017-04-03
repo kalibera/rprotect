@@ -1,0 +1,3 @@
+Function CDevEMF::Open(char const*, int, int)
+  [UP] unprotected variable res while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) devEMF/src/devEMF.cpp:334
+  [UP] unprotected variable res while calling allocating function std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) devEMF/src/devEMF.cpp:336

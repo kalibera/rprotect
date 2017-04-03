@@ -1,0 +1,2 @@
+Function kaks
+  [UP] unprotected variable res while calling allocating function Rprintf seqinr/src/kaks.c:385

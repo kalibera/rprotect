@@ -1,0 +1,11 @@
+Function fitModel
+  [UP] allocating function iterEM(?,?,?,?,V,?,?,?,?,?,?,?,?,?,?) may destroy its unprotected argument (para), which is later used. PICS/src/pics.c:541
+  [UP] allocating function BIC(?,?,?,V,?,?,?,?,?) may destroy its unprotected argument (para), which is later used. PICS/src/pics.c:564
+  [UP] unprotected variable bic while calling allocating function Rf_mkChar PICS/src/pics.c:566
+  [UP] unprotected variable para while calling allocating function Rf_mkChar PICS/src/pics.c:566
+
+Function segR
+  [UP] unprotected variable ans while calling allocating function PutRNGstate PICS/src/segment.c:828
+
+Function segRPING
+  [UP] unprotected variable ans while calling allocating function PutRNGstate PICS/src/segment.c:1039

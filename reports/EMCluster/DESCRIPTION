@@ -1,0 +1,28 @@
+Package: EMCluster
+Version: 0.2-6
+Date: 2016-12-17
+Title: EM Algorithm for Model-Based Clustering of Finite Mixture
+        Gaussian Distribution
+Authors@R: c(person("Wei-Chen", "Chen", role = c("aut", "cre"), email =
+        "wccsnow@gmail.com"),
+        person("Ranjan", "Maitra", role = "aut"),
+        person("Volodymyr", "Melnykov", role = "ctb"))
+Depends: R (>= 3.0.1), MASS, Matrix
+Enhances: PPtree, RColorBrewer
+LazyLoad: yes
+LazyData: yes
+Description: EM algorithms and several efficient
+        initialization methods for model-based clustering of finite
+        mixture Gaussian distribution with unstructured dispersion
+        in both of unsupervised and semi-supervised learning.
+License: Mozilla Public License 2.0
+URL: http://maitra.public.iastate.edu/
+NeedsCompilation: yes
+Packaged: 2016-12-17 13:53:59 UTC; snoweye
+Author: Wei-Chen Chen [aut, cre],
+  Ranjan Maitra [aut],
+  Volodymyr Melnykov [ctb]
+Maintainer: Wei-Chen Chen <wccsnow@gmail.com>
+Repository: CRAN
+Date/Publication: 2016-12-17 22:36:16
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:04:15 UTC; unix

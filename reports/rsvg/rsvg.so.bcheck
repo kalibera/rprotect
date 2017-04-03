@@ -1,0 +1,2 @@
+Function write_bitmap
+  [UP] unprotected variable dim while calling allocating function Rf_mkString rsvg/src/rsvg.c:79

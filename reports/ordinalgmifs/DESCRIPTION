@@ -1,0 +1,19 @@
+Package: ordinalgmifs
+Version: 1.0.3
+Date: 2016-11-15
+Title: Ordinal Regression for High-Dimensional Data
+Author: Kellie J. Archer, Jiayi Hou, Qing Zhou, Kyle Ferber, John G. Layne, Amanda Gentry
+Maintainer: Kellie J. Archer <archer.43@osu.edu>
+Depends: R (>= 2.10), survival
+Suggests: Biobase
+Description: Provides a function for fitting cumulative link, adjacent category, forward and backward continuation ratio, and stereotype ordinal response models when the number of parameters exceeds the sample size, using the the generalized monotone incremental forward stagewise method.
+License: GPL (>= 2)
+BuildResaveData: best
+SystemRequirements: C++11
+NeedsCompilation: yes
+BuildVignettes: FALSE
+LazyData: true
+Packaged: 2016-11-16 14:01:32 UTC; karcher
+Repository: CRAN
+Date/Publication: 2016-11-19 16:23:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:22:24 UTC; unix

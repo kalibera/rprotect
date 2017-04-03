@@ -1,0 +1,58 @@
+Function GDALColorTable2Matrix(void*)
+  [UP] unprotected variable cmat while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/gdal-bindings.cpp:1642
+
+Function OGR_write
+  [UP] unprotected variable comms while calling allocating function R_do_slot(?,S:Polygons) rgdal/src/OGR_write.cpp:572
+  [UP] unprotected variable comms while calling allocating function R_do_slot(?,S:coords) rgdal/src/OGR_write.cpp:572
+  [UP] unprotected variable comms while calling allocating function Rf_install rgdal/src/OGR_write.cpp:572
+  [UP] unprotected variable comms while calling allocating function Rf_install rgdal/src/OGR_write.cpp:575
+  [UP] unprotected variable comms while calling allocating function R_do_slot(?,S:Polygons) rgdal/src/OGR_write.cpp:700
+  [UP] unprotected variable comms while calling allocating function Rf_install rgdal/src/OGR_write.cpp:700
+  [UP] unprotected variable comms while calling allocating function R_do_slot(?,S:coords) rgdal/src/OGR_write.cpp:709
+  [UP] unprotected variable comms while calling allocating function Rf_install rgdal/src/OGR_write.cpp:709
+  [UP] unprotected variable comms while calling allocating function Rf_install rgdal/src/OGR_write.cpp:711
+
+Function RGDAL_GetGeoTransform
+  [UP] unprotected variable sxpGeoTrans while calling allocating function Rf_allocVector rgdal/src/gdal-bindings.cpp:1732
+  [UP] unprotected variable ceFail while calling allocating function Rf_install rgdal/src/gdal-bindings.cpp:1750
+  [UP] unprotected variable sxpGeoTrans while calling allocating function Rf_install rgdal/src/gdal-bindings.cpp:1750
+  [UP] unprotected variable sxpGeoTrans while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/gdal-bindings.cpp:1751
+
+Function RGDAL_GetRasterBlockSize
+  [UP] unprotected variable blockSize while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/gdal-bindings.cpp:952
+
+Function isGDALObjPtrNULL
+  [UP] unprotected variable sxpHandle while calling allocating function Rf_allocVector rgdal/src/gdal-bindings.cpp:93
+
+Function ogrDataFrame
+  [UP] unprotected variable int64 while calling allocating function Rf_getAttrib(?,V) rgdal/src/ogrsource.cpp:740
+  [UP] unprotected variable int64 while calling allocating function Rf_mkString rgdal/src/ogrsource.cpp:740
+  [UP] unprotected variable int64 while calling allocating function Rf_allocVector rgdal/src/ogrsource.cpp:744
+  [UP] unprotected variable nListFields while calling allocating function Rf_allocVector rgdal/src/ogrsource.cpp:744
+  [UP] unprotected variable int64 while calling allocating function Rf_getAttrib(?,V) rgdal/src/ogrsource.cpp:746
+  [UP] unprotected variable int64 while calling allocating function Rf_mkString rgdal/src/ogrsource.cpp:746
+  [UP] unprotected variable nListFields while calling allocating function Rf_getAttrib(?,V) rgdal/src/ogrsource.cpp:746
+  [UP] unprotected variable nListFields while calling allocating function Rf_mkString rgdal/src/ogrsource.cpp:746
+  [UP] unprotected variable int64 while calling allocating function Rf_allocVector rgdal/src/ogrsource.cpp:747
+  [UP] unprotected variable nListFields while calling allocating function Rf_allocVector rgdal/src/ogrsource.cpp:747
+  [UP] unprotected variable int64 while calling allocating function Rf_getAttrib(?,V) rgdal/src/ogrsource.cpp:748
+  [UP] unprotected variable int64 while calling allocating function Rf_mkString rgdal/src/ogrsource.cpp:748
+  [UP] unprotected variable nListFields while calling allocating function Rf_getAttrib(?,V) rgdal/src/ogrsource.cpp:748
+  [UP] unprotected variable nListFields while calling allocating function Rf_mkString rgdal/src/ogrsource.cpp:748
+  [UP] unprotected variable int64 while calling allocating function ogrReadColumn rgdal/src/ogrsource.cpp:754
+  [UP] unprotected variable ListFields while calling allocating function ogrReadColumn rgdal/src/ogrsource.cpp:761
+  [UP] unprotected variable int64 while calling allocating function ogrReadColumn rgdal/src/ogrsource.cpp:761
+  [UP] unprotected variable ListFields while calling allocating function ogrReadListColumn rgdal/src/ogrsource.cpp:766
+  [UP] unprotected variable int64 while calling allocating function ogrReadListColumn rgdal/src/ogrsource.cpp:766
+
+Function ogrInfo
+  [UP] unprotected variable ans while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/ogrsource.cpp:261
+
+Function ogrListLayers
+  [UP] unprotected variable debug while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/ogrsource.cpp:1083
+  [UP] unprotected variable debug while calling allocating function Rprintf rgdal/src/ogrsource.cpp:1085
+  [UP] unprotected variable debug while calling allocating function Rf_allocVector rgdal/src/ogrsource.cpp:1087
+  [UP] unprotected variable debug while calling allocating function Rf_mkChar rgdal/src/ogrsource.cpp:1095
+  [UP] unprotected variable debug while calling allocating function Rprintf rgdal/src/ogrsource.cpp:1096
+  [UP] unprotected variable debug while calling allocating function Rf_mkChar rgdal/src/ogrsource.cpp:1102
+  [UP] unprotected variable debug while calling allocating function uninstallErrorHandlerAndTriggerError rgdal/src/ogrsource.cpp:1104

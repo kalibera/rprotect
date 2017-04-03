@@ -1,0 +1,6 @@
+Function FLSAClass::prepSolTree(int)
+  [UP] unprotected variable names while calling allocating function Rf_mkChar PMA/src/FLSA.cc:238
+  [UP] unprotected variable names while calling allocating function Rf_mkChar PMA/src/FLSA.cc:239
+  [UP] unprotected variable names while calling allocating function Rf_mkChar PMA/src/FLSA.cc:240
+  [UP] unprotected variable names while calling allocating function Rf_mkChar PMA/src/FLSA.cc:241
+  [UP] unprotected variable names while calling allocating function Rf_mkChar PMA/src/FLSA.cc:242

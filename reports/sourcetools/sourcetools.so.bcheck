@@ -1,0 +1,2 @@
+Function sourcetools::r::Protect::operator()(SEXPREC*)
+  [PB] has possible protection stack imbalance sourcetools/src/../inst/include/sourcetools/r/RUtils.h:22

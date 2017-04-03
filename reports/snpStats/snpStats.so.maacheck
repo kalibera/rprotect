@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ibs_dist /home/tomas/packages/build/mhAkbaeh/snpStats/src/structure.c:542
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at snp_cbind /home/tomas/packages/build/mhAkbaeh/snpStats/src/bind.c:215
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at subset /home/tomas/packages/build/mhAkbaeh/snpStats/src/subset.c:91

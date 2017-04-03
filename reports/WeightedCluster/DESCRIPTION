@@ -1,0 +1,19 @@
+Package: WeightedCluster
+Version: 1.2
+Date: 2014-01-16
+Title: Clustering of Weighted Data
+Authors@R: person("Matthias", "Studer", email = "matthias.studer@unige.ch", role = c("aut", "cre"))
+Depends: R (>= 3.0.0), TraMineR(>= 1.8-8), cluster
+Imports: utils, RColorBrewer
+Suggests: RUnit, knitr, isotone, vegan, lattice
+VignetteBuilder: knitr
+Description: The WeightedCluster library provides functions to cluster states sequences and weighted data. These functionalities include aggregating replicated cases, an optimized weighted PAM algorithm, function computing cluster quality measures for a range of clustering solutions and miscellaneous functions to plot clustering solutions of state sequences.
+License: GPL (>= 2)
+URL: http://mephisto.unige.ch/weightedcluster
+Packaged: 2014-01-19 13:09:29 UTC; Matthias-Util
+Author: Matthias Studer [aut, cre]
+Maintainer: Matthias Studer <matthias.studer@unige.ch>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-19 14:22:57
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:03:21 UTC; unix

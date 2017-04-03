@@ -1,0 +1,4 @@
+Function get_fitted
+  [UP] unprotected variable eta2p while calling allocating function Rf_coerceVector ordinal/src/get_fitted.c:23
+  [UP] unprotected variable eta2p while calling allocating function Rf_asChar ordinal/src/get_fitted.c:24
+  [UP] unprotected variable eta2p while calling allocating function Rf_asReal ordinal/src/get_fitted.c:26

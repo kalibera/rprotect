@@ -1,0 +1,24 @@
+Package: MotIV
+Type: Package
+Title: Motif Identification and Validation
+Version: 1.31.0
+Date: 2014-04-09
+Author: Eloi Mercier, Raphael Gottardo
+Maintainer: Eloi Mercier <emercier@bcgsc.ca>, Raphael Gottardo
+ <rgottard@fhcrc.org>
+Depends: R (>= 2.10), BiocGenerics (>= 0.1.0)
+Imports: graphics, grid, methods, S4Vectors, IRanges (>= 1.13.5),
+        Biostrings (>= 1.24.0), lattice, rGADEM, utils
+Suggests: rtracklayer
+SystemRequirements: GNU Scientific Library >= 1.6
+        (http://www.gnu.org/software/gsl/)
+Description: This package makes use of STAMP for comparing a set of
+        motifs to a given database (e.g. JASPAR). It can also be used
+        to visualize motifs, motif distributions, modules and filter
+        motifs.
+License: GPL-2
+biocViews: Microarray, ChIPchip, ChIPSeq, GenomicSequence,
+        MotifAnnotation
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:31:48 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:21:22 UTC; unix

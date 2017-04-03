@@ -1,0 +1,4 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at read_sparse /home/tomas/packages/build/SKa7bQLv/rmatio/src/rmatio.c:2034
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at read_sparse /home/tomas/packages/build/SKa7bQLv/rmatio/src/rmatio.c:2039
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at read_sparse /home/tomas/packages/build/SKa7bQLv/rmatio/src/rmatio.c:2045
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at read_sparse /home/tomas/packages/build/SKa7bQLv/rmatio/src/rmatio.c:2050

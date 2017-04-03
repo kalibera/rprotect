@@ -1,0 +1,20 @@
+Package: MEET
+Type: Package
+Title: MEET: Motif Elements Estimation Toolkit
+Version: 5.1.1
+Date: 2012-12-12
+Author: Joan Maynou and Erola Pairo.
+Maintainer: Joan Maynou <joan.maynou@upc.edu>
+Description: MEET (Motif Elements Estimation Toolkit) is a R-package
+        that integrates a set of computational algorithms for the
+        detection of Transcription Factor Binding Sites (TFBS).
+License: GPL (>= 2)
+LazyLoad: yes
+LazyDataCompression: bzip2
+Depends: R (>= 2.15.0), seqinr, pcaMethods, Matrix,
+        ROCR,Hmisc,KernSmooth, methods, seqLogo
+Packaged: 2013-02-22 14:29:54 UTC; root
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-22 16:07:16
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:54:44 UTC; unix

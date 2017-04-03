@@ -1,0 +1,26 @@
+Package: graph
+Title: graph: A package to handle graph data structures
+Version: 1.53.0
+Author: R. Gentleman, Elizabeth Whalen, W. Huber, S. Falcon
+Description: A package that implements some simple graph handling
+        capabilities.
+Maintainer: Bioconductor Package Maintainer
+ <maintainer@bioconductor.org>
+License: Artistic-2.0
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.13.11)
+Imports: stats, stats4, utils
+Suggests: SparseM (>= 0.36), XML, RBGL, RUnit, cluster
+Enhances: Rgraphviz
+Collate: AllClasses.R AllGenerics.R bitarray.R buildDepGraph.R
+        methods-graph.R graphNEL.R clustergraph.R NELhandler.R
+        edgefunctions.R graphfunctions.R GXLformals.R gxlReader.R
+        random.R write.tlp.R mat2graph.R settings.R zzz.R
+        standardLabeling.R TODOT.R toDotWithRI.R methods-graphAM.R
+        attrData.R reverseEdgeDirections.R nodes-methods.R
+        methods-multiGraph.R test_graph_package.R MultiGraph.R
+        methods-graphBAM.R graph-constructors.R
+LazyLoad: yes
+Packaged: 2016-10-17 22:09:53 UTC; biocbuild
+biocViews: GraphAndNetwork
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:01:18 UTC; unix

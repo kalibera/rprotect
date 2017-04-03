@@ -1,0 +1,24 @@
+Package: gmp
+Version: 0.5-13.1
+Date: 2017-01-02
+Title: Multiple Precision Arithmetic
+Author: Antoine Lucas, Immanuel Scholz, Rainer Boehme <rb-gmp@reflex-studio.de>,
+  Sylvain Jasson <jasson@toulouse.inra.fr>,
+  Martin Maechler <maechler@stat.math.ethz.ch>
+Maintainer: Antoine Lucas <antoinelucas@gmail.com>
+Description: Multiple Precision Arithmetic (big integers and rationals,
+ prime number tests, matrix computation), "arithmetic without limitations"
+ using the C library GMP (GNU Multiple Precision Arithmetic).
+Depends: R (>= 3.0.0)
+Imports: methods
+Suggests: Rmpfr
+SystemRequirements: gmp (>= 4.2.3)
+License: GPL
+BuildResaveData: no
+LazyDataNote: not available, as we use data/*.R *and* our classes
+URL: http://mulcyber.toulouse.inra.fr/projects/gmp
+NeedsCompilation: yes
+Packaged: 2017-03-10 06:58:47 UTC; ripley
+Repository: CRAN
+Date/Publication: 2017-03-10 08:05:38
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:43 UTC; unix

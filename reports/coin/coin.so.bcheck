@@ -1,0 +1,3 @@
+Function R_blockperm
+  [UP] unprotected variable blocksetup while calling allocating function Rf_allocVector coin/src/Helpers.c:145
+  [UP] unprotected variable blocksetup while calling allocating function GetRNGstate coin/src/Helpers.c:146

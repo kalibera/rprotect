@@ -1,0 +1,30 @@
+Package: deTestSet
+Version: 1.1.5
+Title: Test Set for Differential Equations
+Authors@R: c(person("Karline","Soetaert", role = c("aut","cre"), 
+                     email = "karline.soetaert@nioz.nl"),
+             person("Jeff","Cash", role = "aut", 
+                     email = "j.cash@imperial.ac.uk"),
+             person("Francesca","Mazzia", role = "aut", 
+                     email = "mazzia@dm.uniba.it"),
+             person("LAPACK authors", role = "cph"))
+Author: Karline Soetaert [aut, cre],  
+        Jeff Cash [aut],  
+        Francesca Mazzia [aut], 
+        LAPACK authors [cph]
+Maintainer: Karline Soetaert <karline.soetaert@nioz.nl>
+Depends: R (>= 2.01), deSolve
+Imports: graphics, grDevices, stats
+Description: Solvers and test set for stiff and non-stiff differential equations, and 
+  differential algebraic equations.
+License: GPL
+Copyright: inst/COPYRIGHTS
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: bvpsolve
+Repository/R-Forge/Revision: 265
+Repository/R-Forge/DateTimeStamp: 2017-01-10 17:56:23
+Date/Publication: 2017-01-19 18:31:27
+NeedsCompilation: yes
+Packaged: 2017-01-10 18:06:06 UTC; rforge
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:53:55 UTC; unix

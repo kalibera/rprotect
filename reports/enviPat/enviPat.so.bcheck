@@ -1,0 +1,18 @@
+Function iso_pattern_2
+  [PB] has possible protection stack imbalance enviPat/src/main.c:1699
+
+Function iso_pattern_Call
+  [UP] unprotected variable iso_list while calling allocating function Rf_asChar enviPat/src/main.c:873
+
+Function iso_pattern_Call_2
+  [UP] unprotected variable iso_list while calling allocating function Rf_asChar enviPat/src/main.c:183
+  [PB] has possible protection stack imbalance enviPat/src/main.c:355
+
+Function iso_pattern_Call_3
+  [UP] unprotected variable iso_list while calling allocating function Rf_asChar enviPat/src/main.c:643
+
+Function iso_pattern_Call_4
+  [UP] unprotected variable iso_list while calling allocating function Rf_asChar enviPat/src/main.c:403
+
+Function iso_profile_with_trace_Call
+  [PB] has possible protection stack imbalance enviPat/src/main.c:2600

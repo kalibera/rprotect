@@ -1,0 +1,11 @@
+Function ssTNd
+  [UP] unprotected variable acA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:31
+  [UP] unprotected variable acA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:32
+  [UP] unprotected variable clA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:32
+  [UP] unprotected variable acA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:33
+  [UP] unprotected variable clA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:33
+  [UP] unprotected variable pA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:33
+  [UP] unprotected variable acA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:34
+  [UP] unprotected variable bA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:34
+  [UP] unprotected variable clA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:34
+  [UP] unprotected variable pA while calling allocating function Rf_coerceVector SPSL/src/ssTNd.c:34

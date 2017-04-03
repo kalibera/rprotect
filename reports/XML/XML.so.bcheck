@@ -1,0 +1,24 @@
+Function RS_XML_ProcessElements
+  [UP] unprotected variable dtdEls while calling allocating function Rf_lengthgets(V,?) XML/src/RSDTD.c:294
+
+Function RS_XML_ProcessEntities
+  [UP] unprotected variable dtdEls while calling allocating function Rf_lengthgets(V,?) XML/src/RSDTD.c:370
+
+Function RS_XML_entityDeclarationHandler
+  [UP] unprotected variable opArgs while calling allocating function Rf_allocVector XML/src/EventParse.c:217
+  [UP] unprotected variable opArgs while calling allocating function CreateCharSexpWithEncoding XML/src/EventParse.c:218
+
+Function addNodesToTree
+  [UP] allocating function addNodeAndChildrenToTree(?,V,?,?,?) may destroy its unprotected argument (id), which is later used. XML/src/DocParse.c:891
+
+Function addXInclude
+  [PB] has possible protection stack imbalance XML/src/DocParse.c:1600
+
+Function processNamespaceDefinitions
+  [UP] allocating function RS_XML_notifyNamespaceDefinition(V,?) may destroy its unprotected argument (tmp), which is later used. XML/src/DocParse.c:435
+
+Function processNode
+  [UP] unprotected variable rnode while calling allocating function Rf_install XML/src/XMLHashTree.c:197
+
+Function stop
+  [PB] has possible protection stack imbalance XML/src/Utils.c:412

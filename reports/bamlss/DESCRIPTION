@@ -1,0 +1,27 @@
+Package: bamlss
+Version: 0.1-1
+Date: 2017-02-21
+Title: Bayesian Additive Models for Location Scale and Shape (and
+        Beyond)
+Authors@R: c(person(given = "Nikolaus", family = "Umlauf", role = c("aut", "cre"), email = "Nikolaus.Umlauf@uibk.ac.at"),
+  person(given = "Nadja", family = "Klein", role = "aut", email = "nklein@uni-goettingen.de"),
+  person(given = "Achim", family = "Zeileis", role = "aut", email = "Achim.Zeileis@R-project.org"),
+  person(given = "Meike", family = "Koehler", role = "aut", email = "Meike.Koehler@helmholtz-muenchen.de"))
+Description: R infrastructures for Bayesian regression models.
+Depends: R (>= 3.2.3), coda, colorspace, mgcv
+Imports: Formula, MBA, mvtnorm, sp, spam, Matrix, survival, methods,
+        parallel
+Suggests: akima, bit, fields, gamlss, geoR, rjags, BayesX, BayesXsrc,
+        mapdata, maps, maptools, raster, spatstat, spdep, zoo
+License: GPL-2 | GPL-3
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2017-02-21 14:08:05 UTC; nik
+Author: Nikolaus Umlauf [aut, cre],
+  Nadja Klein [aut],
+  Achim Zeileis [aut],
+  Meike Koehler [aut]
+Maintainer: Nikolaus Umlauf <Nikolaus.Umlauf@uibk.ac.at>
+Repository: CRAN
+Date/Publication: 2017-02-22 08:48:03
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:16:14 UTC; unix

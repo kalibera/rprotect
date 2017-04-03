@@ -1,0 +1,22 @@
+Package: stepR
+Title: Fitting Step-Functions
+Version: 1.0-6
+Authors@R: c(person("Timo", "Aspelmeier", role = c("cre", "aut"), email = "timo.aspelmeier@mathematik.uni-goettingen.de"),
+  person("Thomas", "Hotz", role = "aut", email = "thomas.hotz@tu-ilmenau.de"),
+  person("Hannes", "Sieling", role = "aut", email = "hsielin@uni-goettingen.de"),
+  person("Pein", "Florian", role = "ctb", email = "fpein@uni-goettingen.de"))
+Depends: R (>= 2.15.3), stats, graphics
+Description: Allows to fit step-functions to univariate serial data where neither the number of jumps nor their positions is known.
+License: GPL-3
+Classification/MSC: 62G08, 92C40, 92D20
+LazyData: yes
+NeedsCompilation: yes
+Packaged: 2016-10-17 14:11:52 UTC; timo
+Author: Timo Aspelmeier [cre, aut],
+  Thomas Hotz [aut],
+  Hannes Sieling [aut],
+  Pein Florian [ctb]
+Maintainer: Timo Aspelmeier <timo.aspelmeier@mathematik.uni-goettingen.de>
+Repository: CRAN
+Date/Publication: 2016-10-17 19:00:07
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:48 UTC; unix

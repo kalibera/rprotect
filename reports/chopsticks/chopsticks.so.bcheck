@@ -1,0 +1,17 @@
+Function read_pedfile
+  [UP] unprotected variable ans while calling allocating function Rprintf chopsticks/src/read_pedfile.c:500
+
+Function snp_cbind
+  [UP] unprotected variable Class while calling allocating function Rf_warning chopsticks/src/bind.c:157
+  [UP] unprotected variable Class while calling allocating function R_do_slot(?,V) chopsticks/src/bind.c:163
+  [UP] unprotected variable Class while calling allocating function Rf_mkString chopsticks/src/bind.c:163
+  [UP] unprotected variable Class while calling allocating function Rf_allocMatrix chopsticks/src/bind.c:208
+
+Function snp_dprime_draw
+  [PB] has possible protection stack imbalance chopsticks/src/sdfpw.c:335
+
+Function snp_pair_graphics
+  [PB] has possible protection stack imbalance chopsticks/src/sdfpw.c:188
+
+Function snp_pair_range
+  [UP] unprotected variable ans while calling allocating function Rprintf chopsticks/src/sdfpw.c:472

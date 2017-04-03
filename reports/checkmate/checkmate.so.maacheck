@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to check_names at c_check_dataframe /home/tomas/packages/build/xhP9Emud/checkmate/src/checks.c:316
+WARNING Suspicious call (two or more unprotected arguments) to check_names at c_check_named /home/tomas/packages/build/xhP9Emud/checkmate/src/checks.c:425
+WARNING Suspicious call (two or more unprotected arguments) to check_names at check_vector_names /home/tomas/packages/build/xhP9Emud/checkmate/src/checks.c:182

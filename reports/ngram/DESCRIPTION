@@ -1,0 +1,36 @@
+Package: ngram
+Type: Package
+Title: Fast n-Gram 'Tokenization'
+Version: 3.0.2
+Description: An n-gram is a sequence of n "words" taken, in order, from a
+    body of text.  This is a collection of utilities for creating,
+    displaying, summarizing, and "babbling" n-grams.  The
+    'tokenization' and "babbling" are handled by very efficient C
+    code, which can even be built as its own standalone library.
+    The babbler is a simple Markov chain.  The package also offers
+    a vignette with complete example 'workflows' and information about
+    the utilities offered in the package.
+License: BSD 2-clause License + file LICENSE
+Depends: R (>= 3.0.0)
+Imports: methods
+LazyData: yes
+LazyLoad: yes
+NeedsCompilation: yes
+ByteCompile: yes
+Authors@R: c(person("Drew", "Schmidt", role=c("aut", "cre"), 
+    email="wrathematics@gmail.com"),
+    person("Christian", "Heckendorf", role="aut"))
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
+URL: https://github.com/wrathematics/ngram
+BugReports: https://github.com/wrathematics/ngram/issues
+Collate: 'ngram.r' 'babble.r' 'checks.r' 'concatenate.r' 'getseed.r'
+        'getters.r' 'multiread.r' 'ngram-package.R' 'ngram_asweka.r'
+        'phrasetable.r' 'preprocess.r' 'print.r' 'rcorpus.r'
+        'splitter.r' 'string.summary.r' 'wordcount.r'
+RoxygenNote: 5.0.1
+Packaged: 2017-01-17 14:27:17 UTC; mschmid3
+Author: Drew Schmidt [aut, cre],
+  Christian Heckendorf [aut]
+Repository: CRAN
+Date/Publication: 2017-01-17 19:41:25
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:04 UTC; unix

@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setVar at showtextBegin /home/tomas/packages/build/2fXPMBNh/showtext/src/showtext.c:55

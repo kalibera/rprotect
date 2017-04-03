@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_D2POSIXlt_360 /home/tomas/packages/build/zICVEC5E/PCICt/src/datetime_360.c:901
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_asPOSIXlt_360 /home/tomas/packages/build/zICVEC5E/PCICt/src/datetime_360.c:569
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_strptime_360 /home/tomas/packages/build/zICVEC5E/PCICt/src/datetime_360.c:843

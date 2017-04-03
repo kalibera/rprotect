@@ -1,0 +1,10 @@
+Function R_handle_setopt
+  [UP] unprotected variable optnames while calling allocating function Rf_asInteger curl/src/handle.c:183
+  [UP] unprotected variable optnames while calling allocating function Rf_asReal curl/src/handle.c:201
+
+Function make_form
+  [UP] unprotected variable ln while calling allocating function Rf_translateCharUTF8 curl/src/form.c:8
+  [UP] unprotected variable ln while calling allocating function Rf_asChar curl/src/form.c:11
+  [UP] unprotected variable ln while calling allocating function Rf_translateCharUTF8 curl/src/form.c:11
+  [UP] unprotected variable ln while calling allocating function Rf_asChar curl/src/form.c:16
+  [UP] unprotected variable ln while calling allocating function Rf_asChar curl/src/form.c:20

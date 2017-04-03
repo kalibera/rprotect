@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at zoo_coredata /home/tomas/packages/build/aSMvKolw/zoo/src/coredata.c:74
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at zoo_lag /home/tomas/packages/build/aSMvKolw/zoo/src/lag.c:303
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at zoo_lag /home/tomas/packages/build/aSMvKolw/zoo/src/lag.c:305

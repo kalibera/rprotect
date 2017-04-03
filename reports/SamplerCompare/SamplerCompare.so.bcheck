@@ -1,0 +1,2 @@
+Function R_log_density_stub_func
+  [UP] unprotected variable result_names while calling allocating function Rf_asReal SamplerCompare/src/sampler-glue.c:151

@@ -1,0 +1,18 @@
+Package: JavaGD
+Version: 0.6-1
+Title: Java Graphics Device
+Author: Simon Urbanek <Simon.Urbanek@R-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@R-project.org>
+Depends: R (>= 2.4.0)
+Suggests: rJava (>= 0.5-0)
+Description: Graphics device routing all graphics commands to a Java
+        program. The actual functionality of the JavaGD depends on the
+        Java-side implementation. Simple AWT and Swing implementations
+        are included.
+License: GPL-2 | GPL-3
+URL: http://www.rforge.net/JavaGD/
+Packaged: 2012-09-13 16:07:11 UTC; svnuser
+SystemRequirements: GNU make
+Repository: CRAN
+Date/Publication: 2012-09-13 16:23:29
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:16 UTC; unix

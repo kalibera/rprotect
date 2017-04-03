@@ -1,0 +1,10 @@
+Function R_apply_dist_list
+  [UP] unprotected variable d1 while calling allocating function Rf_install proxy/src/apply.c:180
+  [UP] unprotected variable d12 while calling allocating function Rf_getAttrib(?,S:names) proxy/src/apply.c:190
+  [UP] unprotected variable ty while calling allocating function Rf_lcons proxy/src/apply.c:205
+  [UP] unprotected variable tx while calling allocating function Rf_eval proxy/src/apply.c:222
+  [UP] unprotected variable ty while calling allocating function Rf_eval proxy/src/apply.c:222
+  [UP] unprotected variable tx while calling allocating function Rf_coerceVector proxy/src/apply.c:227
+  [UP] unprotected variable ty while calling allocating function Rf_coerceVector proxy/src/apply.c:227
+  [UP] unprotected variable tx while calling allocating function R_CheckUserInterrupt proxy/src/apply.c:231
+  [UP] unprotected variable ty while calling allocating function R_CheckUserInterrupt proxy/src/apply.c:231

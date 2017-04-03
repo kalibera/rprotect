@@ -1,0 +1,34 @@
+Package: radmixture
+Title: Calculate Population Stratification
+Version: 0.0.1
+Date: 2017-02-20
+Authors@R: c(
+    person("Beilei", "Bian", role = c("aut", "cre"), email = "bianbeilei@wegene.com"),
+    person("Dajun", "Luo", role = "ctb", comment = "R's C API"),
+    person("Gang", "Chen", role = "ctb"),
+    person("Senwei", "Tang", role = "ctb"),
+    person(family = "WeGene", role = "cph")
+    )
+Maintainer: Beilei Bian <bianbeilei@wegene.com>
+Description: Implementation of ADMIXTURE for individual ancestry inference in R. Specifically, ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets, see <https://www.genetics.ucla.edu/software/admixture/>. Users can use 'radmixture' to calculate ancestry components with different public datasets. It is very convenient and fast for personal genotype data. For more details, see <https://github.com/wegene-llc/radmixture/blob/master/README.md>.
+Depends: R (>= 3.1.0)
+Imports: quadprog, plyr, magrittr, MCMCpack
+Suggests: rmarkdown, knitr, testthat
+License: MIT + file LICENSE
+URL: https://github.com/wegene-llc/radmixture
+BugReports: https://github.com/wegene-llc/radmixture/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+VignetteBuilder: knitr
+ByteCompile: true
+Packaged: 2017-03-13 16:25:07 UTC; bianbeilei
+Author: Beilei Bian [aut, cre],
+  Dajun Luo [ctb] (R's C API),
+  Gang Chen [ctb],
+  Senwei Tang [ctb],
+  WeGene [cph]
+Repository: CRAN
+Date/Publication: 2017-03-13 19:25:45
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:43:55 UTC; unix

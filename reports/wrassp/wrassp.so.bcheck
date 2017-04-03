@@ -1,0 +1,20 @@
+Function getDObj
+  [UP] unprotected variable res while calling allocating function asspFClose wrassp/src/dataobj.c:37
+
+Function getDObj2
+  [UP] unprotected variable ans while calling allocating function asspFClose wrassp/src/dataobj.c:129
+
+Function getGenericVars
+  [UP] unprotected variable var while calling allocating function Rf_allocVector wrassp/src/dataobj.c:312
+  [UP] unprotected variable value while calling allocating function Rf_mkChar wrassp/src/dataobj.c:313
+  [UP] unprotected variable var while calling allocating function Rf_mkChar wrassp/src/dataobj.c:313
+  [UP] unprotected variable var while calling allocating function Rf_allocVector wrassp/src/dataobj.c:318
+  [UP] unprotected variable value while calling allocating function Rf_mkChar wrassp/src/dataobj.c:319
+  [UP] unprotected variable var while calling allocating function Rf_mkChar wrassp/src/dataobj.c:319
+  [UP] unprotected variable var while calling allocating function Rf_allocVector wrassp/src/dataobj.c:326
+
+Function performAssp
+  [UP] unprotected variable res while calling allocating function asspFClose wrassp/src/performAssp.c:1173
+  [UP] unprotected variable res while calling allocating function Rf_eval wrassp/src/performAssp.c:1183
+  [UP] unprotected variable res while calling allocating function Rf_lang4(S:setTxtProgressBar,?,V,?) wrassp/src/performAssp.c:1183
+  [UP] unprotected variable res while calling allocating function Rf_install wrassp/src/performAssp.c:1184

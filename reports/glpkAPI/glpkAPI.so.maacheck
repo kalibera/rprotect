@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_orderVector at loadMatrix /home/tomas/packages/build/CjMoeY6k/glpkAPI/src/glpkAPI.c:1904

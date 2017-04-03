@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at nativeRaster /home/tomas/packages/build/CNHjbELI/EBImage/src/nativeRaster.c:66
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at untile /home/tomas/packages/build/CNHjbELI/EBImage/src/tile.c:174

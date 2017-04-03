@@ -1,0 +1,24 @@
+Package: HHG
+Type: Package
+Title: Heller-Heller-Gorfine Tests of Independence and Equality of
+        Distributions
+Version: 2.0
+Date: 2016-10-25
+Author: Barak Brill & Shachar Kaufman, based in part on an earlier
+    implementation by Ruth Heller and Yair Heller.
+Maintainer: Barak Brill <barakbri@mail.tau.ac.il>
+Depends: R (>= 3.1.0)
+Suggests: MASS,knitr
+Description: Heller-Heller-Gorfine ('HHG') tests are a set of powerful statistical
+    tests of multivariate k-sample homogeneity and independence. For the univariate
+    case, the package also offers implementations of the 'MinP DDP' and 'MinP ADP'
+    tests, which are consistent against all continuous alternatives but are
+    distribution-free, and are thus much faster to apply.
+License: GPL-2
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2016-10-26 18:56:46 UTC; Barak
+RoxygenNote: 5.0.1
+Repository: CRAN
+Date/Publication: 2016-10-27 00:26:24
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:54 UTC; unix

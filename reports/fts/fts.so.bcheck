@@ -1,0 +1,9 @@
+Function BackendBase::BackendBase(SEXPREC*)
+  [PB] has possible protection stack imbalance fts/src/./helpers/R.tseries.data.backend.hpp:50
+
+Function BackendBase::BackendBase(unsigned int, int, int)
+  [PB] has possible protection stack imbalance fts/src/./helpers/R.tseries.data.backend.hpp:60
+
+Function BackendBase::~BackendBase()
+  [PB] has negative depth fts/src/./helpers/R.tseries.data.backend.hpp:18
+  [PB] has possible protection stack imbalance fts/src/./helpers/R.tseries.data.backend.hpp:20

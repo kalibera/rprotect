@@ -1,0 +1,17 @@
+Package: GIGrvg
+Type: Package
+Title: Random Variate Generator for the GIG Distribution
+Version: 0.4
+Date: 2015-07-17
+Author: Josef Leydold and Wolfgang Hormann
+Maintainer: Josef Leydold <josef.leydold@wu.ac.at>
+Description: 
+  Generator and density function for the
+  Generalized Inverse Gaussian (GIG) distribution.
+License: GPL (>= 2)
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2015-07-17 10:09:19 UTC; leydold
+Repository: CRAN
+Date/Publication: 2015-07-17 13:04:14
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:40 UTC; unix

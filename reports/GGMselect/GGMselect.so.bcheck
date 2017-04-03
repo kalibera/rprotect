@@ -1,0 +1,15 @@
+Function GGMcritminQE
+  [UP] unprotected variable list while calling allocating function R_CheckUserInterrupt GGMselect/src/critQE.c:390
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:393
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:397
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:400
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:402
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:403
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:406
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:409
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:410
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:411
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:412
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:413
+  [UP] allocating function getListElement may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:414
+  [UP] allocating function GGMscrgcritQE may destroy its unprotected argument (list), which is later used. GGMselect/src/critQE.c:475

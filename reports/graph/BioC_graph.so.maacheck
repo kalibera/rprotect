@@ -1,0 +1,4 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at graph_intersection /home/tomas/packages/build/cJm8dQ50/graph/src/graph.c:114
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at graph_intersection /home/tomas/packages/build/cJm8dQ50/graph/src/graph.c:117
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at graph_intersection /home/tomas/packages/build/cJm8dQ50/graph/src/graph.c:121
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at graph_intersection /home/tomas/packages/build/cJm8dQ50/graph/src/graph.c:122

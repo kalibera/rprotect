@@ -1,0 +1,16 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_compare /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1193
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_compare /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1194
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_compare /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1845
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_compare /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1846
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_extract /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:370
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_extract /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:371
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_extract /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:639
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_extract /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:640
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_extract /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:705
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at mmap_mmap /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:259
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at mmap_mmap /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:262
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at mmap_mmap /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:264
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_replace /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:873
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_replace /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1019
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_replace /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1133
+WARNING Suspicious call (two or more unprotected arguments) to Rf_getAttrib at mmap_replace /home/tomas/packages/build/MdShHJiI/mmap/src/mmap.c:1134

@@ -1,0 +1,11 @@
+Function receiveNullMsg
+  [PB] has possible protection stack imbalance rzmq/src/interface.cpp:419
+
+Function receiveSocket
+  [PB] has possible protection stack imbalance rzmq/src/interface.cpp:448
+
+Function sendNullMsg
+  [PB] has possible protection stack imbalance rzmq/src/interface.cpp:402
+
+Function sendSocket
+  [PB] has possible protection stack imbalance rzmq/src/interface.cpp:373

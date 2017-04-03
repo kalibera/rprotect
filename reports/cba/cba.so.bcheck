@@ -1,0 +1,5 @@
+Function var2R
+  [PB] has possible protection stack imbalance cba/src/proximus.c:34
+
+Function vec2R
+  [PB] has possible protection stack imbalance cba/src/proximus.c:87

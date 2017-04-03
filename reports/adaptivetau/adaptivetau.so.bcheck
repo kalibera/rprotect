@@ -1,0 +1,21 @@
+Function CRList::CRList(int, bool)
+  [PB] has possible protection stack imbalance adaptivetau/src/./Rwrappers.h:182
+
+Function CRMatrixBase<int>::CRMatrixBase(SEXPREC*, int* (*)(SEXPREC*), bool)
+  [PB] has possible protection stack imbalance adaptivetau/src/./Rwrappers.h:251
+
+Function CRVectorBase<SEXPREC*, SEXPREC*>::CRVectorBase(SEXPREC*, SEXPREC** (*)(SEXPREC*), bool)
+  [PB] has possible protection stack imbalance adaptivetau/src/./Rwrappers.h:42
+
+Function CRVectorBase<bool, int>::CRVectorBase(SEXPREC*, int* (*)(SEXPREC*), bool)
+  [PB] has possible protection stack imbalance adaptivetau/src/./Rwrappers.h:42
+
+Function CRVectorBase<int, int>::CRVectorBase(SEXPREC*, int* (*)(SEXPREC*), bool)
+  [PB] has possible protection stack imbalance adaptivetau/src/./Rwrappers.h:42
+
+Function CStochasticEqns::CStochasticEqns(SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, double*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable namesO while calling allocating function Rf_allocVector adaptivetau/src/adaptivetau.cpp:97
+  [PB] has possible protection stack imbalance adaptivetau/src/adaptivetau.cpp:238
+
+Function CStochasticEqns::SetTLParams(SEXPREC*)
+  [UP] unprotected variable names while calling allocating function Rf_warning adaptivetau/src/adaptivetau.cpp:297

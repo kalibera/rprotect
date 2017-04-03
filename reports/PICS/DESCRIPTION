@@ -1,0 +1,19 @@
+Package: PICS
+Type: Package
+Title: Probabilistic inference of ChIP-seq
+Version: 2.19.0
+Author: Xuekui Zhang <xzhang@stat.ubc.ca>, Raphael Gottardo
+        <rgottard@fhcrc.org>
+Maintainer: Renan Sauteraud <rsautera@fhcrc.org>
+Depends: R (>= 2.14.0), BiocGenerics (>= 0.1.3)
+Imports: methods, stats4, IRanges, GenomicRanges, graphics, grDevices,
+        stats, Rsamtools, GenomicAlignments, S4Vectors
+Suggests: ShortRead, rtracklayer, parallel
+SystemRequirements: GSL (GNU Scientific Library)
+Description: Probabilistic inference of ChIP-Seq using an empirical
+        Bayes mixture model approach.
+License: Artistic-2.0
+Packaged: 2016-10-17 22:33:36 UTC; biocbuild
+biocViews: Clustering, Visualization, Sequencing, ChIPSeq
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:04:42 UTC; unix

@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at SpatialPolygons_c /home/tomas/packages/build/JMBrhQUp/sp/src/sp_xports.c:331

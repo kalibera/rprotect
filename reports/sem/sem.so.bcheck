@@ -1,0 +1,12 @@
+Function csemSolve
+  [PB] has possible protection stack imbalance sem/src/csem.cpp:2084
+
+Function setApplicationOptions(int&, double&, double&, double&, int&, int&, int&, int&, double&, SEXPREC*)
+  [UP] unprotected variable opts_integer_names while calling allocating function Rf_coerceVector sem/src/csem.cpp:213
+
+Function showArgs1(SEXPREC*)
+  [UP] unprotected variable names while calling allocating function Rprintf sem/src/csem.cpp:147
+  [UP] unprotected variable names while calling allocating function Rprintf sem/src/csem.cpp:151
+  [UP] unprotected variable names while calling allocating function Rprintf sem/src/csem.cpp:155
+  [UP] unprotected variable names while calling allocating function Rprintf sem/src/csem.cpp:158
+  [UP] unprotected variable names while calling allocating function Rprintf sem/src/csem.cpp:162

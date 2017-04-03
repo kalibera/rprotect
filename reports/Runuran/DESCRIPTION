@@ -1,0 +1,24 @@
+Package: Runuran
+Type: Package
+Title: R Interface to the UNU.RAN Random Variate Generators
+Version: 0.23.0
+Date: 2015-08-18
+Author: Josef Leydold and Wolfgang H\"ormann
+Maintainer: Josef Leydold <josef.leydold@wu.ac.at>
+Depends: R (>= 3.0.0)
+Imports: methods, stats
+Description: Interface to the UNU.RAN library for Universal Non-Uniform RANdom variate generators. 
+	     Thus it allows to build non-uniform random number generators from quite arbitrary
+	     distributions. In particular, it provides an algorithm for fast numerical inversion
+	     for distribution with given density function.
+	     In addition, the package contains densities, distribution functions and quantiles
+	     from a couple of distributions. 
+Collate: unuran_distr.R unuran_cont.R unuran_discr.R unuran_cmv.R
+        Runuran.R universal.R distributions.R deprecated.R zzz.R
+License: GPL (>= 2)
+URL: http://statmath.wu.ac.at/unuran/
+NeedsCompilation: yes
+Packaged: 2015-08-18 09:45:51 UTC; leydold
+Repository: CRAN
+Date/Publication: 2015-08-19 11:19:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:24 UTC; unix

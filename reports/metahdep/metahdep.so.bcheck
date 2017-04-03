@@ -1,0 +1,3 @@
+Function get_row_indices2
+  [UP] unprotected variable index while calling allocating function R_alloc metahdep/src/metahdep.c:483
+  [UP] unprotected variable index while calling allocating function R_alloc metahdep/src/metahdep.c:484

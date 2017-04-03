@@ -1,0 +1,2 @@
+Function readSpfabicResult
+  [PB] has possible protection stack imbalance fabia/src/fabiac.c:3774

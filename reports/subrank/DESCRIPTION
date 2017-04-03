@@ -1,0 +1,15 @@
+Package: subrank
+Type: Package
+Title: Computes Copula using Ranks and Subsampling
+Version: 0.9.7
+Date: 2016-03-31
+Author: Jerome Collet
+Maintainer: Jerome Collet <jeromepcollet@gmail.com>
+Description: Estimation of copula using ranks and subsampling. The main feature of this method is that simulation studies show a low sensitivity to dimension, on realistic cases. Vignette provides some theoretical documentation.
+License: GPL (>= 3)
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-03-31 20:36:23 UTC; collet
+Repository: CRAN
+Date/Publication: 2016-04-01 10:13:27
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:51 UTC; unix

@@ -1,0 +1,18 @@
+Package: logitchoice
+Type: Package
+Title: Fitting l2-regularized logit choice models via generalized
+        gradient descent
+Version: 0.9.4
+Date: 2014-09-01
+Author: Michael Lim
+Maintainer: Michael Lim <michael626@gmail.com>
+Depends:
+Suggests:
+Description: Fits linear discrete logit choice models with l2 regularization. To handle reasonably sized datasets, we employ an accelerated version of generalized gradient descent.
+License: GPL-2
+URL:
+Packaged: 2014-09-03 04:02:05 UTC; mlim
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-09-03 07:28:49
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:32 UTC; unix

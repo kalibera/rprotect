@@ -1,0 +1,25 @@
+Package: rggobi
+Version: 2.1.21
+Title: Interface Between R and 'GGobi'
+Author: Duncan Temple Lang <duncan@research.bell-labs.com>,
+    Debby Swayne <dfs@research.att.com>,
+    Hadley Wickham <h.wickham@gmail.com>,
+    Michael Lawrence <michafla@gene.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: A command-line interface to 'GGobi', an interactive and dynamic
+    graphics package. 'Rggobi' complements the graphical user interface of
+    'GGobi' providing a way to fluidly transition between analysis and
+    exploration, as well as automating common tasks.
+Depends: R (>= 2.5.1)
+Suggests: reshape, nlme
+Imports: RGtk2, utils
+SystemRequirements: GGobi
+License: BSD_3_clause + file LICENSE
+LazyData: true
+URL: http://www.ggobi.org/rggobi
+Acknowledgments: Di Cook, Nicholas Lewin-Koh, Xuejing Chen.
+NeedsCompilation: yes
+Packaged: 2016-08-31 13:30:21 UTC; hadley
+Repository: CRAN
+Date/Publication: 2016-08-31 20:47:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:58:45 UTC; unix

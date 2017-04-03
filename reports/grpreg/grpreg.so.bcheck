@@ -1,0 +1,23 @@
+Function gdfit_binomial
+  [PB] has possible protection stack imbalance grpreg/src/gdfit_binomial.c:227
+
+Function gdfit_cox
+  [PB] has possible protection stack imbalance grpreg/src/gdfit_cox.c:224
+
+Function gdfit_gaussian
+  [PB] has possible protection stack imbalance grpreg/src/gdfit_gaussian.c:174
+
+Function gdfit_poisson
+  [PB] has possible protection stack imbalance grpreg/src/gdfit_poisson.c:219
+
+Function lcdfit_binomial
+  [PB] has possible protection stack imbalance grpreg/src/lcdfit_binomial.c:303
+
+Function lcdfit_cox
+  [PB] has possible protection stack imbalance grpreg/src/lcdfit_cox.c:329
+
+Function lcdfit_gaussian
+  [PB] has possible protection stack imbalance grpreg/src/lcdfit_gaussian.c:241
+
+Function lcdfit_poisson
+  [PB] has possible protection stack imbalance grpreg/src/lcdfit_poisson.c:294

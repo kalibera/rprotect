@@ -1,0 +1,2 @@
+Function RampRScanHeaders
+  [UP] unprotected variable temp while calling allocating function Rf_mkChar mzR/src/rampR.cpp:347

@@ -1,0 +1,2 @@
+Function symbolicSATSearch_R
+  [UP] unprotected variable retSXP while calling allocating function PutRNGstate BoolNet/src/symbolic_simulator.c:889

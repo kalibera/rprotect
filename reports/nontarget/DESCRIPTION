@@ -1,0 +1,15 @@
+Package: nontarget
+Type: Package
+Title: Detecting Isotope, Adduct and Homologue Relations in LC-MS Data
+Version: 1.9
+Date: 2016-09-27
+Author: Martin Loos
+Maintainer: Martin Loos <mloos@looscomputing.ch>
+Description: Screening a HRMS data set for peaks related by (1) isotope patterns, (2) different adducts of the same molecule and/or (3) homologue series. The resulting isotopic pattern and adduct groups can then be combined to so-called components, with homologue series information attached. Also allows plotting and filtering HRMS data for mass defects, frequent m/z distances and components vs. non-components.
+License: GPL-3
+Depends: enviPat(>= 2.0), nontargetData(>= 1.1), mgcv(>= 1.7-22)
+NeedsCompilation: yes
+Packaged: 2016-09-27 11:28:39 UTC; uchemadmin
+Repository: CRAN
+Date/Publication: 2016-09-27 16:39:53
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:22:11 UTC; unix

@@ -1,0 +1,25 @@
+Package: rcqp
+Type: Package
+Title: Interface to the Corpus Query Protocol
+Version: 0.4
+Date: 2016-06-10
+Author: Bernard Desgraupes <bernard.desgraupes@u-paris10.fr>, Sylvain
+        Loiseau <sylvain.loiseau@univ-paris13.fr>
+Maintainer: Bernard Desgraupes <bernard.desgraupes@u-paris10.fr>
+Depends: R (>= 1.8.0), plyr
+Suggests: reshape
+Description: Implements Corpus Query Protocol functions based on the
+        CWB software. Rely on CWB (GPL v2), PCRE (BSD licence), glib2
+        (LGPL).
+License: GPL-2 | file LICENCE
+LazyLoad: yes
+URL: http://www.r-project.org
+Collate: main.R zzz.R s3.R
+Encoding: latin1
+SystemRequirements: GNU make, pcre (>= 7), glib2 (>= 2)
+OS_type: unix
+NeedsCompilation: yes
+Packaged: 2016-06-10 13:36:24 UTC; bernardo
+Repository: CRAN
+Date/Publication: 2016-06-12 19:08:49
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:10:28 UTC; unix

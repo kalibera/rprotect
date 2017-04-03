@@ -1,0 +1,5 @@
+Function initProtect
+  [PB] has possible protection stack imbalance randomForestSRC/src/randomForestSRC.c:7021
+
+Function stackAndProtect
+  [PB] has possible protection stack imbalance randomForestSRC/src/randomForestSRC.c:7081

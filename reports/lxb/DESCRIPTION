@@ -1,0 +1,19 @@
+Package: lxb
+Version: 1.5
+Date: 2016-03-01
+Title: Fast LXB File Reader
+Authors@R: c(person("Björn", "Winckler", role = c("aut", "cre"),
+	email = "bjorn.winckler@gmail.com"),
+	person("James K.", "Lawless", role = c("ctb", "cph")))
+Author: Björn Winckler [aut, cre],
+	James K. Lawless [ctb, cph]
+Maintainer: Björn Winckler <bjorn.winckler@gmail.com>
+Depends: R (>= 2.8.0)
+Description: Functions to quickly read LXB parameter data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2016-03-02 02:02:03 UTC; winckler
+Repository: CRAN
+Date/Publication: 2016-03-02 09:26:04
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:37 UTC; unix

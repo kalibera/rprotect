@@ -1,0 +1,7 @@
+Function R_solver
+  [UP] unprotected variable R_beta while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91
+  [UP] unprotected variable R_converged while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91
+  [UP] unprotected variable R_numIters while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91
+  [UP] unprotected variable R_objValue while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91
+  [UP] unprotected variable R_probabilities while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91
+  [UP] unprotected variable R_res while calling allocating function Rf_allocVector logitchoice/src/mle_r.c:91

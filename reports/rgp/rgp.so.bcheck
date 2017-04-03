@@ -1,0 +1,14 @@
+Function deep_copy_closxp
+  [UP] unprotected variable copied_closxp while calling allocating function Rf_duplicate rgp/src/sexp_utils.c:12
+
+Function eval_vectorized_recursive
+  [PB] has possible protection stack imbalance rgp/src/eval_vectorized.c:154
+
+Function evaluate_language_expression
+  [PB] has possible protection stack imbalance rgp/src/./evaluate_language_expression.h:3999
+
+Function initialize_eval_vectorized_context
+  [PB] has possible protection stack imbalance rgp/src/eval_vectorized.c:183
+
+Function sexp_visitation_length_recursive
+  [PB] has possible protection stack imbalance rgp/src/complexity.c:55

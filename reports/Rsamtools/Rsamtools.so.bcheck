@@ -1,0 +1,37 @@
+Function _bamtags
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Rsamtools/src/bam_data.c:227
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Rsamtools/src/bam_data.c:233
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Rsamtools/src/bam_data.c:239
+  [UP] unprotected variable nms while calling allocating function R_alloc Rsamtools/src/bam_data.c:243
+  [UP] unprotected variable tag while calling allocating function R_alloc Rsamtools/src/bam_data.c:243
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Rsamtools/src/bam_data.c:248
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Rsamtools/src/bam_data.c:251
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/bam_data.c:280
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/bam_data.c:284
+  [UP] unprotected variable nms while calling allocating function _bamtags_B Rsamtools/src/bam_data.c:292
+
+Function _bcf_gi2sxp
+  [UP] unprotected variable nm while calling allocating function Rf_allocMatrix Rsamtools/src/bcffile.c:247
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar Rsamtools/src/bcffile.c:270
+  [UP] unprotected variable nm while calling allocating function Rf_mkChar Rsamtools/src/bcffile.c:275
+  [UP] unprotected variable nm while calling allocating function Rf_allocMatrix Rsamtools/src/bcffile.c:280
+
+Function _get_encoding_lookup
+  [UP] unprotected variable fun while calling allocating function Rf_mkString Rsamtools/src/utilities.c:52
+  [UP] unprotected variable fun while calling allocating function Rf_mkString Rsamtools/src/utilities.c:53
+
+Function _lst_elt
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/pileupbam.c:184
+
+Function _resize
+  [UP] unprotected variable nm while calling allocating function Rf_lengthgets Rsamtools/src/pileupbam.c:473
+  [UP] unprotected variable nm while calling allocating function _resize_3D_dim3 Rsamtools/src/pileupbam.c:477
+  [UP] unprotected variable nm while calling allocating function _resize_3D_dim3 Rsamtools/src/pileupbam.c:484
+
+Function header_tabix
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:182
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:183
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:184
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:185
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:209
+  [UP] unprotected variable nms while calling allocating function Rf_mkChar Rsamtools/src/tabixfile.c:210

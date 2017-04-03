@@ -1,0 +1,30 @@
+Function large_list::ListObject::ListObject()
+  [PB] has possible protection stack imbalance largeList/src/list_object.cpp:99
+
+Function large_list::ListObject::ListObject(SEXPREC*, bool)
+  [PB] has possible protection stack imbalance largeList/src/list_object.cpp:133
+
+Function large_list::ListObject::ListObject(int, bool)
+  [PB] has possible protection stack imbalance largeList/src/list_object.cpp:111
+
+Function large_list::ListObject::~ListObject()
+  [PB] has negative depth largeList/src/list_object.cpp:136
+  [PB] has possible protection stack imbalance largeList/src/list_object.cpp:137
+
+Function large_list::UnitObject::UnitObject()
+  [PB] has possible protection stack imbalance largeList/src/unit_object.cpp:7
+
+Function large_list::UnitObject::UnitObject(SEXPREC*)
+  [PB] has possible protection stack imbalance largeList/src/unit_object.cpp:17
+
+Function large_list::UnitObject::read(large_list::ConnectionFile&, long, bool)
+  [PB] has negative depth largeList/src/unit_object.cpp:56
+  [PB] has possible protection stack imbalance largeList/src/unit_object.cpp:58
+
+Function large_list::UnitObject::set(SEXPREC*)
+  [PB] has negative depth largeList/src/unit_object.cpp:21
+  [PB] has possible protection stack imbalance largeList/src/unit_object.cpp:23
+
+Function large_list::UnitObject::~UnitObject()
+  [PB] has negative depth largeList/src/unit_object.cpp:11
+  [PB] has possible protection stack imbalance largeList/src/unit_object.cpp:12

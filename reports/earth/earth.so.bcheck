@@ -1,0 +1,2 @@
+Function InitAllowedFunc
+  [PB] has possible protection stack imbalance earth/src/allowed.c:94

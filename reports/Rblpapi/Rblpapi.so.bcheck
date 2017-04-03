@@ -1,0 +1,2 @@
+Function allocateDataFrameColumn(int, unsigned long)
+  [PB] has possible protection stack imbalance Rblpapi/src/bds.cpp:160

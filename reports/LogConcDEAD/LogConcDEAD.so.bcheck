@@ -1,0 +1,3 @@
+Function convhullnew
+  [UP] unprotected variable retval while calling allocating function qh_freeqhull LogConcDEAD/src/convhullnew.c:137
+  [UP] unprotected variable retval while calling allocating function Rf_warning LogConcDEAD/src/convhullnew.c:141

@@ -1,0 +1,2 @@
+Function EvalDoubleFunObject
+  [UP] unprotected variable res while calling allocating function PutRNGstate /home/tomas/rchk/wllvm/bc/packages/lib/TMB/include/tmb_core.hpp:1250

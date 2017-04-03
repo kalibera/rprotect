@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at get_machine_eps /home/tomas/packages/build/cw2OyPjM/pbdDMAT/src/util.c:11
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull /home/tomas/packages/build/cw2OyPjM/pbdDMAT/src/../inst/RNACI/RNACI.h:245

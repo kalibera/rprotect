@@ -1,0 +1,2 @@
+Function fmatch
+  [PB] has possible protection stack imbalance fastmatch/src/fastmatch.c:415

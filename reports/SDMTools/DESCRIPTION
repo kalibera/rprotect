@@ -1,0 +1,27 @@
+Package: SDMTools
+Type: Package
+Title: Species Distribution Modelling Tools: Tools for processing data
+        associated with species distribution modelling exercises
+Version: 1.1-221
+Date: 2014-08-05
+Author: Jeremy VanDerWal, Lorena Falconi, Stephanie Januchowski, Luke Shoo and
+    Collin Storlie
+Maintainer: Jeremy VanDerWal <jjvanderwal@gmail.com>
+Imports: R.utils
+Suggests: adehabitat, raster, sp
+Description: This packages provides a set of tools for post processing the
+    outcomes of species distribution modeling exercises. It includes novel
+    methods for comparing models and tracking changes in distributions through
+    time. It further includes methods for visualizing outcomes, selecting
+    thresholds, calculating measures of accuracy and landscape fragmentation
+    statistics, etc.. This package was made possible in part by financial
+    support from the Australian Research Council & ARC Research Network for
+    Earth System Science.
+License: GPL (>= 3)
+URL: http://www.rforge.net/SDMTools/
+LazyLoad: yes
+Packaged: 2014-08-05 09:29:35 UTC; svnuser
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-08-05 12:16:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:24:46 UTC; unix

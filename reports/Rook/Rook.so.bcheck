@@ -1,0 +1,2 @@
+Function rawmatch
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector Rook/src/rook.c:49

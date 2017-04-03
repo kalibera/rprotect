@@ -1,0 +1,21 @@
+Package: SPSL
+Type: Package
+Version: 0.1-8
+Date: 2012-12-29
+Title: Site Percolation on Square Lattice (SPSL)
+Author: Pavel V. Moskalev
+Maintainer: Pavel V. Moskalev <moskalefff@gmail.com>
+Description: SPSL package provides functionality for labeling of
+        percolation clusters on 2D & 3D square lattice with various
+        lattice size, relative fraction of accessible sites (occupation
+        probability), iso- & anisotropy, von Neumann & Moore
+        (1,d)-neighborhood
+Depends: R (>= 2.14.0)
+Suggests: lattice
+License: GPL-3
+LazyLoad: yes
+URL: http://cran.r-project.org/package=SPSL
+Packaged: 2012-12-29 21:13:32 UTC; paule
+Repository: CRAN
+Date/Publication: 2012-12-30 08:14:45
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:45 UTC; unix

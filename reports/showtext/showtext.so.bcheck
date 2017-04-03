@@ -1,0 +1,8 @@
+Function GetFTFace
+  [UP] allocating function Rf_getAttrib(?,S:names) may destroy its unprotected argument (font_list), which is later used. showtext/src/fonts.c:67
+  [UP] unprotected variable font_list while calling allocating function Rf_warning showtext/src/fonts.c:80
+  [UP] unprotected variable font_names while calling allocating function Rf_warning showtext/src/fonts.c:80
+  [UP] unprotected variable font_list while calling allocating function Rf_warning showtext/src/fonts.c:92
+
+Function GetVarFromPkgEnv
+  [UP] unprotected variable pkgEnv while calling allocating function Rf_install showtext/src/util.c:30

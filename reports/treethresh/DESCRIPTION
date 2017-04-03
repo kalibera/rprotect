@@ -1,0 +1,15 @@
+Package: treethresh
+Version: 0.1-9
+Date: 2016-05-24
+Title: Methods for Tree-Based Local Adaptive Thresholding
+Author: Ludger Evers <ludger.evers@glasgow.ac.uk> and Tim Heaton
+        <t.heaton@sheffield.ac.uk>
+Maintainer: Ludger Evers <ludger.evers@glasgow.ac.uk>
+Depends: R (>= 2.10), EbayesThresh, wavethresh
+Description: An implementation of TreeThresh, a locally adaptive version of EbayesThresh.
+License: GPL (>= 3)
+Repository: CRAN
+NeedsCompilation: yes
+Packaged: 2016-05-24 23:56:07 UTC; ludger
+Date/Publication: 2016-05-25 06:09:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:14:05 UTC; unix

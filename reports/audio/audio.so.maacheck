@@ -1,0 +1,5 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at audio_player /home/tomas/packages/build/C4YeDPrn/audio/src/driver.c:241
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at audio_recorder /home/tomas/packages/build/C4YeDPrn/audio/src/driver.c:263
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at load_wave_file /home/tomas/packages/build/C4YeDPrn/audio/src/file.c:180
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at load_wave_file /home/tomas/packages/build/C4YeDPrn/audio/src/file.c:181
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at load_wave_file /home/tomas/packages/build/C4YeDPrn/audio/src/file.c:182

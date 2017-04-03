@@ -1,0 +1,43 @@
+Package: pbdDMAT
+Title: 'pbdR' Distributed Matrix Methods
+Version: 0.4-2
+Description: A set of classes for managing distributed matrices, and
+    a collection of methods for computing linear algebra and
+    statistics.  Computation is handled mostly by routines from the
+    'pbdBASE' package, which itself relies on the 'ScaLAPACK' and
+    'PBLAS' numerical libraries for distributed computing.
+License: GPL (>= 2)
+Depends: R (>= 3.0.0), pbdMPI (>= 0.3-1), pbdBASE (>= 0.4-5), stats
+Imports: utils, methods
+SystemRequirements: OpenMPI (>= 1.5.4) on Solaris, Linux, Mac, and
+        FreeBSD. MS-MPI (Microsoft HPC Pack 2012) or MPICH2 (>=
+        1.4.1p1) on Windows.
+LazyLoad: yes
+LazyData: yes
+ByteCompile: yes
+NeedsCompilation: yes
+URL: http://r-pbd.org/
+BugReports: http://group.r-pbd.org/
+MailingList: Please send questions and comments regarding pbdR to
+        RBigData@gmail.com
+Authors@R: c(person("Drew", "Schmidt", role=c("aut", "cre"), email="schmidt@math.utk.edu"), 
+    person("Wei-Chen", "Chen", role="aut"), 
+    person("George", "Ostrouchov", role="aut"),
+    person("Pragneshkumar", "Patel", role="aut"), 
+    person("ZhaoKang", "Wang", role="ctb"),
+    person("Michael", "Lawrence", role="ctb"),
+    person("R Core team", role="ctb", comment="some wrappers taken from the base and stats packages"))
+Maintainer: Drew Schmidt <schmidt@math.utk.edu>
+RoxygenNote: 5.0.1
+Packaged: 2016-10-21 15:25:04 UTC; mschmid3
+Author: Drew Schmidt [aut, cre],
+  Wei-Chen Chen [aut],
+  George Ostrouchov [aut],
+  Pragneshkumar Patel [aut],
+  ZhaoKang Wang [ctb],
+  Michael Lawrence [ctb],
+  R Core team [ctb] (some wrappers taken from the base and stats
+    packages)
+Repository: CRAN
+Date/Publication: 2016-10-21 18:31:39
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:33:59 UTC; unix

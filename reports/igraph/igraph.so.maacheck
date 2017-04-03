@@ -1,0 +1,17 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at R_igraph_ac_all_other /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:1640
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_ac_all_other /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:1644
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at R_igraph_add_env /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface_extra.c:311
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at R_igraph_add_env /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface_extra.c:312
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at R_igraph_add_version_to_env /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface_extra.c:285
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at R_igraph_add_version_to_env /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface_extra.c:286
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_attribute_add_edges /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:728
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_attribute_add_edges /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:800
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_attribute_add_vertices /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:393
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_attribute_add_vertices /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:465
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at R_igraph_finalizer /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2148
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang4 at R_igraph_finalizer /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2150
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_i_levc_callback /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:8034
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at R_igraph_progress_handler /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2105
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang3 at R_igraph_progress_handler /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2108
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at R_igraph_status_handler /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2118
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at R_igraph_status_handler /home/tomas/packages/build/CU6v9yfp/igraph/src/rinterface.c:2120

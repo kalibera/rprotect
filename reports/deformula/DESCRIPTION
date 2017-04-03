@@ -1,0 +1,17 @@
+Package: deformula
+Version: 0.1.1
+Date: 2015-10-12
+Title: Integration of One-Dimensional Functions with Double Exponential
+        Formulas
+Type: Package
+Author: Hiroyuki Okamura
+Maintainer: Hiroyuki Okamura <okamu@rel.hiroshima-u.ac.jp>
+Description: Numerical quadrature of functions of one variable over a finite or infinite interval
+	with double exponential formulas.
+Encoding: UTF-8
+License: GPL (>= 2)
+Packaged: 2015-10-12 03:20:14 UTC; okamu
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-10-12 08:58:51
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:01 UTC; unix

@@ -1,0 +1,4 @@
+Function updatef
+  [UP] unprotected variable Rg while calling allocating function Rf_coerceVector radmixture/src/updatef.c:24
+  [UP] unprotected variable Rg while calling allocating function Rf_coerceVector radmixture/src/updatef.c:25
+  [UP] unprotected variable Rq0 while calling allocating function Rf_coerceVector radmixture/src/updatef.c:25

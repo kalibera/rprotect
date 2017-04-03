@@ -1,0 +1,2 @@
+Function dybuf_alloc
+  [PB] has possible protection stack imbalance iotools/src/as_output.c:27

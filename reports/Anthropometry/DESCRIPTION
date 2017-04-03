@@ -1,0 +1,22 @@
+Package: Anthropometry
+Type: Package
+Title: Statistical Methods for Anthropometric Data
+Version: 1.7
+Date: 2015-12-11
+Author: Guillermo Vinue, Irene Epifanio, Amelia Simo, M. Victoria Ibanez, Juan Domingo, Guillermo Ayala
+Maintainer: Guillermo Vinue <Guillermo.Vinue@uv.es>
+Description: Statistical methodologies especially developed to analyze anthropometric data. These methods are aimed 		at providing effective solutions to some commons problems related to Ergonomics and Anthropometry. They are based on clustering, the 		statistical concept of data depth, statistical shape analysis and archetypal analysis.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.uv.es/vivigui
+Depends: R (>= 3.0.0)
+Imports: shapes, rgl, archetypes, nnls, depth, FNN, ICGE, cluster,
+        biclust
+Suggests: knitr, calibrate, mvtnorm, SportsAnalytics, RColorBrewer,
+        plotrix, abind
+VignetteBuilder: knitr
+LazyData: yes
+NeedsCompilation: yes
+Packaged: 2015-12-11 13:53:29 UTC; guillevinue
+Repository: CRAN
+Date/Publication: 2015-12-12 09:41:02
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:52:29 UTC; unix

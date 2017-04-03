@@ -1,0 +1,15 @@
+Package: pauwels2014
+Type: Package
+Title: Bayesian Experimental Design for Systems Biology.
+Version: 1.0
+Date: 2014-08-20
+Author: Edouard Pauwels
+Maintainer: Edouard Pauwels <pauwelsed@gmail.com>
+Description: Implementation of a Bayesian active learning strategy to carry out sequential experimental design in the context of biochemical network kinetic parameter estimation. This package gathers functions and pre-computed data sets to reproduce results presented in Pauwels E. et. al published in BMC Systems Biology, 2014. Scripts are given to compute all results from scratch or to draw pictures based on pre-computed data sets. 
+License: GPL-3
+Depends: deSolve, ggplot2, R (>= 2.10)
+NeedsCompilation: yes
+Packaged: 2014-08-22 16:32:19 UTC; ed
+Repository: CRAN
+Date/Publication: 2014-08-23 08:12:04
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:33:58 UTC; unix

@@ -1,0 +1,28 @@
+Package: scs
+Version: 1.1-1
+Title: Splitting Conic Solver
+Authors@R: c( person("Florian", "Schwendinger", role = c("ctb", "cre"), email = "FlorianSchwendinger@gmx.at"),
+              person("Brendan", "O'Donoghue", role = c("aut", "cph")),
+              person("Timothy A.", "Davis", role = "cph"),
+              person("Patrick R.", "Amestory", role = "cph"),
+              person("Iain S.", "Duff", role = "cph") ) 
+Description: Solves convex cone programs via operator splitting. Can solve:
+    linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs
+    (SDPs), exponential cone programs (ECPs), and power cone programs (PCPs), or
+    problems with any combination of those cones.    SCS uses AMD (a set of routines for permuting sparse matrices prior to factorization) and LDL (a sparse LDL' factorization and solve package) from 'SuiteSparse' (<http://www.suitesparse.com>).
+Depends: R (>= 2.15)
+Imports: Matrix, methods
+License: GPL-3
+URL: https://github.com/cvxgrp/scs
+NeedsCompilation: yes
+RoxygenNote: 5.0.1
+Packaged: 2016-02-23 16:40:34 UTC; florian
+Author: Florian Schwendinger [ctb, cre],
+  Brendan O'Donoghue [aut, cph],
+  Timothy A. Davis [cph],
+  Patrick R. Amestory [cph],
+  Iain S. Duff [cph]
+Maintainer: Florian Schwendinger <FlorianSchwendinger@gmx.at>
+Repository: CRAN
+Date/Publication: 2016-02-23 22:28:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:12:15 UTC; unix

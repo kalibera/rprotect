@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at Rpoppler_PDF_fonts /home/tomas/packages/build/DQ2jH0vr/Rpoppler/src/Rpoppler.c:257
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at Rpoppler_PDF_info /home/tomas/packages/build/DQ2jH0vr/Rpoppler/src/Rpoppler.c:191
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at Rpoppler_PDF_text /home/tomas/packages/build/DQ2jH0vr/Rpoppler/src/Rpoppler.c:287

@@ -1,0 +1,36 @@
+Package: rmatio
+Title: Read and Write Matlab Files
+Version: 0.11.0
+Authors@R: c( person("Stefan", "Widgren", role = c("aut", "cre"),
+    email = "stefan.widgren@gmail.com", comment = "Author of the R
+    interface to the C-library matio"), person("Christopher",
+    "Hulbert", role = c("aut"), comment = "Author of the C-library
+    matio, http://sourceforge.net/projects/matio/"))
+Description: rmatio is a package for reading and writing Matlab MAT
+    files from R. The rmatio package supports reading MAT version 4,
+    MAT version 5 and MAT compressed version 5. The rmatio package can
+    write version 5 MAT files and version 5 files with variable
+    compression.
+Copyright: The package includes the source code of matio written by
+        Christopher Hulbert (http://sourceforge.net/projects/matio/)
+        (License: Simplified BSD). The matio io routines have been
+        adopted to use R printing and error routines.
+License: GPL-3
+URL: https://github.com/stewid/rmatio
+SystemRequirements: zlib headers and library.
+Type: Package
+LazyLoad: yes
+Biarch: true
+Date: 2014-12-16
+Depends: R(>= 3.0.2), Matrix, methods, lattice
+Collate: 'have_lib.r' 'read_mat.r' 'rmatio.r' 'write_mat.r'
+Packaged: 2014-12-16 13:10:41 UTC; stefan
+Author: Stefan Widgren [aut, cre] (Author of the R interface to the C-library
+    matio),
+  Christopher Hulbert [aut] (Author of the C-library matio,
+    http://sourceforge.net/projects/matio/)
+Maintainer: Stefan Widgren <stefan.widgren@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-12-17 02:00:48
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:11:36 UTC; unix

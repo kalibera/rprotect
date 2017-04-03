@@ -1,0 +1,12 @@
+Package: RAD
+Title: Fit RAD models to biological data
+Version: 0.3
+Author: Piers K Dunstan and Scott D Foster
+Description: Fit a variety of models to Rank Abundance Data
+Depends: R (>= 2.10), mvtnorm, MASS
+Maintainer: Piers Dunstan <Piers.Dunstan@csiro.au>
+License: GPL-2
+Packaged: 2012-06-27 23:57:09 UTC; dun312
+Repository: CRAN
+Date/Publication: 2012-06-28 05:47:58
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:57:42 UTC; unix

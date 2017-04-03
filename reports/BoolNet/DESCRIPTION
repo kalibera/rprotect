@@ -1,0 +1,31 @@
+Package: BoolNet
+Type: Package
+Title: Construction, Simulation and Analysis of Boolean Networks
+Version: 2.1.3
+Date: 2016-06-21
+Authors@R: c(person("Christoph", "Müssel", role = "aut"),
+             person("Martin", "Hopfensitz", role = "aut"),
+             person("Dao", "Zhou", role = "aut"),
+             person(c("Hans", "A."), "Kestler", email = "hans.kestler@uni-ulm.de", role = c("aut", "cre")),
+			 person("Armin", "Biere", role = "ctb", comment="contributed PicoSAT code"),
+			 person(c("Troy", "D."), "Hanson", role = "ctb", comment="contributed uthash macros"))
+Imports: igraph (>= 0.6), XML
+Description: Provides methods to reconstruct and generate synchronous,
+        asynchronous, probabilistic and temporal Boolean networks, and to
+        analyze and visualize attractors in Boolean networks.
+License: Artistic-2.0
+LazyLoad: yes
+ByteCompile: TRUE
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2016-06-24 13:47:18 UTC; burkovae
+Author: Christoph Müssel [aut],
+  Martin Hopfensitz [aut],
+  Dao Zhou [aut],
+  Hans A. Kestler [aut, cre],
+  Armin Biere [ctb] (contributed PicoSAT code),
+  Troy D. Hanson [ctb] (contributed uthash macros)
+Maintainer: Hans A. Kestler <hans.kestler@uni-ulm.de>
+Repository: CRAN
+Date/Publication: 2016-11-21 12:23:47
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:52:43 UTC; unix

@@ -1,0 +1,3 @@
+Function R_list_extensions
+  [UP] unprotected variable out while calling allocating function Rf_mkChar commonmark/src/extensions.c:26
+  [UP] unprotected variable out while calling allocating function cmark_llist_free commonmark/src/extensions.c:29

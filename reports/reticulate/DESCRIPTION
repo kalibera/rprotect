@@ -1,0 +1,49 @@
+Package: reticulate
+Type: Package
+Title: R Interface to Python
+Version: 0.7
+Authors@R: c(
+  person("JJ", "Allaire", role = c("aut", "cre"),
+     comment = "R interface", email = "jj@rstudio.com"),
+  person("Kevin", "Ushey", role = c("ctb"),
+         email = "kevin@rstudio.com"),
+  person(family = "RStudio", role = "cph"),
+  person("Yuan", "Tang", role = c("ctb", "cph"),
+         email = "terrytangyuan@gmail.com"),
+  person("Dirk", "Eddelbuettel", role = c("ctb", "cph"),
+         email = "edd@debian.org"),
+  person("Bryan", "Lewis", role = c("ctb", "cph"),
+         email = "blewis@illposed.net"),
+  person("Marcus", "Geelnard", role = c("aut", "cph"),
+         comment = "TinyThread library, http://tinythreadpp.bitsnbites.eu/")
+  )
+Description: R interface to Python modules, classes, and functions. When calling
+    into Python R data types are automatically converted to their equivalent Python
+    types. When values are returned from Python to R they are converted back to R
+    types. Compatible with all versions of Python >= 2.7.
+License: Apache License 2.0
+URL: https://github.com/rstudio/reticulate
+BugReports: https://github.com/rstudio/reticulate/issues
+SystemRequirements: Python (>= 2.7.0)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.0)
+Imports: utils, graphics, Rcpp (>= 0.12.7)
+Suggests: testthat, knitr
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2017-03-13 16:43:09 UTC; jjallaire
+Author: JJ Allaire [aut, cre] (R interface),
+  Kevin Ushey [ctb],
+  RStudio [cph],
+  Yuan Tang [ctb, cph],
+  Dirk Eddelbuettel [ctb, cph],
+  Bryan Lewis [ctb, cph],
+  Marcus Geelnard [aut, cph] (TinyThread library,
+    http://tinythreadpp.bitsnbites.eu/)
+Maintainer: JJ Allaire <jj@rstudio.com>
+Repository: CRAN
+Date/Publication: 2017-03-14 08:08:13
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:58:41 UTC; unix

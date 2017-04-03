@@ -1,0 +1,32 @@
+Package: fabia
+Title: FABIA: Factor Analysis for Bicluster Acquisition
+Version: 2.21.0
+Date: 2016-10-01
+Author: Sepp Hochreiter <hochreit@bioinf.jku.at>
+Maintainer: Sepp Hochreiter <hochreit@bioinf.jku.at>
+Depends: R (>= 2.8.0), Biobase
+Imports: methods, graphics, grDevices, stats, utils
+LinkingTo:
+Description: Biclustering by "Factor Analysis for Bicluster
+        Acquisition" (FABIA). FABIA is a model-based technique for
+        biclustering, that is clustering rows and columns
+        simultaneously. Biclusters are found by factor analysis where
+        both the factors and the loading matrix are sparse. FABIA is a
+        multiplicative model that extracts linear dependencies between
+        samples and feature patterns. It captures realistic
+        non-Gaussian data distributions with heavy tails as observed in
+        gene expression measurements. FABIA utilizes well understood
+        model selection techniques like the EM algorithm and
+        variational approaches and is embedded into a Bayesian
+        framework. FABIA ranks biclusters according to their
+        information content and separates spurious biclusters from true
+        biclusters. The code is written in C.
+License: LGPL (>= 2.1)
+Collate: AllClasses.R AllGenerics.R fabia.R
+        methods-Factorization-class.R zzz.R
+URL: http://www.bioinf.jku.at/software/fabia/fabia.html
+Packaged: 2016-10-17 22:34:26 UTC; biocbuild
+biocViews: StatisticalMethod, Microarray, DifferentialExpression,
+        MultipleComparison, Clustering, Visualization
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:15:00 UTC; unix

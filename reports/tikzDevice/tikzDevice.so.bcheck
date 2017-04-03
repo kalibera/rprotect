@@ -1,0 +1,11 @@
+Function Sanitize
+  [UP] unprotected variable sanitizeFun while calling allocating function Rf_allocVector tikzDevice/src/tikzDevice.c:2178
+
+Function TikZ_EvalWithoutInterrupts
+  [UP] unprotected variable result while calling allocating function Rf_onintr tikzDevice/src/tikzDevice.c:2068
+
+Function TikZ_MetricInfo
+  [UP] unprotected variable metricFun while calling allocating function Rf_allocVector tikzDevice/src/tikzDevice.c:860
+
+Function TikZ_StrWidth
+  [UP] unprotected variable widthFun while calling allocating function Rf_allocVector tikzDevice/src/tikzDevice.c:1012

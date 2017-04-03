@@ -1,0 +1,2 @@
+Function PolySetToR(PolySet&, int&)
+  [PB] has possible protection stack imbalance PBSmapping/src/clipperWrapper.cpp:400

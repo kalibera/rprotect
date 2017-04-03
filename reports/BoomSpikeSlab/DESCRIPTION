@@ -1,0 +1,17 @@
+Package: BoomSpikeSlab
+Date: 2016-08-13
+Title: MCMC for Spike and Slab Regression
+Author: Steven L. Scott <stevescott@google.com>
+Maintainer: Steven L. Scott <stevescott@google.com>
+Description: Spike and slab regression a la McCulloch and George (1997).
+Depends: Boom (>= 0.5) , R (>= 3.1.0)
+LinkingTo: BH (>= 1.15.0-2)
+Suggests: MASS
+Version: 0.7.0
+License: LGPL-2.1 | file LICENSE
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2016-08-17 21:43:15 UTC; stevescott
+Repository: CRAN
+Date/Publication: 2016-08-18 09:48:07
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:28:02 UTC; unix

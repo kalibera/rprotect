@@ -1,0 +1,23 @@
+Function DataFrameModel::mimeData(QList<QModelIndex> const&) const
+  [UP] unprotected variable r_list while calling allocating function to_sexp(QVariant) qtbase/src/DataFrameModel.cpp:179
+
+Function InstanceObjectTable::get(char const*, Rboolean*) const
+  [UP] unprotected variable ans while calling allocating function InstanceObjectTable::methodExists(char const*) const qtbase/src/InstanceObjectTable.cpp:121
+
+Function QList<QString> from_sexp<QList<QString> >(SEXPREC*)
+  [UP] unprotected variable vector while calling allocating function QString from_sexp<QString>(SEXPREC*) qtbase/src/convert.cpp:630
+
+Function RClass::findMethod(MethodCall const&) const
+  [UP] unprotected variable fun while calling allocating function RMethod::qualifiers() const qtbase/src/RClass.cpp:65
+
+Function RClass::methods(QFlags<Method::Qualifier>) const
+  [UP] unprotected variable names while calling allocating function Rf_findVarInFrame qtbase/src/RClass.cpp:51
+  [UP] unprotected variable names while calling allocating function Rf_install qtbase/src/RClass.cpp:51
+  [UP] unprotected variable fun while calling allocating function RMethod::qualifiers() const qtbase/src/RClass.cpp:52
+  [UP] unprotected variable names while calling allocating function RMethod::qualifiers() const qtbase/src/RClass.cpp:52
+
+Function RClass::property(char const*) const
+  [UP] unprotected variable rprop while calling allocating function Rf_asChar qtbase/src/RClass.cpp:112
+
+Function qvariant_from_sexp(SEXPREC*, int)
+  [UP] unprotected variable rlist while calling allocating function Rf_getAttrib(?,S:names) qtbase/src/convert.cpp:339

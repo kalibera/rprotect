@@ -1,0 +1,15 @@
+Function exactDistr202
+  [UP] unprotected variable plhs while calling allocating function Rprintf nopaco/src/exactdistribution202.cpp:333
+  [UP] unprotected variable plhs while calling allocating function Rprintf nopaco/src/exactdistribution202.cpp:334
+  [UP] unprotected variable plhs while calling allocating function R_FlushConsole nopaco/src/exactdistribution202.cpp:335
+
+Function samplePsi
+  [UP] unprotected variable rP_choleski while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:372
+  [UP] unprotected variable rP_choleski while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:373
+  [UP] unprotected variable rP_mat1Missing while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:373
+  [UP] unprotected variable rP_choleski while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:374
+  [UP] unprotected variable rP_mat1Missing while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:374
+  [UP] unprotected variable rP_nDraws while calling allocating function Rf_coerceVector nopaco/src/samplePsi.cpp:374
+  [UP] unprotected variable rP_choleski while calling allocating function Rf_allocMatrix nopaco/src/samplePsi.cpp:402
+  [UP] unprotected variable rP_mat1Missing while calling allocating function Rf_allocMatrix nopaco/src/samplePsi.cpp:402
+  [UP] unprotected variable rP_nDraws while calling allocating function Rf_allocMatrix nopaco/src/samplePsi.cpp:402

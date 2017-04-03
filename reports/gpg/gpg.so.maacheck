@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_list4 at R_engine_info /home/tomas/packages/build/yZNXeyE8/gpg/src/engine.c:57
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_gpgme_signed_decrypt /home/tomas/packages/build/yZNXeyE8/gpg/src/encrypt.c:68

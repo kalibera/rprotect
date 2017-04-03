@@ -1,0 +1,2 @@
+Function uni_vola_sim
+  [UP] unprotected variable el2 while calling allocating function Rf_allocVector ccgarch/src/R_uni_vola_sim.c:16

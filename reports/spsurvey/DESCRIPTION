@@ -1,0 +1,35 @@
+Package: spsurvey
+Version: 3.3
+Date: 2016-08-19
+Title: Spatial Survey Design and Analysis
+Authors@R: c(
+    person("Tom", "Kincaid", role=c("aut", "cre"),
+           email = "Kincaid.Tom@epa.gov"),
+    person("Tony", "Olsen",  role="aut",
+           email = "Olsen.Tony@epa.gov"),
+    person("Don", "Stevens",  role="ctb"),
+    person("Christian", "Platt",  role="ctb"),
+    person("Denis", "White",  role="ctb"),
+    person("Richard", "Remington",  role="ctb")
+    )
+Depends: R (>= 2.10), sp
+Imports: methods, deldir, foreign, graphics, grDevices, Hmisc, MASS,
+        rgeos, stats
+Description: This group of functions implements algorithms for design and
+    analysis of probability surveys.  The functions are tailored for Generalized
+    Random Tessellation Stratified survey designs.
+License: GPL (>= 2)
+SystemRequirements: little-endian processor required for some functions
+        (see README)
+NeedsCompilation: yes
+Packaged: 2016-08-19 17:15:25 UTC; tkincaid
+Author: Tom Kincaid [aut, cre],
+  Tony Olsen [aut],
+  Don Stevens [ctb],
+  Christian Platt [ctb],
+  Denis White [ctb],
+  Richard Remington [ctb]
+Maintainer: Tom Kincaid <Kincaid.Tom@epa.gov>
+Repository: CRAN
+Date/Publication: 2016-08-19 21:38:56
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:56:43 UTC; unix

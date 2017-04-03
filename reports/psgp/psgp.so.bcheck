@@ -1,0 +1,3 @@
+Function estimateParams
+  [UP] unprotected variable R_psgpParams while calling allocating function prepareData(SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, bool) psgp/src/RInterface.cpp:60
+  [UP] unprotected variable R_psgpParams while calling allocating function PsgpEstimator::learnParameters(PsgpData&, arma::Col<double>&) psgp/src/RInterface.cpp:68

@@ -1,0 +1,2 @@
+Function getCurlError
+  [UP] unprotected variable fun while calling allocating function Rf_allocVector RCurl/src/curl.c:746

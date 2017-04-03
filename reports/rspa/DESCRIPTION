@@ -1,0 +1,21 @@
+Package: rspa
+Maintainer: Mark van der Loo <mark.vanderloo@gmail.com>
+License: GPL-3
+Title: Adapt Numerical Records to Fit (in)Equality Restrictions
+Type: Package
+LazyLoad: yes
+Author: Mark van der Loo
+Description: Based on (optionally sparse) quadratic optimization with the main algorithms implemented in C. Includes features for easy processing of many (smaller) records. The algorithm has been tested on fairly large optimization problems with up to a few million variables and several hundred thousand restrictions.
+Version: 0.1.8
+Depends: R (>= 2.13.0)
+Imports: editrules, graphics, stats
+URL: https://github.com/markvanderloo/rspa
+BugReports: https://github.com/markvanderloo/rspa/issues
+VignetteBuilder: knitr
+Date: 2015-07-13
+Suggests: knitr, testthat
+NeedsCompilation: yes
+Packaged: 2015-07-13 12:37:57 UTC; mark
+Repository: CRAN
+Date/Publication: 2015-07-14 15:57:25
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:02:23 UTC; unix

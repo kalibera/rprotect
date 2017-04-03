@@ -1,0 +1,18 @@
+Package: kergp
+Type: Package
+Title: Gaussian Process Laboratory
+Version: 0.2.0
+Date: 2015-12-22
+Author: Yves Deville, David Ginsbourger, Olivier Roustant. Contributors: Nicolas Durrande.
+Maintainer: Yves Deville <deville.yves@alpestat.com>
+Description: Gaussian Process models with customised covariance kernels.
+License: GPL-3
+Depends: Rcpp (>= 0.10.5), methods, testthat
+Suggests: DiceKriging, DiceDesign, lhs, inline, foreach
+Imports: MASS, numDeriv, stats4, doParallel
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2015-12-23 06:16:18 UTC; yves
+Repository: CRAN
+Date/Publication: 2015-12-23 09:15:28
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:20:33 UTC; unix

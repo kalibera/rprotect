@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_openFile /home/tomas/packages/build/NN7RDBt5/RCurl/src/curl.c:292
+WARNING Suspicious call (two or more unprotected arguments) to Rf_findVarInFrame at getCurlError /home/tomas/packages/build/NN7RDBt5/RCurl/src/curl.c:744
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at makeMultiCURLPointerRObject /home/tomas/packages/build/NN7RDBt5/RCurl/src/curl.c:1470

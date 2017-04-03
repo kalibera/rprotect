@@ -1,0 +1,15 @@
+Package: mritc
+Title: MRI Tissue Classification
+Version: 0.5-0
+Author: Dai Feng and Luke Tierney
+Description: Various methods for MRI tissue classification.
+Maintainer: Dai Feng <dai_feng@merck.com>
+Depends: R (>= 2.14.0), lattice (>= 0.18-8), misc3d (>= 0.8-1),
+        oro.nifti(>= 0.4.0)
+Suggests: tkrplot (>= 0.0-23)
+License: GPL
+Packaged: 2015-01-05 01:56:48 UTC; fengd
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-01-05 07:45:02
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:21:51 UTC; unix

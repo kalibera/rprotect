@@ -1,0 +1,20 @@
+Package: spatialsegregation
+Type: Package
+Title: Segregation Measures for Multitype Spatial Point Patterns
+Version: 2.43
+Date: 2016-10-11
+Author: Tuomas Rajala
+Maintainer: Tuomas Rajala <tuomas.rajala@iki.fi>
+Description: Summaries for measuring segregation/mingling in multitype spatial
+    point patterns with graph based neighbourhood description. Included indices:
+    Mingling, Shannon, Simpson (also the non-spatial) Included functionals:
+    Mingling, Shannon, Simpson, ISAR, MCI. Included neighbourhoods: Geometric, k-
+    nearest neighbours, Gabriel, Delaunay. Dixon's test.
+License: GPL
+Depends: spatstat
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-10-11 08:44:04 UTC; antiphon
+Repository: CRAN
+Date/Publication: 2016-10-11 13:45:28
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:36:11 UTC; unix

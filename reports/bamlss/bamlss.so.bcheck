@@ -1,0 +1,17 @@
+Function gmcmc_iwls
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:768
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:771
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:771
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:777
+
+Function gmcmc_iwls_gp
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:1267
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:1270
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:1270
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:1276
+
+Function gmcmc_iwls_gp_diag_lasso
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:1653
+  [UP] allocating function iwls_eval may destroy its unprotected argument (peta), which is later used. bamlss/src/bamlss_functions.c:1656
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:1656
+  [UP] unprotected variable peta while calling allocating function getListElement bamlss/src/bamlss_functions.c:1662

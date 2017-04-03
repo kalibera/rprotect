@@ -1,0 +1,40 @@
+Encoding: UTF-8
+Package: dplR
+Type: Package
+Title: Dendrochronology Program Library in R
+Version: 1.6.5
+Date: 2017-02-03
+Authors@R: c(person("Andy", "Bunn", role = c("aut", "cph",
+        "cre", "trl"), email = "andy.bunn@wwu.edu"), person("Mikko",
+        "Korpela", role = c("aut", "trl")), person("Franco", "Biondi",
+        role = c("aut", "cph")), person("Filipe", "Campelo", role = 
+        c("aut", "cph")), person("Pierre", "Mérian", role = c("aut", 
+        "cph")), person("Fares", "Qeadan", role = c("aut", "cph")),
+        person("Christian", "Zang", role = c("aut", "cph")),
+        person("Allan", "Buras", role = "ctb"), person("Jacob",
+        "Cecile", role = "ctb"), person("Manfred", "Mudelsee", role =
+        "ctb"), person("Michael", "Schulz", role = "ctb"))
+Author: Andy Bunn [aut, cph, cre, trl], Mikko Korpela [aut, trl], Franco Biondi [aut, cph], Filipe Campelo [aut, cph], Pierre Mérian [aut, cph], Fares Qeadan [aut, cph], Christian Zang [aut, cph], Allan Buras [ctb], Jacob Cecile [ctb], Manfred Mudelsee [ctb], Michael Schulz [ctb]
+Copyright: Authors and file inst/COPYRIGHTS
+Maintainer: Andy Bunn <andy.bunn@wwu.edu>
+Depends: R (>= 2.15.2)
+Imports: graphics, grDevices, grid, stats, utils, lattice (>= 0.13-6),
+        Matrix (>= 1.0-3), digest (>= 0.2.3), gmp (>= 0.5-5),
+        matrixStats (>= 0.50.0), png (>= 0.1-1), R.utils (>= 1.32.0),
+        stringi (>= 0.2-2), stringr (>= 0.4), XML (>= 2.1-0), plyr (>=
+        1.8)
+Suggests: Biobase, Cairo (>= 1.5-0), dichromat (>= 1.2-3), foreach,
+        forecast, iterators, knitr, RColorBrewer, testthat (>= 0.8),
+        tikzDevice, waveslim
+Description: Perform tree-ring analyses such as detrending, chronology
+        building, and cross dating.  Read and write standard file formats
+        used in dendrochronology.
+LazyData: no
+License: GPL (>= 2)
+URL: https://r-forge.r-project.org/projects/dplr/
+MailingList: https://groups.google.com/d/forum/dplr-help
+NeedsCompilation: yes
+Packaged: 2017-02-03 17:57:27 UTC; bunna
+Repository: CRAN
+Date/Publication: 2017-02-03 19:31:01
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:18:12 UTC; unix

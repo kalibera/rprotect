@@ -1,0 +1,31 @@
+Package: MSBVAR
+Version: 0.9-3
+Date: 2011-11-14
+Title: Markov-Switching, Bayesian, Vector Autoregression Models
+Authors@R: c(person("Patrick", "Brandt", role=c("aut", "cre"),
+                     email="pbrandt@utdallas.edu"),
+	     person("W. Ryan", "Davis", role=c("ctb")))
+Maintainer: Patrick Brandt <pbrandt@utdallas.edu>
+Imports: KernSmooth, xtable, coda, bit, mvtnorm, lattice
+Description: Provides methods for estimating frequentist and
+  Bayesian Vector Autoregression (VAR) models and Markov-switching
+  Bayesian VAR (MSBVAR).  Functions for reduced
+  form and structural VAR models are also available. Includes
+  methods for the generating posterior inferences for these models,
+  forecasts, impulse responses (using likelihood-based error bands),
+  and forecast error decompositions.  Also includes utility functions
+  for plotting forecasts and impulse responses, and generating draws
+  from Wishart and singular multivariate normal densities.  Current
+  version includes functionality to build and evaluate models with
+  Markov switching.
+License: MIT + file LICENSE
+License_is_FOSS: yes
+License_restricts_use: no
+SystemRequirements: gcc (>= 4.0)
+NeedsCompilation: yes
+Packaged: 2016-11-14 21:24:51 UTC; pbrandt
+Author: Patrick Brandt [aut, cre],
+  W. Ryan Davis [ctb]
+Repository: CRAN
+Date/Publication: 2016-11-15 00:14:13
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:08:16 UTC; unix

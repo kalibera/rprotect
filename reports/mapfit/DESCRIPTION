@@ -1,0 +1,18 @@
+Package: mapfit
+Version: 0.9.7
+Date: 2015-03-24
+Title: A Tool for PH/MAP Parameter Estimation
+Type: Package
+Author: Hiroyuki Okamura
+Maintainer: Hiroyuki Okamura <okamu@rel.hiroshima-u.ac.jp>
+Description: Estimation methods for phase-type
+  distribution (PH) and Markovian arrival process (MAP) from
+  empirical data (point and grouped data) and density function.
+Depends: methods, Matrix
+Encoding: UTF-8
+License: GPL (>= 2)
+Packaged: 2015-03-24 08:23:00 UTC; okamu
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-03-24 18:15:53
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:07:15 UTC; unix

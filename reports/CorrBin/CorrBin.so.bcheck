@@ -1,0 +1,3 @@
+Function ReprodISDM
+  [UP] unprotected variable res while calling allocating function Rf_asInteger CorrBin/src/ReprodCalcs.c:559
+  [UP] unprotected variable res while calling allocating function Rprintf CorrBin/src/ReprodCalcs.c:560

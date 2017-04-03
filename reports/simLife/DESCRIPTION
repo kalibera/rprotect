@@ -1,0 +1,23 @@
+Package: simLife
+Title: Simulation of Fatigue Lifetimes
+Version: 0.3
+Date: 2016-10-04
+Authors@R: c(person("Markus Baaske", role = c("aut", "cre"),
+			 email = "markus.baaske@math.tu-freiberg.de"),
+			 person("Felix", "Ballani", role = c("aut","ctb"),
+			 email = "ballani@math.tu-freiberg.de"))
+Author: Markus Baaske [aut, cre], Felix Ballani [aut, ctb]
+Maintainer: Markus Baaske <markus.baaske@math.tu-freiberg.de>
+Description: Provides methods for simulation and analysis of a very general fatigue
+			 lifetime model for (metal matrix) composite materials.
+Depends: R (>= 3.1.0), unfoldr
+Imports: grDevices, graphics, stats, splancs
+Suggests: rgl, lattice, GenSA, parallel
+License: GPL-2
+Repository: CRAN
+LazyData: no
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-10-06 12:38:49 UTC; bahama
+Date/Publication: 2016-10-07 18:10:25
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:25:02 UTC; unix

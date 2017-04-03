@@ -1,0 +1,48 @@
+Package: SNPRelate
+Type: Package
+Title: Parallel Computing Toolset for Relatedness and Principal
+        Component Analysis of SNP Data
+Version: 1.9.5
+Date: 2017-02-16
+Depends: R (>= 2.15), gdsfmt (>= 1.8.3)
+LinkingTo: gdsfmt
+Suggests: parallel, RUnit, knitr, MASS, BiocGenerics
+Enhances: SeqArray (>= 1.12.0)
+Authors@R: c(person("Xiuwen", "Zheng", role=c("aut", "cre", "cph"),
+        email="zhengx@u.washington.edu"),
+        person("Stephanie", "Gogarten", role="ctb"),
+        person("Cathy", "Laurie", role="ctb"),
+        person("Bruce", "Weir", role=c("ctb", "ths"),
+        email="bsweir@u.washington.edu"))
+Description: Genome-wide association studies (GWAS) are widely used to
+        investigate the genetic basis of diseases and traits, but they
+        pose many computational challenges. We developed an R package
+        SNPRelate to provide a binary format for single-nucleotide
+        polymorphism (SNP) data in GWAS utilizing CoreArray Genomic
+        Data Structure (GDS) data files. The GDS format offers the
+        efficient operations specifically designed for integers with
+        two bits, since a SNP could occupy only two bits. SNPRelate is
+        also designed to accelerate two key computations on SNP data
+        using parallel computing for multi-core symmetric
+        multiprocessing computer architectures: Principal Component
+        Analysis (PCA) and relatedness analysis using
+        Identity-By-Descent measures. The SNP GDS format is also used by the
+        GWASTools package with the support of S4 classes and generic functions.
+        The extended GDS format is implemented in the SeqArray package to
+        support the storage of single nucleotide variations (SNVs),
+        insertion/deletion polymorphism (indel) and structural variation calls.
+License: GPL-3
+VignetteBuilder: knitr
+URL: http://github.com/zhengxwen/SNPRelate,
+        http://corearray.sourceforge.net/tutorials/SNPRelate/
+BugReports: http://github.com/zhengxwen/SNPRelate/issues
+biocViews: Infrastructure, Genetics, StatisticalMethod,
+        PrincipalComponent
+NeedsCompilation: yes
+Packaged: 2017-02-19 00:59:56 UTC; biocbuild
+Author: Xiuwen Zheng [aut, cre, cph],
+  Stephanie Gogarten [ctb],
+  Cathy Laurie [ctb],
+  Bruce Weir [ctb, ths]
+Maintainer: Xiuwen Zheng <zhengx@u.washington.edu>
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:01:32 UTC; unix

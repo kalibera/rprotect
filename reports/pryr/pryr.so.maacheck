@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at makeExplicit(SEXPREC*) /home/tomas/packages/build/OREMS7w1/pryr/src/promise.cpp:46

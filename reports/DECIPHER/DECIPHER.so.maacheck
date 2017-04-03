@@ -1,0 +1,10 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at NNLS /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/NNLS.c:58
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at clusterNJ /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/ClusterNJ.c:223
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at clusterUPGMA /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/ClusterUPGMA.c:154
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at designProbes /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/DesignProbes.c:66
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at distMatrix /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/DistanceMatrix.c:247
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at findFrameshifts /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/FindFrameshifts.c:168
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at matchLists /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/MultiMatch.c:251
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at matchListsDual /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/MultiMatch.c:359
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at matchOrder /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/MultiMatch.c:460
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at predictDBN /home/tomas/packages/build/lEZDbnM9/DECIPHER/src/PredictDBN.c:125

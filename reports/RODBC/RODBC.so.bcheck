@@ -1,0 +1,3 @@
+Function RODBCListDataSources
+  [UP] unprotected variable ans while calling allocating function Rf_lengthgets RODBC/src/RODBC.c:1503
+  [UP] unprotected variable ans while calling allocating function Rf_lengthgets(V,?) RODBC/src/RODBC.c:1503

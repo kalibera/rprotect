@@ -1,0 +1,5 @@
+Function tnetfit
+  [UP] unprotected variable Routput while calling allocating function PutRNGstate ternarynet/src/tnetfit.cc:357
+
+Function tnetpost
+  [UP] unprotected variable Routput while calling allocating function PutRNGstate ternarynet/src/tnetpost.cc:335

@@ -1,0 +1,52 @@
+Package: poppr
+Type: Package
+Title: Genetic Analysis of Populations with Mixed Reproduction
+Version: 2.3.0
+Date: 2016-11-16
+Authors@R: c(person(c("Zhian", "N."), "Kamvar", role = c("cre", "aut"),
+    email = "zkamvar@gmail.com"),
+    person(c("Javier", "F."), "Tabima", role = "aut",
+    email = "tabimaj@onid.orst.edu"),
+    person(c("Sydney", "E."), "Everhart", role = c("ctb", "dtc"),
+    email = "everhart@unl.edu"),
+    person(c("Jonah", "C."), "Brooks", role = "aut",
+    email = "brookjon@onid.orst.edu"),
+    person(c("Stacy", "A."), "Krueger-Hadfield", role = "ctb",
+    email = "kruegersa@cofc.edu"),
+    person(c("Erik"), "Sotka", role = "ctb",
+    email = "sotkae@cofc.edu"),
+    person(c("Brian", "J."), "Knaus", role = "ctb",
+    email = "briank.lists@gmail.com"),
+    person(c("Niklaus", "J."), "Grunwald", role = "ths",
+    email = "grunwaln@science.oregonstate.edu"))
+Maintainer: Zhian N. Kamvar <zkamvar@gmail.com>
+Encoding: UTF-8
+URL: http://github.com/grunwaldlab/poppr,
+        http://grunwaldlab.github.io/Population_Genetics_in_R/,
+        http://grunwaldlab.cgrb.oregonstate.edu/poppr-r-package-population-genetics
+Description: Population genetic analyses for hierarchical analysis of partially
+    clonal populations built upon the architecture of the 'adegenet' package.
+MailingList: http://groups.google.com/group/poppr
+BugReports: https://github.com/grunwaldlab/poppr/issues
+Depends: R (>= 2.15.1), adegenet (>= 2.0.0)
+Imports: stats, graphics, grDevices, utils, vegan, ggplot2, phangorn,
+        ape (>= 3.1-1), igraph, methods, ade4, pegas, reshape2, dplyr
+        (>= 0.4), boot, shiny, magrittr
+Suggests: testthat, knitr, rmarkdown, knitcitations, polysat, poweRlaw,
+        cowplot
+License: GPL-2 | GPL-3
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-11-23 04:11:40 UTC; zhian
+Author: Zhian N. Kamvar [cre, aut],
+  Javier F. Tabima [aut],
+  Sydney E. Everhart [ctb, dtc],
+  Jonah C. Brooks [aut],
+  Stacy A. Krueger-Hadfield [ctb],
+  Erik Sotka [ctb],
+  Brian J. Knaus [ctb],
+  Niklaus J. Grunwald [ths]
+Repository: CRAN
+Date/Publication: 2016-11-23 17:45:12
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:06:58 UTC; unix

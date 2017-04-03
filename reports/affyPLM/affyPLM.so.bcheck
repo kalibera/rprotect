@@ -1,0 +1,8 @@
+Function rlm_PLM_alloc_space
+  [PB] has possible protection stack imbalance affyPLM/src/rlm_PLM.c:619
+
+Function rmaPLM_alloc_space
+  [PB] has possible protection stack imbalance affyPLM/src/rma_PLM.c:120
+
+Function threestepPLM_alloc_space
+  [PB] has possible protection stack imbalance affyPLM/src/threestep_PLM.c:118

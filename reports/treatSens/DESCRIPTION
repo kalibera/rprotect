@@ -1,0 +1,27 @@
+Package: treatSens
+Version: 2.0.1
+Date: 2016-01-25
+Title: Sensitivity Analysis for Causal Inference
+Authors@R: c(person("Nicole Bohme", "Carnegie", role = c("aut", "cre"), email = "carnegin@uwm.edu"),
+             person("Masataka",       "Harada", role = "aut",           email = "masatakaharada@gmail.com"),
+             person("Vincent",         "Dorie", role = "aut",           email = "vjd4@nyu.edu"),
+             person("Jennifer",         "Hill", role = "ctb",           email = "jennifer.hill@nyu.edu"))
+Depends: R (>= 3.1-0)
+Imports: methods, stats, graphics, grDevices, dbarts (>= 0.8-5)
+Suggests: doParallel, foreach, testthat (>= 0.9-0)
+LinkingTo: dbarts (>= 0.8-5)
+Description: Utilities to investigate sensitivity to unmeasured confounding in parametric models with either binary or continuous treatment.
+NeedsCompilation: yes
+Biarch: yes
+License: GPL (>= 2)
+URL: https://github.com/vdorie/treatSens
+BugReports: https://github.com/vdorie/treatSens/issues
+Packaged: 2016-01-26 05:04:04 UTC; vdorie
+Author: Nicole Bohme Carnegie [aut, cre],
+  Masataka Harada [aut],
+  Vincent Dorie [aut],
+  Jennifer Hill [ctb]
+Maintainer: Nicole Bohme Carnegie <carnegin@uwm.edu>
+Repository: CRAN
+Date/Publication: 2016-02-05 00:31:06
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:00:45 UTC; unix

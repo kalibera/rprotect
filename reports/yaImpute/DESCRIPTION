@@ -1,0 +1,28 @@
+Package: yaImpute
+Version: 1.0-26
+Date: 2015-07-20
+Title: Nearest Neighbor Observation Imputation and Evaluation Tools
+Author: Nicholas L. Crookston, Andrew O. Finley, John Coulston (Sunil Arya and David Mount for ANN)
+Copyright: ANN library is copyright University of Maryland and Sunil
+        Arya and David Mount. See file COPYRIGHTS for details.
+Maintainer: Nicholas L. Crookston <ncrookston.fs@gmail.com>
+Depends: R (>= 2.11.0)
+Imports: grDevices, graphics, stats, utils
+Suggests: vegan, ccaPP, randomForest, gam, fastICA, parallel
+NeedsCompilation: yes
+Description: Performs nearest neighbor-based imputation using one or more alternative 
+ approaches to processing multivariate data. These include methods based on canonical 
+ correlation analysis, canonical correspondence analysis, and a multivariate adaptation 
+ of the random forest classification and regression techniques of Leo Breiman and Adele 
+ Cutler. Additional methods are also offered. The package includes functions for 
+ comparing the results from running alternative techniques, detecting imputation targets 
+ that are notably distant from reference observations, detecting and correcting 
+ for bias, bootstrapping and building ensemble imputations, and mapping results.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: yaimpute
+Repository/R-Forge/Revision: 89
+Repository/R-Forge/DateTimeStamp: 2015-07-20 15:12:57
+Date/Publication: 2015-07-20 18:36:55
+Packaged: 2015-07-20 15:25:14 UTC; rforge
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:21 UTC; unix

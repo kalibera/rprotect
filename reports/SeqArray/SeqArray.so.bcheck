@@ -1,0 +1,64 @@
+Function SEQ_ConvBED2GDS
+  [PB] has possible protection stack imbalance SeqArray/src/ConvToGDS.cpp:116
+
+Function SEQ_GetSpace
+  [PB] has possible protection stack imbalance SeqArray/src/SeqArray.cpp:788
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/SeqArray.cpp:788
+
+Function SEQ_SetChrom
+  [PB] has possible protection stack imbalance SeqArray/src/SeqArray.cpp:731
+
+Function SEQ_SplitSelection
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/SeqArray.cpp:895
+
+Function SEQ_Summary
+  [PB] has possible protection stack imbalance SeqArray/src/SeqArray.cpp:952
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/SeqArray.cpp:952
+
+Function SEQ_System
+  [PB] has possible protection stack imbalance SeqArray/src/SeqArray.cpp:1098
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/SeqArray.cpp:1098
+
+Function SEQ_VCF_Parse
+  [UP] unprotected variable rv_ans while calling allocating function GDS_GetError SeqArray/src/ConvVCF2GDS.cpp:1851
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/ConvVCF2GDS.cpp:1851
+  [PB] has possible protection stack imbalance SeqArray/src/ConvVCF2GDS.cpp:1869
+
+Function SeqArray::CApply_Variant_Chrom::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:125
+
+Function SeqArray::CApply_Variant_Dosage::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:351
+
+Function SeqArray::CApply_Variant_Format::NeedRData(int&)
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector SeqArray/src/ReadByVariant.cpp:674
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector SeqArray/src/ReadByVariant.cpp:679
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector SeqArray/src/ReadByVariant.cpp:680
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar SeqArray/src/ReadByVariant.cpp:681
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar SeqArray/src/ReadByVariant.cpp:682
+  [UP] unprotected variable ans while calling allocating function Rf_setAttrib(V,S:names,V) SeqArray/src/ReadByVariant.cpp:683
+
+Function SeqArray::CApply_Variant_Geno::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:308
+
+Function SeqArray::CApply_Variant_Info::NeedRData(int&)
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector SeqArray/src/ReadByVariant.cpp:571
+
+Function SeqArray::CApply_Variant_NumAllele::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:720
+
+Function SeqArray::CApply_Variant_Phase::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:501
+
+Function SeqArray::CApply_Variant_Pos::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadByVariant.cpp:95
+
+Function SeqArray::CVarApplyBySample::NeedRData(int&)
+  [PB] has possible protection stack imbalance SeqArray/src/ReadBySample.cpp:471
+
+Function SeqArray::RObject_GDS(void*, unsigned long, int&, bool)
+  [PB] has possible protection stack imbalance SeqArray/src/Index.cpp:943
+
+Function test_position_index
+  [PB] has possible protection stack imbalance SeqArray/src/pkg_test.cpp:220
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SeqArray/src/pkg_test.cpp:220

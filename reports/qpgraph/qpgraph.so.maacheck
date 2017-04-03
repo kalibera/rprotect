@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at qp_fast_cov_upper_triangular /home/tomas/packages/build/IiLWfwZM/qpgraph/src/qpgraph.c:8068

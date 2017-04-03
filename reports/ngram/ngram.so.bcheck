@@ -1,0 +1,2 @@
+Function ng_process
+  [UP] unprotected variable RET while calling allocating function free_sentencelist ngram/src/constructor.c:118

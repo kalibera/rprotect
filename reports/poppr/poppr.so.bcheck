@@ -1,0 +1,10 @@
+Function bruvo_distance
+  [UP] unprotected variable bruvo_mat while calling allocating function Rf_coerceVector poppr/src/poppr_distance.c:229
+  [UP] unprotected variable bruvo_mat while calling allocating function Rf_allocMatrix poppr/src/poppr_distance.c:230
+  [UP] unprotected variable bruvo_mat while calling allocating function Rf_allocVector poppr/src/poppr_distance.c:231
+
+Function pairwise_covar
+  [UP] unprotected variable pair_vec while calling allocating function Rf_allocVector poppr/src/poppr_distance.c:86
+
+Function permute_shuff
+  [UP] unprotected variable alleles while calling allocating function Rf_coerceVector poppr/src/permut_shuffler.c:67

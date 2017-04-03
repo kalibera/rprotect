@@ -1,0 +1,17 @@
+Package: treeHFM
+Version: 1.0.3
+Date: 2016-09-17
+Title: Hidden Factor Graph Models
+Author: Henrik Failmezger, Achim Tresch
+Maintainer: Henrik Failmezger <Henrik.Failmezger@googlemail.com>
+Depends: mclust
+Collate: HFMfit.R HFMviterbi.R DrawViterbiTree.R
+Description: Hidden Factor graph models generalise Hidden Markov Models to tree structured data. The distinctive feature of 'treeHFM' is that it learns a transition matrix for first order (sequential) and for second order (splitting) events. It can be applied to all discrete and continuous data that is structured as a binary tree. In the case of continuous observations, 'treeHFM' has Gaussian distributions as emissions.
+License: GPL (>= 2)
+biocViews: HiddenMarkovModel, Clustering
+LazyLoad: yes
+Packaged: 2016-09-18 19:12:13 UTC; henrikfailmezger
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2016-09-19 01:45:39
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:00:37 UTC; unix

@@ -1,0 +1,2 @@
+Function getPar
+  [UP] unprotected variable cbR while calling allocating function Rf_warning lazy/src/lazy.c:259

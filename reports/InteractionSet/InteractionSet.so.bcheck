@@ -1,0 +1,11 @@
+Function expand_pair_links
+  [PB] has possible protection stack imbalance InteractionSet/src/overlaps.cpp:709
+
+Function get_box_bounds
+  [PB] has possible protection stack imbalance InteractionSet/src/box_bounds.cpp:82
+
+Function linear_olaps
+  [PB] has possible protection stack imbalance InteractionSet/src/overlaps.cpp:558
+
+Function paired_olaps
+  [PB] has possible protection stack imbalance InteractionSet/src/overlaps.cpp:588

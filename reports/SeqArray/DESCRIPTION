@@ -1,0 +1,37 @@
+Package: SeqArray
+Type: Package
+Title: Big Data Management of Whole-genome Sequence Variant Calls
+Version: 1.15.4
+Date: 2017-02-15
+Depends: R (>= 3.3.0), gdsfmt (>= 1.10.1)
+Imports: methods, parallel, S4Vectors, IRanges, GenomicRanges,
+        GenomeInfoDb, SummarizedExperiment, Biostrings,
+        VariantAnnotation
+LinkingTo: gdsfmt
+Suggests: BiocParallel, digest, crayon, RUnit, Biobase, BiocGenerics,
+        knitr, Rcpp, SNPRelate
+Authors@R: c(person("Xiuwen", "Zheng", role=c("aut", "cre"),
+        email="zhengx@u.washington.edu"),
+        person("Stephanie", "Gogarten", role="aut",
+        email="sdmorris@u.washington.edu"),
+        person("David", "Levine", role="ctb"),
+        person("Cathy", "Laurie", role="ctb"))
+Description: Big data management of whole-genome sequencing variant calls with
+        thousands of individuals: genotypic data (e.g., SNVs, indels and
+        structural variation calls) and annotations in SeqArray files are
+        stored in an array-oriented and compressed manner, with efficient data
+        access using the R programming language.
+License: GPL-3
+VignetteBuilder: knitr
+ByteCompile: TRUE
+URL: http://github.com/zhengxwen/SeqArray
+BugReports: http://github.com/zhengxwen/SeqArray/issues
+biocViews: Infrastructure, DataRepresentation, Sequencing, Genetics
+NeedsCompilation: yes
+Packaged: 2017-03-06 00:42:10 UTC; biocbuild
+Author: Xiuwen Zheng [aut, cre],
+  Stephanie Gogarten [aut],
+  David Levine [ctb],
+  Cathy Laurie [ctb]
+Maintainer: Xiuwen Zheng <zhengx@u.washington.edu>
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:21:27 UTC; unix

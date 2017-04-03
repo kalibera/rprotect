@@ -1,0 +1,8 @@
+Function PSicalc
+  [UP] unprotected variable Rris while calling allocating function PutRNGstate RInSp/src/PSicalc.c:203
+
+Function WTcMC
+  [UP] unprotected variable Rris while calling allocating function PutRNGstate RInSp/src/WTcMC.c:298
+
+Function WTdMC
+  [UP] unprotected variable Rris while calling allocating function PutRNGstate RInSp/src/WTdMC.c:181

@@ -1,0 +1,7 @@
+Function liquid_svm_R_get_solution
+  [UP] unprotected variable offsetR while calling allocating function Rf_allocVector liquidSVM/src/liquidSVM_R.cpp:322
+  [UP] unprotected variable offsetR while calling allocating function Rf_allocVector liquidSVM/src/liquidSVM_R.cpp:326
+  [UP] unprotected variable offsetR while calling allocating function Rf_mkNamed liquidSVM/src/liquidSVM_R.cpp:332
+
+Function liquid_svm_R_test
+  [UP] unprotected variable error_retR while calling allocating function Rf_install liquidSVM/src/liquidSVM_R.cpp:225

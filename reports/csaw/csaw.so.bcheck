@@ -1,0 +1,14 @@
+Function annotate_overlaps
+  [PB] has possible protection stack imbalance csaw/src/annotator.cpp:297
+
+Function check_bimodality
+  [PB] has possible protection stack imbalance csaw/src/check_bimodality.cpp:204
+
+Function correlate_reads
+  [PB] has possible protection stack imbalance csaw/src/correlate_reads.cpp:252
+
+Function get_cluster_weight
+  [PB] has possible protection stack imbalance csaw/src/get_cluster_stats.cpp:200
+
+Function get_rle_counts
+  [PB] has possible protection stack imbalance csaw/src/get_rle_counts.cpp:54

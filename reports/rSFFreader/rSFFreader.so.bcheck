@@ -1,0 +1,7 @@
+Function read_sff
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector rSFFreader/src/SFF-io.c:892
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rSFFreader/src/SFF-io.c:893
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rSFFreader/src/SFF-io.c:894
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rSFFreader/src/SFF-io.c:895
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rSFFreader/src/SFF-io.c:896
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rSFFreader/src/SFF-io.c:897

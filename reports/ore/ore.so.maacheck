@@ -1,0 +1,6 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:290
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:291
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:296
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:300
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:304
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ore_build /home/tomas/packages/build/gGZgXD85/ore/src/compile.c:308

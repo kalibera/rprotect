@@ -1,0 +1,2 @@
+Function Fun::toSEXP(SEXPREC*)
+  [UP] unprotected variable res while calling allocating function getListElement(SEXPREC*, char const*) spatialsegregation/src/Fun.cpp:65

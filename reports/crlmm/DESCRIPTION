@@ -1,0 +1,36 @@
+Package: crlmm
+Type: Package
+Title: Genotype Calling (CRLMM) and Copy Number Analysis tool for
+        Affymetrix SNP 5.0 and 6.0 and Illumina arrays
+Version: 1.33.1
+Author: Benilton S Carvalho, Robert Scharpf, Matt Ritchie, Ingo
+        Ruczinski, Rafael A Irizarry
+Maintainer: Benilton S Carvalho <benilton@unicamp.br>,
+ Robert Scharpf <rscharpf@jhsph.edu>, Matt Ritchie
+ <mritchie@wehi.EDU.AU>
+Description: Faster implementation of CRLMM specific to SNP 5.0 and 6.0
+        arrays, as well as a copy number tool specific to 5.0, 6.0, and
+        Illumina platforms.
+License: Artistic-2.0
+Depends: R (>= 2.14.0), oligoClasses (>= 1.21.12), preprocessCore (>=
+        1.17.7)
+LinkingTo: preprocessCore (>= 1.17.7)
+Imports: methods, Biobase (>= 2.15.4), BiocGenerics, affyio (>=
+        1.23.2), illuminaio, ellipse, mvtnorm, splines, stats, SNPchip,
+        utils, lattice, ff, foreach, RcppEigen (>= 0.3.1.2.1),
+        matrixStats, VGAM, parallel, graphics, limma, beanplot
+Suggests: hapmapsnp6, genomewidesnp6Crlmm (>= 1.0.7), GGdata, snpStats,
+        RUnit
+Collate: AllGenerics.R AllClasses.R methods-AssayData.R methods-CNSet.R
+        methods-CNSetLM.R methods-eSet.R methods-SnpSuperSet.R
+        methods-PredictionRegion.R cnrma-functions.R cnset-accessors.R
+        crlmm-functions.R crlmmGT2.R crlmm-illumina.R krlmm.R plot.R
+        snprma-functions.R utils.R zzz.R test_crlmm_package.R
+LazyLoad: yes
+## Local Variables:
+## time-stamp-pattern: "8/Date: %3a %3b %2d %02H:%02M:%02S %Z %:y\n"
+## End:
+biocViews: Microarray, Preprocessing, SNP, CopyNumberVariation
+NeedsCompilation: yes
+Packaged: 2017-02-15 00:08:49 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:08:02 UTC; unix

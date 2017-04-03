@@ -1,0 +1,5 @@
+Function BlockOpt
+  [UP] unprotected variable Xi while calling allocating function Rf_coerceVector AlgDesign/src/OptBlock.c:3495
+
+Function FederovOpt
+  [UP] unprotected variable Xi while calling allocating function Rf_coerceVector AlgDesign/src/FederovOpt.c:1990

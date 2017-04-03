@@ -1,0 +1,16 @@
+Package: cghFLasso
+Version: 0.2-1
+Date: 2009-06-01
+Title: Detecting hot spot on CGH array data with fused lasso
+        regression.
+Author: Nicholas Austin Johnson <nickaj@stanford.edu>, Robert
+        Tibshirani <tibs@stat.stanford.edu>, Pei Wang
+        <pwang@fhcrc.org>.
+Maintainer: Pei Wang <pwang@fhcrc.org>
+Description: Spatial smoothing and hot spot detection using the fused
+        lasso regression
+License: GPL (>= 2)
+Packaged: 2009-06-05 01:13:30 UTC; pwang
+Repository: CRAN
+Date/Publication: 2009-06-07 19:19:51
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:45:39 UTC; unix

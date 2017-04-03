@@ -1,0 +1,41 @@
+Function cap_input
+  [PB] has possible protection stack imbalance diffHic/src/check_input.cpp:72
+
+Function cluster_2d
+  [PB] has possible protection stack imbalance diffHic/src/cluster_2d.cpp:256
+
+Function count_background
+  [PB] has possible protection stack imbalance diffHic/src/count_background.cpp:277
+
+Function count_connect
+  [PB] has possible protection stack imbalance diffHic/src/count_connect.cpp:214
+
+Function count_patch
+  [PB] has possible protection stack imbalance diffHic/src/count_patch.cpp:72
+
+Function directionality
+  [PB] has possible protection stack imbalance diffHic/src/directionality.cpp:79
+
+Function get_bounding_box
+  [PB] has possible protection stack imbalance diffHic/src/cluster_2d.cpp:438
+
+Function get_missing_dist
+  [PB] has possible protection stack imbalance diffHic/src/trended_filter.cpp:55
+
+Function iterative_correction
+  [PB] has possible protection stack imbalance diffHic/src/iterative_correction.cpp:223
+
+Function pair_stats
+  [PB] has possible protection stack imbalance diffHic/src/pair_stats.cpp:85
+
+Function quadrant_bg
+  [PB] has possible protection stack imbalance diffHic/src/quadrant_bg.cpp:119
+
+Function split_clusters
+  [PB] has possible protection stack imbalance diffHic/src/cluster_2d.cpp:377
+
+Function test_fragment_assign
+  [PB] has possible protection stack imbalance diffHic/src/report_hic_pairs.cpp:670
+
+Function test_parse_cigar
+  [PB] has possible protection stack imbalance diffHic/src/report_hic_pairs.cpp:647

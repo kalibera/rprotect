@@ -1,0 +1,88 @@
+Function CHMfactor_spsolve
+  [UP] unprotected variable dn while calling allocating function cholmod_spsolve Matrix/src/CHMfactor.c:68
+
+Function Csparse_transpose
+  [UP] unprotected variable tmp while calling allocating function Rf_allocVector Matrix/src/Csparse.c:417
+  [UP] unprotected variable dn while calling allocating function R_do_slot(?,S:uplo) Matrix/src/Csparse.c:425
+  [UP] unprotected variable dn while calling allocating function R_do_slot(?,S:diag) Matrix/src/Csparse.c:426
+
+Function SET_DimNames_symm
+  [UP] unprotected variable nms_dn while calling allocating function R_compute_identical Matrix/src/Mutils.c:1334
+
+Function _geMatrix_crossprod
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:Dim,?,?) Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:factors,?,?) Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:x,?,?) Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function R_do_slot(?,S:Dim) Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function R_do_slot_assign(?,S:uplo,V) Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function Rf_duplicate Matrix/src/dgeMatrix.c:132
+  [UP] unprotected variable vDnms while calling allocating function Rf_mkString Matrix/src/dgeMatrix.c:132
+
+Function compressed_non_0_ij
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:p) Matrix/src/dgCMatrix.c:134
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:Dim) Matrix/src/dgCMatrix.c:136
+  [UP] unprotected variable indP while calling allocating function Rf_allocMatrix Matrix/src/dgCMatrix.c:140
+
+Function compressed_to_TMatrix
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:p) Matrix/src/dgCMatrix.c:51
+  [UP] unprotected variable indP while calling allocating function Rf_asChar Matrix/src/dgCMatrix.c:53
+  [UP] unprotected variable indP while calling allocating function R_check_class_etc Matrix/src/dgCMatrix.c:55
+  [UP] unprotected variable indP while calling allocating function R_do_MAKE_CLASS Matrix/src/dgCMatrix.c:62
+  [UP] unprotected variable indP while calling allocating function R_do_new_object Matrix/src/dgCMatrix.c:62
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:Dim) Matrix/src/dgCMatrix.c:64
+  [UP] unprotected variable indP while calling allocating function R_do_slot_assign(?,S:Dim,?) Matrix/src/dgCMatrix.c:64
+  [UP] unprotected variable indP while calling allocating function Rf_duplicate Matrix/src/dgCMatrix.c:64
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:x) Matrix/src/dgCMatrix.c:66
+  [UP] unprotected variable indP while calling allocating function R_do_slot_assign(?,S:x,?) Matrix/src/dgCMatrix.c:66
+  [UP] unprotected variable indP while calling allocating function Rf_duplicate Matrix/src/dgCMatrix.c:66
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:uplo) Matrix/src/dgCMatrix.c:68
+  [UP] unprotected variable indP while calling allocating function R_do_slot_assign(?,S:uplo,?) Matrix/src/dgCMatrix.c:68
+  [UP] unprotected variable indP while calling allocating function Rf_duplicate Matrix/src/dgCMatrix.c:68
+  [UP] unprotected variable indP while calling allocating function R_do_slot(?,S:diag) Matrix/src/dgCMatrix.c:70
+  [UP] unprotected variable indP while calling allocating function R_do_slot_assign(?,S:diag,?) Matrix/src/dgCMatrix.c:70
+  [UP] unprotected variable indP while calling allocating function Rf_duplicate Matrix/src/dgCMatrix.c:70
+  [UP] unprotected variable indP while calling allocating function SET_DimNames.731 Matrix/src/dgCMatrix.c:72
+  [UP] unprotected variable indP while calling allocating function R_do_slot_assign Matrix/src/dgCMatrix.c:74
+
+Function ddense_skewpart
+  [UP] unprotected variable nms_dns while calling allocating function R_compute_identical Matrix/src/dense.c:504
+
+Function ddense_symmpart
+  [UP] unprotected variable nms_dns while calling allocating function R_compute_identical Matrix/src/dense.c:477
+
+Function dense_to_symmetric
+  [UP] unprotected variable nms_dns while calling allocating function R_compute_identical Matrix/src/dense.c:402
+  [UP] unprotected variable nms_dns while calling allocating function Rf_asChar Matrix/src/dense.c:404
+
+Function dgeMatrix_crossprod
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:Dim,?,?) Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:factors,?,?) Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function ALLOC_SLOT.819(?,S:x,?,?) Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function R_do_slot(?,S:Dim) Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function R_do_slot_assign(?,S:uplo,V) Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function Rf_duplicate Matrix/src/dgeMatrix.c:104
+  [UP] unprotected variable vDnms while calling allocating function Rf_mkString Matrix/src/dgeMatrix.c:104
+
+Function dup_mMatrix_as_dgeMatrix2
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:844
+
+Function dup_mMatrix_as_geMatrix
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:710
+
+Function internal_chm_factor
+  [UP] unprotected variable nms while calling allocating function as_cholmod_sparse Matrix/src/dsCMatrix.c:67
+
+Function set_double_by_name
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:74
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:75
+  [UP] unprotected variable nms while calling allocating function Rf_setAttrib(V,S:names,V) Matrix/src/Mutils.c:77
+  [UP] unprotected variable nms while calling allocating function Rf_duplicate Matrix/src/Mutils.c:80
+
+Function set_factors
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:149
+  [UP] unprotected variable nms while calling allocating function Rf_allocVector Matrix/src/Mutils.c:150
+  [UP] unprotected variable nms while calling allocating function Rf_setAttrib(V,S:names,V) Matrix/src/Mutils.c:151
+  [UP] unprotected variable nms while calling allocating function Rf_duplicate Matrix/src/Mutils.c:155
+
+Function symmetric_DimNames
+  [UP] unprotected variable nms_dn while calling allocating function R_compute_identical Matrix/src/Mutils.c:1300

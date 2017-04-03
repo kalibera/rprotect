@@ -1,0 +1,47 @@
+Package: sem
+Version: 3.1-8
+Date: 2016-08-15
+Title: Structural Equation Models
+Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email = "jfox@mcmaster.ca"),
+	person("Zhenghua", "Nie", role = "aut", email="zhenghua.nie@gmail.com"),
+    person("Jarrett", "Byrnes", role = "aut", email="byrnes@nceas.ucsb.edu"),
+    person("Michael", "Culbertson", role = "ctb"),
+    person("Saikat", "DebRoy", role = "ctb"),
+    person("Michael", "Friendly", role = "ctb"),
+    person("Benjamin", "Goodrich", role = "ctb"),
+    person(given="Richard H.", family="Jones", role = "ctb"),
+    person("Adam", "Kramer", role = "ctb"),
+    person("Georges", "Monette", role = "ctb"),
+    person("R-Core", role = "ctb")
+	)
+Depends: R (>= 2.14.0), stats
+Imports: matrixcalc, MASS, boot, mi (>= 0.9-99), utils
+Suggests: polycor, MBESS, DiagrammeR
+LazyLoad: yes
+LazyData: yes
+ByteCompile: yes
+Description: Functions for fitting general linear structural
+    equation models (with observed and latent variables) using the RAM approach, 
+    and for fitting structural equations in observed-variable models by two-stage least squares.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Author: John Fox [aut, cre],
+  Zhenghua Nie [aut],
+  Jarrett Byrnes [aut],
+  Michael Culbertson [ctb],
+  Saikat DebRoy [ctb],
+  Michael Friendly [ctb],
+  Benjamin Goodrich [ctb],
+  Richard H. Jones [ctb],
+  Adam Kramer [ctb],
+  Georges Monette [ctb],
+  R-Core [ctb]
+Maintainer: John Fox <jfox@mcmaster.ca>
+Repository: CRAN
+Repository/R-Forge/Project: sem
+Repository/R-Forge/Revision: 173
+Repository/R-Forge/DateTimeStamp: 2016-08-16 00:03:41
+Date/Publication: 2016-08-16 19:49:26
+NeedsCompilation: yes
+Packaged: 2016-08-16 00:05:31 UTC; rforge
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:56:24 UTC; unix

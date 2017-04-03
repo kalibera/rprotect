@@ -1,0 +1,5 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at bam_count_segment_aligns /home/tomas/packages/build/pWmc4xtw/rbamtools/src/rbamtools.cpp:4625
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at bam_count_segment_melt_down /home/tomas/packages/build/pWmc4xtw/rbamtools/src/rbamtools.cpp:4702
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at bam_count_segment_melt_down /home/tomas/packages/build/pWmc4xtw/rbamtools/src/rbamtools.cpp:4703
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at bam_count_segment_melt_down /home/tomas/packages/build/pWmc4xtw/rbamtools/src/rbamtools.cpp:4704
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at bam_count_segment_melt_down /home/tomas/packages/build/pWmc4xtw/rbamtools/src/rbamtools.cpp:4705

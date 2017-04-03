@@ -1,0 +1,17 @@
+Function allfaces
+  [UP] unprotected variable result while calling allocating function PutRNGstate rcdd/src/allfaces.c:107
+
+Function allfaces_f
+  [UP] unprotected variable result while calling allocating function PutRNGstate rcdd/src/allfaces_f.c:101
+
+Function impliedLinearity
+  [UP] unprotected variable foo6 while calling allocating function PutRNGstate rcdd/src/linearity.c:132
+
+Function impliedLinearity_f
+  [UP] unprotected variable foo7 while calling allocating function PutRNGstate rcdd/src/linearity_f.c:124
+
+Function lpcdd
+  [UP] unprotected variable result while calling allocating function PutRNGstate rcdd/src/lpcdd.c:466
+
+Function lpcdd_f
+  [UP] unprotected variable result while calling allocating function PutRNGstate rcdd/src/lpcdd_f.c:431

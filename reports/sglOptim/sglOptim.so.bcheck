@@ -1,0 +1,2 @@
+Function protect(bool, SEXPREC*)
+  [PB] has possible protection stack imbalance sglOptim/src/../inst/include/rtools/rObject_def.h:25

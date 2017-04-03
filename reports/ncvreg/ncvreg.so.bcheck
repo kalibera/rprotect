@@ -1,0 +1,14 @@
+Function cdfit_binomial
+  [PB] has possible protection stack imbalance ncvreg/src/binomial.c:246
+
+Function cdfit_cox_dh
+  [PB] has possible protection stack imbalance ncvreg/src/cox-dh.c:205
+
+Function cdfit_gaussian
+  [PB] has possible protection stack imbalance ncvreg/src/gaussian.c:208
+
+Function cdfit_poisson
+  [PB] has possible protection stack imbalance ncvreg/src/poisson.c:231
+
+Function cdfit_raw
+  [PB] has possible protection stack imbalance ncvreg/src/raw.c:158

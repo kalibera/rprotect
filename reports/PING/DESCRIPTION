@@ -1,0 +1,20 @@
+Package: PING
+Type: Package
+Title: Probabilistic inference for Nucleosome Positioning with
+        MNase-based or Sonicated Short-read Data
+Version: 2.19.0
+Author: Xuekui Zhang <xuezhang@jhsph.edu>, Raphael Gottardo
+        <raph@stat.ubc.ca>, Sangsoon Woo <swoo@fhcrc.org>
+Maintainer: Renan Sauteraud <rsautera@fhcrc.org>
+Depends: R(>= 2.15.0), chipseq, IRanges, GenomicRanges
+Imports: methods, PICS, graphics, grDevices, stats, Gviz, fda,
+        BSgenome, stats4, BiocGenerics, IRanges, S4Vectors
+Suggests: parallel, ShortRead, rtracklayer
+Description: Probabilistic inference of ChIP-Seq using an empirical
+        Bayes mixture model approach.
+Collate: setClasses.R setMethods.R PING.R postPING.R segmentPING.R
+License: Artistic-2.0
+Packaged: 2016-10-17 23:00:15 UTC; biocbuild
+biocViews: Clustering, StatisticalMethod, Visualization, Sequencing
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:25:27 UTC; unix

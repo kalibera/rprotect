@@ -1,0 +1,40 @@
+Package: Kmisc
+Type: Package
+Title: Kevin Miscellaneous
+Version: 0.5.0
+Date: 2013-12-12
+Author: Kevin Ushey
+Maintainer: Kevin Ushey <kevinushey@gmail.com>
+Description: This package contains a collection of functions for common data
+    extraction and reshaping operations, string manipulation, and
+    functions for table and plot generation for R Markdown documents.
+License: GPL (>= 2)
+LazyData: TRUE
+LinkingTo: Rcpp
+URL: https://github.com/kevinushey/Kmisc
+BugReports: https://github.com/kevinushey/Kmisc/issues
+Imports: Rcpp (>= 0.10.5), data.table, lattice, grid, knitr, markdown
+Suggests: ggplot2, plyr, reshape2, googleVis, testthat, microbenchmark
+ByteCompile: TRUE
+VignetteBuilder: knitr
+Collate: 'Kmisc-md2html.R' 'Kmisc-package.R' 'RcppExports.R'
+        'Rcpp_gen_makevars.R' 'anat.R' 'any_na.R' 'apply.R' 'awk.R'
+        'bwplot2.R' 'chunk.R' 'clean_doc.R' 'copy.R' 'counts.R'
+        'extract.R' 'extract_rows_from_file.R' 'fast_factor.R'
+        'grid.text2.R' 'html.R' 'htmlTable.R' 'html_attach.R'
+        'html_extras.R' 'html_tags.R' 'in_interval.R' 'is_sorted.R'
+        'labeller.R' 'list_to_dataframe.R' 'manhattan_plot.R'
+        'mat2df.R' 'matches.R' 'melt_.R' 'misc.R' 'nametree.R'
+        'pMerge.R' 'pad.R' 'par.reset.R' 'pp_plot.R'
+        'prepare_package.R' 'pymat.R' 'rcpp_apply_generator.R'
+        'rcpp_tapply_generator.R' 'read.R' 'regex.R'
+        'registerFunctions.R' 'remove_char_digit.R' 'simp.R' 'size.R'
+        'split_file.R' 'split_runs.R' 'stack_list.R' 'str_collapse.R'
+        'str_rev.R' 'str_slice.R' 'str_sort.R' 'str_split.R' 'swap.R'
+        'sys.R' 'tapply_.R' 'transpose.R' 'unmelt.R' 'update_date.R'
+        'value_matching.R' 'wrap.R'
+Packaged: 2013-12-13 01:35:20 UTC; kevinushey
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-13 06:40:46
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:31:41 UTC; unix

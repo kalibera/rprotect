@@ -1,0 +1,5 @@
+Function deleteListElement
+  [UP] unprotected variable names while calling allocating function Rf_allocVector relevent/src/utils.c:69
+  [UP] unprotected variable names while calling allocating function Rf_allocVector relevent/src/utils.c:70
+  [UP] unprotected variable names while calling allocating function Rf_mkChar relevent/src/utils.c:77
+  [UP] unprotected variable names while calling allocating function Rf_mkChar relevent/src/utils.c:84

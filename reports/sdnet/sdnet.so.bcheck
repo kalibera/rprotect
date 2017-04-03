@@ -1,0 +1,50 @@
+Function RCatnet::genRcatnetFromDagEvaluate(SEXPREC*, SEXPREC*)
+  [UP] unprotected variable ppars while calling allocating function R_do_slot(?,S:parSlots) sdnet/src/./rcatnet.cpp:441
+  [UP] unprotected variable ppars while calling allocating function Rf_install sdnet/src/./rcatnet.cpp:441
+  [UP] unprotected variable ppars while calling allocating function Rf_coerceVector sdnet/src/./rcatnet.cpp:444
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:498
+  [UP] unprotected variable rNodeNames while calling allocating function R_do_slot_assign(?,S:maxpars,V) sdnet/src/./rcatnet.cpp:500
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_install sdnet/src/./rcatnet.cpp:500
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:503
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:509
+  [UP] unprotected variable poldcats while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:534
+  [UP] unprotected variable poldcats while calling allocating function Rf_asChar sdnet/src/./rcatnet.cpp:536
+
+Function RCatnet::genSamples(SEXPREC*, SEXPREC*, SEXPREC*)
+  [PB] has possible protection stack imbalance sdnet/src/./rcatnet.cpp:742
+
+Function RCatnetP::genRcatnetFromDagEvaluate(SEXPREC*, SEXPREC*)
+  [UP] unprotected variable ppars while calling allocating function R_do_slot(?,S:parSlots) sdnet/src/./rcatnet.cpp:441
+  [UP] unprotected variable ppars while calling allocating function Rf_install sdnet/src/./rcatnet.cpp:441
+  [UP] unprotected variable ppars while calling allocating function Rf_coerceVector sdnet/src/./rcatnet.cpp:444
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:498
+  [UP] unprotected variable rNodeNames while calling allocating function R_do_slot_assign(?,S:maxpars,V) sdnet/src/./rcatnet.cpp:500
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_install sdnet/src/./rcatnet.cpp:500
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:503
+  [UP] unprotected variable rNodeNames while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:509
+  [UP] unprotected variable poldcats while calling allocating function Rf_allocVector sdnet/src/./rcatnet.cpp:534
+  [UP] unprotected variable poldcats while calling allocating function Rf_asChar sdnet/src/./rcatnet.cpp:536
+
+Function RCatnetP::genSamples(SEXPREC*, SEXPREC*, SEXPREC*)
+  [PB] has possible protection stack imbalance sdnet/src/./rcatnet.cpp:742
+
+Function RCatnetSearchP::estimate(SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable cnetlist while calling allocating function Rprintf sdnet/src/rcatnet_search.cpp:1232
+
+Function catnetEntropyOrder
+  [PB] has possible protection stack imbalance sdnet/src/catnet_entropy.cpp:460
+
+Function catnetEntropyPairwise
+  [PB] has possible protection stack imbalance sdnet/src/catnet_entropy.cpp:231
+
+Function catnetKLpairwise
+  [PB] has possible protection stack imbalance sdnet/src/catnet_entropy.cpp:675
+
+Function catnetPairwiseCondLikelihood(SEXPREC*, SEXPREC*)
+  [PB] has possible protection stack imbalance sdnet/src/catnet_entropy.cpp:1094
+
+Function catnetPearsonPairwise
+  [PB] has possible protection stack imbalance sdnet/src/catnet_entropy.cpp:884
+
+Function catnetSetProb
+  [PB] has possible protection stack imbalance sdnet/src/catnet_rexport.cpp:629

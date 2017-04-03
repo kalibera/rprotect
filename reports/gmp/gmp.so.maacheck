@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at bigintegerR::create_SEXP(bigvec const&) /home/tomas/packages/build/w0FPUVZx/gmp/src/bigintegerR.cc:199

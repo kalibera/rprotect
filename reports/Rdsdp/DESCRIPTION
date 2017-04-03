@@ -1,0 +1,15 @@
+Package: Rdsdp
+Version: 1.0.4-2
+Title: R Interface to DSDP Semidefinite Programming Library
+Author: Zhisu Zhu, Yinyu Ye (DSDP by Steve Benson, Yinyu Ye and Xiong Zhang)
+Maintainer: Zhisu Zhu <zhuzhisu@alumni.stanford.edu>
+Description: R interface to DSDP semidefinite programming library. The DSDP software is a free open source implementation of an interior-point method for semidefinite programming. It provides primal and dual solutions, exploits low-rank structure and sparsity in the data, and has relatively low memory requirements for an interior-point method. 
+Imports: utils, methods
+LazyLoad: yes
+License: GPL-3
+URL: http://www.mcs.anl.gov/hs/software/DSDP
+NeedsCompilation: yes
+Packaged: 2016-04-23 23:00:17 UTC; ligges
+Repository: CRAN
+Date/Publication: 2016-04-24 09:48:15
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:48 UTC; unix

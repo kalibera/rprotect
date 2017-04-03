@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_bm_Create at R_bm_MakeSubmatrix /home/tomas/packages/build/HCaAtsIj/BufferedMatrix/src/RBufferedMatrix.c:2271
+WARNING Suspicious call (two or more unprotected arguments) to R_bm_Create at R_bm_colApply /home/tomas/packages/build/HCaAtsIj/BufferedMatrix/src/RBufferedMatrix.c:1987
+WARNING Suspicious call (two or more unprotected arguments) to R_bm_Create at R_bm_rowApply /home/tomas/packages/build/HCaAtsIj/BufferedMatrix/src/RBufferedMatrix.c:2089

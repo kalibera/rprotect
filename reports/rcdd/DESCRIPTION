@@ -1,0 +1,26 @@
+Package: rcdd
+Version: 1.1-11
+Date: 2017-03-13
+Title: Computational Geometry
+Author: Charles J. Geyer <charlie@stat.umn.edu> and
+    Glen D. Meeden <glen@stat.umn.edu>, incorporates code from
+    cddlib (ver 0.94f) written by Komei Fukuda <fukuda@ifor.math.ethz.ch>
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 3.0.2)
+Imports: methods
+SystemRequirements: GMP (GNU MP bignum library from http://gmplib.org/)
+Description: R interface to (some of) cddlib
+    (http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html).
+    Converts back and forth between two representations of a convex polytope:
+    as solution of a set of linear equalities and inequalities and as
+    convex hull of set of points and rays.
+    Also does linear programming and redundant generator elimination
+    (for example, convex hull in n dimensions).  All functions can use exact
+    infinite-precision rational arithmetic.
+License: GPL-2
+URL: http://www.stat.umn.edu/geyer/rcdd/
+NeedsCompilation: yes
+Packaged: 2017-03-13 19:21:52 UTC; geyer
+Repository: CRAN
+Date/Publication: 2017-03-13 21:14:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:45 UTC; unix

@@ -1,0 +1,20 @@
+Package: ncvreg
+Title: Regularization Paths for SCAD and MCP Penalized Regression
+        Models
+Version: 3.8-0
+Date: 2017-01-06
+Author: Patrick Breheny [aut,cre]
+Maintainer: Patrick Breheny <patrick-breheny@uiowa.edu>
+Suggests: survival, parallel, knitr
+VignetteBuilder: knitr
+Description: Efficient algorithms for fitting regularization paths for linear or
+ logistic regression models penalized by MCP or SCAD, with optional additional
+ L2 penalty.
+BugReports: http://github.com/pbreheny/ncvreg/issues
+License: GPL-3
+URL: http://myweb.uiowa.edu/pbreheny/publications/Breheny2011.pdf
+NeedsCompilation: yes
+Packaged: 2017-01-06 20:33:42 UTC; pbreheny
+Repository: CRAN
+Date/Publication: 2017-01-06 23:06:18
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:03 UTC; unix

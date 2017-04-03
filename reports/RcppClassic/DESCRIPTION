@@ -1,0 +1,24 @@
+Package: RcppClassic
+Title: Deprecated 'classic' Rcpp API
+Version: 0.9.6
+Date: 2015-01-10
+Author: Dirk Eddelbuettel and Romain Francois, with contributions by David Reiss,
+ and based on code written during 2005 and 2006 by Dominick Samperi
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: The RcppClassic package provides a deprecated C++ library which
+ facilitates the integration of R and C++. 
+ .
+    New projects should use the new Rcpp API in the Rcpp package.
+Depends: R (>= 2.12.0)
+Imports: Rcpp (>= 0.10.2), methods
+Suggests: RUnit, inline, highlight
+LinkingTo: Rcpp
+VignetteBuilder: highlight
+License: GPL (>= 2)
+MailingList: Please send questions and comments regarding Rcpp to
+        rcpp-devel@lists.r-forge.r-project.org
+Packaged: 2015-01-10 13:50:31.701176 UTC; edd
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-01-10 17:04:42
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:57:52 UTC; unix

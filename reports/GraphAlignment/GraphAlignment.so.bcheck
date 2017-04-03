@@ -1,0 +1,18 @@
+Function GA_compute_M_R
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:624
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:625
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:626
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:627
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_int GraphAlignment/src/GraphAlignment.c:628
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:629
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:630
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_real GraphAlignment/src/GraphAlignment.c:631
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_real GraphAlignment/src/GraphAlignment.c:632
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_real GraphAlignment/src/GraphAlignment.c:633
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_real GraphAlignment/src/GraphAlignment.c:634
+
+Function GA_encode_directed_graph_R
+  [UP] unprotected variable result while calling allocating function GA_matrix_destroy_real GraphAlignment/src/GraphAlignment.c:199
+
+Function GA_linear_assignment_solve_R
+  [UP] unprotected variable result while calling allocating function GA_vector_destroy_int GraphAlignment/src/GraphAlignment.c:242

@@ -1,0 +1,5 @@
+Function TMRNumberFormatInit()
+  [PB] has possible protection stack imbalance TraMineR/src/tmrformat.cpp:5
+
+Function tmrsequencestring
+  [UP] unprotected variable str while calling allocating function Rf_allocVector TraMineR/src/tmrsequence.cpp:225

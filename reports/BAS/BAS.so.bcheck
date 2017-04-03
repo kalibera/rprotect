@@ -1,0 +1,5 @@
+Function glm_sampleworep
+  [UP] unprotected variable ANS while calling allocating function PutRNGstate BAS/src/glm_sampleworep.c:200
+
+Function sampleworep
+  [UP] unprotected variable ANS while calling allocating function PutRNGstate BAS/src/sampleworep.c:504

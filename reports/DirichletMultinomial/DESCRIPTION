@@ -1,0 +1,24 @@
+Package: DirichletMultinomial
+Type: Package
+Title: Dirichlet-Multinomial Mixture Model Machine Learning for
+        Microbiome Data
+Version: 1.17.0
+Author: Martin Morgan <martin.morgan@roswellpark.org>
+Maintainer: Martin Morgan <martin.morgan@roswellpark.org>
+Description: Dirichlet-multinomial mixture models can be used to
+        describe variability in microbial metagenomic data. This
+        package is an interface to code originally made available by
+        Holmes, Harris, and Quince, 2012, PLoS ONE 7(2): 1-15, as
+        discussed further in the man page for this package,
+        ?DirichletMultinomial.
+License: LGPL-3
+Depends: S4Vectors, IRanges
+Imports: stats4, methods, BiocGenerics
+Suggests: lattice, parallel, MASS, RColorBrewer, xtable
+Collate: AllGenerics.R dmn.R dmngroup.R roc.R util.R
+SystemRequirements: gsl
+biocViews: Microbiome, Sequencing, Clustering, Classification,
+        Metagenomics
+NeedsCompilation: yes
+Packaged: 2016-10-17 23:00:09 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:27:04 UTC; unix

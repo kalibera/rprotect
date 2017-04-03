@@ -1,0 +1,32 @@
+Encoding: UTF-8
+Package: seqinr
+Version: 3.3-3
+Date: 2016-10-12
+Title: Biological Sequences Retrieval and Analysis
+Authors@R: c(person("Delphine", "Charif", role = "aut"),
+             person("Olivier", "Clerc", role = "ctb"),
+             person("Carolin", "Frank", role = "ctb"),
+             person(c("Jean","R."), "Lobry", role = c("aut", "cph")),
+             person("Anamaria", "Necşulea", role = "ctb"),
+             person("Leonor", "Palmeira", role = "ctb"),
+             person("Simon", "Penel", role = "cre", email = "simon.penel@univ-lyon1.fr"),
+             person("Guy", "Perrière", role = "ctb"))
+Author: Delphine Charif [aut], Olivier Clerc [ctb], Carolin Frank [ctb], Jean R. Lobry [aut, cph], Anamaria Necşulea [ctb], Leonor Palmeira [ctb], Simon Penel [cre], Guy Perrière [ctb]
+Maintainer: Simon Penel <simon.penel@univ-lyon1.fr>
+BugReports: http://lists.r-forge.r-project.org/cgi-bin/mailman/listinfo/seqinr-forum
+Imports: ade4,segmented
+Depends: R (>= 2.10.0)
+Description: Exploratory data analysis and data visualization
+  for biological sequence (DNA and protein) data. Includes also
+  utilities for sequence data management under the ACNUC system.
+License: GPL (>= 2)
+SystemRequirements: zlib headers and library.
+URL: http://seqinr.r-forge.r-project.org/
+NeedsCompilation: yes
+Repository: CRAN
+Repository/R-Forge/Project: seqinr
+Repository/R-Forge/Revision: 2020
+Repository/R-Forge/DateTimeStamp: 2016-10-12 17:32:34
+Date/Publication: 2016-10-13 20:37:21
+Packaged: 2016-10-12 17:45:23 UTC; rforge
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:59:44 UTC; unix

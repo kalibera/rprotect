@@ -1,0 +1,10 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:449
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:450
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:451
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:452
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:453
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rctm /home/tomas/packages/build/84PC4pe8/topicmodels/src/rctm.c:454
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rlda /home/tomas/packages/build/84PC4pe8/topicmodels/src/rlda.c:313
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rlda /home/tomas/packages/build/84PC4pe8/topicmodels/src/rlda.c:314
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rlda /home/tomas/packages/build/84PC4pe8/topicmodels/src/rlda.c:315
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot at rlda /home/tomas/packages/build/84PC4pe8/topicmodels/src/rlda.c:316

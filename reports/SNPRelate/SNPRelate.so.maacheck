@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at gnrConvBEDFlag /home/tomas/packages/build/BKSaeuMw/SNPRelate/src/ConvToGDS.cpp:548

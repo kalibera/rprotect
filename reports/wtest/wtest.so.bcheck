@@ -1,0 +1,5 @@
+Function table_e1
+  [PB] has possible protection stack imbalance wtest/src/table.cfunction.c:36
+
+Function table_e2
+  [PB] has possible protection stack imbalance wtest/src/table.cfunction.c:73

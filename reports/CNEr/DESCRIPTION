@@ -1,0 +1,37 @@
+Package: CNEr
+Version: 1.11.7
+Date: 2017-02-23
+Title: CNE Detection and Visualization
+Description: Large-scale identification and advanced visualization 
+             of sets of conserved noncoding elements.
+Author: Ge Tan <ge.tan09@imperial.ac.uk>
+Maintainer: Ge Tan <ge.tan09@imperial.ac.uk>
+Imports: Biostrings (>= 2.33.4), RSQLite (>= 0.11.4), GenomeInfoDb (>=
+        1.1.3), GenomicRanges (>= 1.23.16), rtracklayer (>= 1.25.5),
+        XVector (>= 0.5.4), GenomicAlignments (>= 1.1.9), methods,
+        S4Vectors (>= 0.13.13), IRanges (>= 2.5.27), readr (>= 0.2.2),
+        BiocGenerics, tools, parallel, reshape2 (>= 1.4.1), ggplot2 (>=
+        2.1.0), poweRlaw (>= 0.60.3), annotate (>= 1.50.0), GO.db (>=
+        3.3.0), R.utils (>= 2.3.0), KEGGREST (>= 1.14.0)
+Depends: R (>= 3.2.2)
+Suggests: Gviz (>= 1.7.4), BiocStyle, knitr, rmarkdown, testthat,
+        BSgenome.Drerio.UCSC.danRer10, BSgenome.Hsapiens.UCSC.hg38,
+        TxDb.Drerio.UCSC.danRer10.refGene, BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Ggallus.UCSC.galGal3
+LinkingTo: S4Vectors, IRanges, XVector
+VignetteBuilder: knitr
+License: GPL-2 | file LICENSE
+License_restricts_use: yes
+URL: https://github.com/ge11232002/CNEr
+BugReports: https://github.com/ge11232002/CNEr/issues
+Type: Package
+biocViews: GeneRegulation, Visualization, DataImport
+NeedsCompilation: yes
+LazyData: no
+Collate: GRangePairs-class.R GRangePairs-methods.R Axt-class.R
+        CNE-class.R utils.R ceScan.R plot.R makeGeneDbFromUCSC.R
+        IO-methods.R scoringMatrix.R subAxt-methods.R Axt-methods.R
+        DB.R AssemblyStats.R GRB.R WholeGenomeAlignment.R Ancora.R
+        CNE-methods.R GO.R KEGG.R
+Packaged: 2017-02-24 01:00:36 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:07:56 UTC; unix

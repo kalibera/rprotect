@@ -1,0 +1,14 @@
+Function args_list1_init
+  [PB] has possible protection stack imbalance EMC/src/objects.c:285
+
+Function args_list2_init
+  [PB] has possible protection stack imbalance EMC/src/objects.c:317
+
+Function make_accept_ratios
+  [PB] has possible protection stack imbalance EMC/src/objects.c:1672
+
+Function make_draws
+  [PB] has possible protection stack imbalance EMC/src/objects.c:1603
+
+Function sampler_new
+  [PB] has possible protection stack imbalance EMC/src/objects.c:517

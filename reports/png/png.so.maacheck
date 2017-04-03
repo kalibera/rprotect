@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at read_png /home/tomas/packages/build/VcJW8WjR/png/src/read.c:290

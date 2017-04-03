@@ -1,0 +1,2 @@
+Function CCountLines(SEXPREC*)
+  [PB] has possible protection stack imbalance bigmemory/src/bigmemory.cpp:2147

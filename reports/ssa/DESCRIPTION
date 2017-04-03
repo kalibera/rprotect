@@ -1,0 +1,17 @@
+Package: ssa
+Title: Simultaneous Signal Analysis
+Version: 1.2.1
+Authors@R: person("Dave", "Zhao", email = "sdzhao@illinois.edu", role = c("aut", "cre"))
+Description: Procedures for analyzing simultaneous signals, e.g., features that are simultaneously significant in two different studies. Includes methods for detecting simultaneous signals, for identifying them under false discovery rate control, and for leveraging them to improve prediction.
+Depends: R (>= 3.2.2)
+Imports: stats, iterators, parallel
+License: GPL-3
+LazyData: true
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-07-23 21:19:34 UTC; user
+Author: Dave Zhao [aut, cre]
+Maintainer: Dave Zhao <sdzhao@illinois.edu>
+Repository: CRAN
+Date/Publication: 2016-07-24 01:20:22
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:00:07 UTC; unix

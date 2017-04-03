@@ -1,0 +1,3 @@
+Function py_to_r(libpython::_object*)
+  [UP] unprotected variable rArray while calling allocating function PyPtr<libpython::_object>::~PyPtr() reticulate/src/python.cpp:640
+  [UP] unprotected variable rArray while calling allocating function py_to_r(libpython::_object*) reticulate/src/python.cpp:666

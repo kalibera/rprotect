@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at siminf_run /home/tomas/packages/build/n3LFF7q2/SimInf/src/siminf.c:93
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at siminf_run /home/tomas/packages/build/n3LFF7q2/SimInf/src/siminf.c:94

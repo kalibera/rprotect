@@ -1,0 +1,5 @@
+Function r_ram_integer64_ordertab_asc
+  [UP] unprotected variable ret_ while calling allocating function R_Busy bit64/src/sortuse64.c:729
+
+Function r_ram_integer64_sortordertab_asc
+  [UP] unprotected variable ret_ while calling allocating function R_Busy bit64/src/sortuse64.c:782

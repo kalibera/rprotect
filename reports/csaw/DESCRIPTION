@@ -1,0 +1,22 @@
+Package: csaw
+Version: 1.9.7
+Date: 2017-03-03
+Title: ChIP-Seq Analysis with Windows
+Author: Aaron Lun <alun@wehi.edu.au>, Gordon Smyth <smyth@wehi.edu.au>
+Maintainer: Aaron Lun <alun@wehi.edu.au>
+Depends: R (>= 3.4), GenomicRanges, SummarizedExperiment (>= 1.2.0),
+        BiocParallel
+Imports: Rsamtools, edgeR, limma, GenomicFeatures, AnnotationDbi,
+        methods, S4Vectors, IRanges, GenomeInfoDb, BiocGenerics,
+        Rhtslib, stats
+Suggests: org.Mm.eg.db, TxDb.Mmusculus.UCSC.mm10.knownGene
+biocViews: MultipleComparison, ChIPSeq, Normalization, Sequencing,
+        Coverage, Genetics, Annotation, DifferentialPeakCalling
+Description: Detection of differentially bound regions in ChIP-seq data
+        with sliding windows, with methods for normalization and proper
+        FDR control.
+License: GPL-3
+NeedsCompilation: yes
+LinkingTo: Rhtslib, zlibbioc
+Packaged: 2017-03-04 01:03:53 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:14:26 UTC; unix

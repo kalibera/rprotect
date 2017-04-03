@@ -1,0 +1,10 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Pt /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:134
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Pt /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:135
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Pt /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:136
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Pt /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:137
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Pt /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:139
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Rect /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:76
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Rect /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:78
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Rect /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:79
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Rect /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:80
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at R_Build_Quadtree_Rect /home/tomas/packages/build/l1GKg7vH/SearchTrees/src/quadtree2.c:82

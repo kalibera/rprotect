@@ -1,0 +1,23 @@
+Package: catnet
+Title: Categorical Bayesian Network Inference
+Version: 1.15.0
+Author: Nikolay Balov, Peter Salzman
+Description: Structure learning and parameter estimation of discrete Bayesian networks using likelihood-based criteria.  Exhaustive search for fixed node orders and stochastic search of optimal orders via simulated annealing algorithm are implemented.  
+Maintainer: Nikolay Balov <nhbalov@gmail.com>
+License: GPL (>= 2)
+Depends: R (>= 3.0.2)
+Imports: methods, stats, utils, graphics
+Suggests:
+Collate: catnet.class.R catnet.def.R graph2catnet.R catnet.dags.R
+        catnet.probs.R catnet.joint.prob.R catnet.marginal.prob.R
+        catnet.samples.R catnet.loglik.R catnet.entropy.R
+        catnet.categor.R catnet.dist.R catnet.plot.R catnet.find.R
+        catnet.search.R catnet.predict.R catnet.chisq.R catnet.histo.R
+        catnet.cluster.R catnet.bif.R catnet.quant.R catnet.pathway.R
+        zzz.R
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2016-06-12 19:03:05
+Packaged: 2016-06-10 02:48:43 UTC; root
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:45:37 UTC; unix

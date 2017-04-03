@@ -1,0 +1,13 @@
+Function olmm_setPar
+  [UP] unprotected variable fixefR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:127
+  [UP] unprotected variable fixefR while calling allocating function getListElement vcrpart/src/olmm.c:127
+  [UP] unprotected variable fixefR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:128
+  [UP] unprotected variable fixefR while calling allocating function getListElement vcrpart/src/olmm.c:128
+  [UP] unprotected variable vecRanefCholFacR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:128
+  [UP] unprotected variable vecRanefCholFacR while calling allocating function getListElement vcrpart/src/olmm.c:128
+  [UP] unprotected variable coefficientsR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:129
+  [UP] unprotected variable coefficientsR while calling allocating function getListElement vcrpart/src/olmm.c:129
+  [UP] unprotected variable fixefR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:129
+  [UP] unprotected variable fixefR while calling allocating function getListElement vcrpart/src/olmm.c:129
+  [UP] unprotected variable vecRanefCholFacR while calling allocating function Rf_duplicate vcrpart/src/olmm.c:129
+  [UP] unprotected variable vecRanefCholFacR while calling allocating function getListElement vcrpart/src/olmm.c:129

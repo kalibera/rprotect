@@ -1,0 +1,28 @@
+Package: liquidSVM
+Type: Package
+Title: A Fast and Versatile SVM Package
+Version: 1.0.1
+Date: 2017-03-01
+Author: Ingo Steinwart, Philipp Thomann
+Copyright: Ingo Steinwart <ingo.steinwart@mathematik.uni-stuttgart.de>,
+        Philipp Thomann <philipp.thomann@mathematik.uni-stuttgart.de>,
+        Mohammad Farooq <mohammad.farooq@mathematik.uni-stuttgart.de>
+Maintainer: Philipp Thomann <philipp.thomann@mathematik.uni-stuttgart.de>
+Description: Support vector machines (SVMs) and related kernel-based learning
+    algorithms are a well-known class of machine learning algorithms, for non-
+    parametric classification and regression. liquidSVM is an implementation of
+    SVMs whose key features are: fully integrated hyper-parameter selection, extreme
+    speed on both small and large data sets, inclusion of a variety of different
+    classification and regression scenarios, and full flexibility for experts.
+URL: http://www.isa.uni-stuttgart.de/software/R
+License: AGPL-3
+Depends: R (>= 2.12.0), methods
+Suggests: knitr, rmarkdown, deldir, testthat
+Enhances: mlr, ParamHelpers
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2017-03-01 23:24:39 UTC; thomapp
+Repository: CRAN
+Date/Publication: 2017-03-02 14:37:42
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:47:26 UTC; unix

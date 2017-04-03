@@ -1,0 +1,22 @@
+Package: glpkAPI
+Type: Package
+Title: R Interface to C API of GLPK
+Version: 1.3.0
+Date: 2015-01-05
+Authors@R: c(person("Claus Jonathan", "Fritzemeier", email = "clausjonathan.fritzemeier@uni-duesseldorf.de", role="cre"), person("Gabriel", "Gelius-Dietrich", role = c("aut"), email = "geliudie@uni-duesseldorf.de"), person("Louis", "Luangkesorn", email="lugerpitt@gmail.com", role="ctb" ))
+Depends: R (>= 2.6.0)
+Imports: methods
+Description: R Interface to C API of GLPK, needs GLPK Version >= 4.42
+SystemRequirements: GLPK (>= 4.42)
+License: GPL-3
+LazyLoad: yes
+Collate: generics.R glpk_ptrClass.R glpk.R glpkAPI.R zzz.R
+Packaged: 2015-01-06 15:03:30 UTC; jonathan
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-01-07 00:46:26
+Author: Claus Jonathan Fritzemeier [cre],
+  Gabriel Gelius-Dietrich [aut],
+  Louis Luangkesorn [ctb]
+Maintainer: Claus Jonathan Fritzemeier <clausjonathan.fritzemeier@uni-duesseldorf.de>
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:47 UTC; unix

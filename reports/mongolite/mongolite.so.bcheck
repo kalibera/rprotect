@@ -1,0 +1,2 @@
+Function R_mongo_cursor_next_page
+  [UP] unprotected variable shortlist while calling allocating function mongoc_cursor_error mongolite/src/cursor.c:121

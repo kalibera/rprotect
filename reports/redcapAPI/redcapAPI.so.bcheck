@@ -1,0 +1,2 @@
+Function records_to_dataframe
+  [UP] unprotected variable Sfield_value while calling allocating function Rf_asInteger redcapAPI/src/Rinit.c:50

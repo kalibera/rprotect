@@ -1,0 +1,21 @@
+Package: rsvg
+Type: Package
+Title: Render SVG Images into PDF, PNG, PostScript, or Bitmap Arrays
+Version: 1.0
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Description: Renders vector-based svg images into high-quality custom-size bitmap
+    arrays using 'librsvg2'. The resulting bitmap can be written to e.g. png, jpeg
+    or webp format. In addition, the package can convert images directly to various
+    formats such as pdf or postscript.
+License: MIT + file LICENSE
+URL: https://github.com/jeroenooms/rsvg#readme
+BugReports: https://github.com/jeroenooms/rsvg/issues
+SystemRequirements: librsvg2
+RoxygenNote: 5.0.1
+Suggests: svglite, png, jpeg, webp, ggplot2
+NeedsCompilation: yes
+Packaged: 2016-08-03 18:19:34 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2016-08-04 00:59:19
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:49:12 UTC; unix

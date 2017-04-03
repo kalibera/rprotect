@@ -1,0 +1,15 @@
+Package: Peaks
+Version: 0.2
+Date: 2008-04-04
+Title: Peaks
+Author: Miroslav Morhac
+Maintainer: M.Kondrin <mkondrin@hppi.troitsk.ru>
+Depends: R (>= 2.5)
+Description: Spectrum manipulation: background estimation, Markov
+        smoothing, deconvolution and peaks search functions. Ported
+        from ROOT/TSpectrum class.
+License: LGPL
+Packaged: 2012-10-29 08:57:26 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:26
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:21 UTC; unix

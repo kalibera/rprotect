@@ -1,0 +1,14 @@
+Function MLRC_regress
+  [UP] unprotected variable R_Beta while calling allocating function Rf_allocVector rioja/src/mlrc.cpp:104
+  [UP] unprotected variable R_IBeta while calling allocating function Rf_allocVector rioja/src/mlrc.cpp:104
+  [UP] unprotected variable R_Beta while calling allocating function Rf_allocVector rioja/src/mlrc.cpp:105
+  [UP] unprotected variable R_IBeta while calling allocating function Rf_allocVector rioja/src/mlrc.cpp:105
+
+Function WA_fit
+  [UP] unprotected variable R_Coef while calling allocating function Rf_allocVector rioja/src/wa.cpp:204
+  [UP] unprotected variable R_Opt while calling allocating function Rf_allocVector rioja/src/wa.cpp:204
+  [UP] unprotected variable R_Coef while calling allocating function Rf_allocVector rioja/src/wa.cpp:205
+  [UP] unprotected variable R_Opt while calling allocating function Rf_allocVector rioja/src/wa.cpp:205
+
+Function WriteCornellFile
+  [PB] has possible protection stack imbalance rioja/src/cornellout.cpp:202

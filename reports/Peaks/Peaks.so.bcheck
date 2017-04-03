@@ -1,0 +1,11 @@
+Function R_SpectrumSearchHighRes
+  [UP] unprotected variable destVector while calling allocating function Rf_allocVector Peaks/src/spectrum.c:1766
+  [UP] unprotected variable destVector while calling allocating function Rf_allocVector Peaks/src/spectrum.c:1772
+  [UP] unprotected variable f while calling allocating function Rf_allocVector Peaks/src/spectrum.c:1772
+  [UP] unprotected variable destVector while calling allocating function Rf_allocVector Peaks/src/spectrum.c:1773
+  [UP] unprotected variable f while calling allocating function Rf_allocVector Peaks/src/spectrum.c:1773
+  [UP] unprotected variable destVector while calling allocating function Rf_mkString Peaks/src/spectrum.c:1774
+  [UP] unprotected variable f while calling allocating function Rf_mkString Peaks/src/spectrum.c:1774
+  [UP] unprotected variable destVector while calling allocating function Rf_mkString Peaks/src/spectrum.c:1775
+  [UP] unprotected variable f while calling allocating function Rf_mkString Peaks/src/spectrum.c:1775
+  [UP] unprotected variable ans while calling allocating function Rf_warning Peaks/src/spectrum.c:1781

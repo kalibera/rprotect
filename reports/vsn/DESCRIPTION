@@ -1,0 +1,45 @@
+Package: vsn
+Version: 3.43.9
+Title: Variance stabilization and calibration for microarray data
+Author: Wolfgang Huber, with contributions from Anja von
+        Heydebreck. Many comments and suggestions by users are
+        acknowledged, among them Dennis Kostka, David Kreil, Hans-Ulrich
+        Klein, Robert Gentleman, Deepayan Sarkar and Gordon Smyth
+Maintainer: Wolfgang Huber <wolfgang.huber@embl.de>
+Depends: R (>= 3.0.0), Biobase
+Imports: methods, affy, limma, lattice, ggplot2, hexbin
+Suggests: affydata, hgu95av2cdf, BiocStyle, knitr, dplyr, testthat
+Description: The package implements a method for normalising microarray intensities, and works
+        for single- and multiple-color arrays. It can also be used
+	for data from other technologies, as long as they have similar format. The method uses a
+	robust variant of the maximum-likelihood estimator for an additive-multiplicative error
+	model and affine calibration. The model incorporates data calibration step (a.k.a.
+	normalization), a model for the dependence of the variance on the mean intensity and a
+        variance stabilizing data transformation. Differences between
+        transformed intensities are analogous to "normalized
+        log-ratios". However, in contrast to the latter, their
+        variance is independent of the mean, and they are usually more
+        sensitive and specific in detecting differential
+        transcription.
+Reference: [1] Variance stabilization applied to microarray data
+        calibration and to the quantification of differential
+        expression, Wolfgang Huber, Anja von Heydebreck, Holger
+        Sueltmann, Annemarie Poustka, Martin Vingron; Bioinformatics
+        (2002) 18 Suppl1 S96-S104. [2] Parameter estimation for the
+        calibration and variance stabilization of microarray data,
+        Wolfgang Huber, Anja von Heydebreck, Holger Sueltmann,
+        Annemarie Poustka, and Martin Vingron; Statistical Applications
+        in Genetics and Molecular Biology (2003) Vol. 2 No. 1, Article
+        3; http://www.bepress.com/sagmb/vol2/iss1/art3.
+License: Artistic-2.0
+URL: http://www.r-project.org, http://www.ebi.ac.uk/huber
+biocViews: Microarray, OneChannel, TwoChannel, Preprocessing
+VignetteBuilder: knitr
+Collate: AllClasses.R AllGenerics.R vsn2.R vsnLogLik.R justvsn.R
+        methods-vsnInput.R methods-vsn.R methods-vsn2.R
+        methods-predict.R RGList_to_NChannelSet.R meanSdPlot-methods.R
+        plotLikelihood.R vsnPlotPar.R vsn.R vsnh.R getIntensityMatrix.R
+        normalize.AffyBatch.vsn.R sagmbSimulateData.R zzz.R
+NeedsCompilation: yes
+Packaged: 2017-02-10 23:13:52 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:38:12 UTC; unix

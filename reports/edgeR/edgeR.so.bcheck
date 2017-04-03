@@ -1,0 +1,47 @@
+Function R_add_prior_count
+  [PB] has possible protection stack imbalance edgeR/src/R_add_prior_count.cpp:63
+
+Function R_add_repeat_matrices
+  [PB] has possible protection stack imbalance edgeR/src/R_add_repeat_matrices.cpp:41
+
+Function R_ave_log_cpm
+  [PB] has possible protection stack imbalance edgeR/src/R_ave_log_cpm.cpp:62
+
+Function R_calculate_cpm_log
+  [PB] has possible protection stack imbalance edgeR/src/R_calculate_cpm.cpp:50
+
+Function R_calculate_cpm_raw
+  [PB] has possible protection stack imbalance edgeR/src/R_calculate_cpm.cpp:84
+
+Function R_check_poisson_bound
+  [PB] has possible protection stack imbalance edgeR/src/R_check_poisson_bound.cpp:50
+
+Function R_compute_apl
+  [PB] has possible protection stack imbalance edgeR/src/R_compute_apl.cpp:110
+
+Function R_compute_nbdev
+  [PB] has possible protection stack imbalance edgeR/src/R_compute_nbdev.cpp:85
+
+Function R_exact_test_by_deviance
+  [PB] has possible protection stack imbalance edgeR/src/R_exact_test_by_deviance.cpp:69
+
+Function R_get_levenberg_start
+  [PB] has possible protection stack imbalance edgeR/src/R_initialize_levenberg.cpp:206
+
+Function R_get_one_way_fitted
+  [PB] has possible protection stack imbalance edgeR/src/R_get_one_way_fitted.cpp:59
+
+Function R_levenberg
+  [PB] has possible protection stack imbalance edgeR/src/R_levenberg.cpp:88
+
+Function R_loess_by_col
+  [PB] has possible protection stack imbalance edgeR/src/R_loess_by_col.cpp:135
+
+Function R_maximize_interpolant
+  [PB] has possible protection stack imbalance edgeR/src/R_maximize_interpolant.cpp:30
+
+Function R_one_group
+  [PB] has possible protection stack imbalance edgeR/src/R_one_group.cpp:109
+
+Function R_simple_good_turing
+  [PB] has possible protection stack imbalance edgeR/src/R_simple_good_turing.cpp:98

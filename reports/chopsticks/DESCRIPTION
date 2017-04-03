@@ -1,0 +1,21 @@
+Package: chopsticks
+Title: The snp.matrix and X.snp.matrix classes
+Version: 1.39.0
+Date: 2015-01-19
+Author: Hin-Tak Leung <htl10@users.sourceforge.net>
+Description: Implements classes and methods for large-scale SNP association studies 
+Maintainer: Hin-Tak Leung <htl10@users.sourceforge.net>
+Depends: R(>= 2.10.0), survival, methods
+Suggests: hexbin
+License: GPL-3
+URL: http://outmodedbonsai.sourceforge.net/
+Collate: ld.with.R ss.R contingency.table.R glm_test.R ibs.stats.R
+        indata.R ld.snp.R ld.with.R.eml.R misc.R outdata.R qq_chisq.R
+        read.chiamo.R read.HapMap.R read.snps.pedfile.R single.R
+        structure.R wtccc.sample.list.R wtccc.signals.R xstuff.R zzz.R
+LazyLoad: yes
+biocViews: Microarray, SNPsAndGeneticVariability, SNP,
+        GeneticVariability
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:42:12 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:26:59 UTC; unix

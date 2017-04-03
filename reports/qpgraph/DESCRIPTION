@@ -1,0 +1,26 @@
+Package: qpgraph
+Title: Estimation of genetic and molecular regulatory networks from
+        high-throughput genomics data
+Version: 2.9.5
+Authors@R: c(person("Robert", "Castelo", role=c("aut", "cre"), email="robert.castelo@upf.edu"),
+             person("Alberto", "Roverato", role="aut", email="alberto.roverato@unibo.it"))
+Description: Estimate gene and eQTL networks from high-throughput expression and genotyping assays.
+License: GPL (>= 2)
+Depends: R (>= 3.0.0)
+Imports: methods, parallel, Matrix (>= 1.0), grid, annotate, graph (>=
+        1.45.1), Biobase, S4Vectors, BiocParallel, AnnotationDbi,
+        IRanges, GenomeInfoDb, GenomicRanges, GenomicFeatures, mvtnorm,
+        qtl, Rgraphviz
+Suggests: RUnit, BiocGenerics, BiocStyle, genefilter, org.EcK12.eg.db,
+        rlecuyer, snow, Category, GOstats
+LazyData: yes
+URL: http://functionalgenomics.upf.edu/qpgraph
+biocViews: Microarray, GeneExpression, Transcription, Pathways,
+        NetworkInference, GraphAndNetwork, GeneRegulation, Genetics,
+        GeneticVariability, SNP, Software
+NeedsCompilation: yes
+Packaged: 2017-02-15 00:08:02 UTC; biocbuild
+Author: Robert Castelo [aut, cre],
+  Alberto Roverato [aut]
+Maintainer: Robert Castelo <robert.castelo@upf.edu>
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:15:16 UTC; unix

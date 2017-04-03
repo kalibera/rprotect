@@ -1,0 +1,32 @@
+Package: unfoldr
+Title: Stereological Unfolding for Spheroidal Particles
+Version: 0.6
+Date: 2016-10-04
+Authors@R: c(person("Markus Baaske", role = c("aut", "cre"),
+			 email = "markus.baaske@math.tu-freiberg.de"),
+			 person("Felix", "Ballani", role = "ctb",
+			 email = "ballani@math.tu-freiberg.de")
+			)
+Author: Markus Baaske [aut, cre], Felix Ballani [ctb]
+Maintainer: Markus Baaske <markus.baaske@math.tu-freiberg.de>
+Description: Stereological unfolding as implemented in this package consists in
+    the estimation of the joint size-shape-orientation distribution of spheroidal
+    shaped particles based on the same measured quantities of corresponding planar
+    vertical section profiles. A single trivariate discretized version of the (stereological)
+    integral equation in the case of prolate and oblate spheroids is solved
+    numerically by the EM algorithm. The estimation of diameter distribution of
+    spheres from planar sections (Wicksell's corpuscle problem) is also implemented.
+    Further, the package provides routines for the simulation of a Poisson germ-
+    grain process with either spheroids, spherocylinders or spheres as grains together
+    with functions for planar sections.
+    For the purpose of exact simulation a bivariate size-shape distribution is implemented.
+Depends: R (>= 3.1.0)
+Suggests: rgl
+License: GPL-2
+Repository: CRAN
+LazyData: no
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-10-06 12:21:12 UTC; bahama
+Date/Publication: 2016-10-06 19:33:23
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:08 UTC; unix

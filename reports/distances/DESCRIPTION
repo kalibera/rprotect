@@ -1,0 +1,24 @@
+Package: distances
+Type: Package
+Title: Tools for Distances and Metrics
+Version: 0.1.0
+Date: 2017-03-03
+Authors@R: c(person("Fredrik", "Savje", email = "fredrik.savje@berkeley.edu", role = c("aut", "cre")))
+Description: Provides tools for constructing, manipulating and using distance metrics.
+Depends: R (>= 3.2.3)
+Imports: stats
+Suggests: testthat
+NeedsCompilation: yes
+License: GPL (>= 3)
+LicenseNote: The distances packages includes the ANN library
+        (distributed under the LGPLv2.1 license).
+URL: https://github.com/fsavje/distances
+BugReports: https://github.com/fsavje/distances/issues
+Encoding: UTF-8
+RoxygenNote: 6.0.1
+Packaged: 2017-03-04 17:48:53 UTC; fredrik
+Author: Fredrik Savje [aut, cre]
+Maintainer: Fredrik Savje <fredrik.savje@berkeley.edu>
+Repository: CRAN
+Date/Publication: 2017-03-05 08:47:18
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:08 UTC; unix

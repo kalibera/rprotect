@@ -1,0 +1,20 @@
+Package: bfork
+Type: Package
+Title: Basic Unix Process Control
+Version: 0.1.2
+Date: 2015-12-29
+Author: Daniel Robertson
+URL: https://gitlab.com/drobertson/bfork
+BugReports: https://gitlab.com/drobertson/bfork/issues
+Maintainer: Daniel Robertson <danlrobertson89@gmail.com>
+Description: Wrappers for fork()/waitpid() meant to allow R users to quickly
+    and easily fork child processes and wait for them to finish.
+OS_type: unix
+Depends: R (>= 3.0.0)
+Suggests: testthat
+License: MPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2016-01-04 15:44:14 UTC; drobertson
+Repository: CRAN
+Date/Publication: 2016-01-04 17:46:38
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:45:24 UTC; unix

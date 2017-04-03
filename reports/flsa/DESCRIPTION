@@ -1,0 +1,17 @@
+Package: flsa
+Type: Package
+Title: Path algorithm for the general Fused Lasso Signal Approximator
+Version: 1.05
+Date: 2013-03-23
+Author: Holger Hoefling
+Maintainer: Holger Hoefling <hhoeflin@gmail.com>
+Description: This package implements a path algorithm for the Fused
+        Lasso Signal Approximator. For more details see the help files
+License: GPL-2
+Depends: R (>= 2.0.0)
+Suggests: testthat
+Packaged: 2013-03-23 19:08:16 UTC; hhoeflin
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-23 20:30:25
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:29 UTC; unix

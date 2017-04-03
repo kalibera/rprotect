@@ -1,0 +1,18 @@
+Function base_promise
+  [UP] allocating function is_lazy_load may destroy its unprotected argument (obj), which is later used. lazyeval/src/expr.c:25
+
+Function base_promise_env
+  [UP] allocating function is_lazy_load may destroy its unprotected argument (obj), which is later used. lazyeval/src/expr.c:58
+
+Function lhs_name
+  [UP] unprotected variable names while calling allocating function Rf_eval lazyeval/src/name.c:44
+  [UP] unprotected variable names while calling allocating function env lazyeval/src/name.c:44
+  [UP] unprotected variable names while calling allocating function env lazyeval/src/name.c:50
+  [UP] unprotected variable names while calling allocating function make_formula1 lazyeval/src/name.c:50
+
+Function make_lazy_dots
+  [UP] unprotected variable dots while calling allocating function Rf_allocVector lazyeval/src/lazy.c:83
+  [UP] unprotected variable dots while calling allocating function Rf_allocVector lazyeval/src/lazy.c:84
+
+Function promise_as_lazy
+  [UP] allocating function is_lazy_load may destroy its unprotected argument (obj), which is later used. lazyeval/src/lazy.c:24

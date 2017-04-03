@@ -1,0 +1,12 @@
+Function Step::forward(unsigned int) const
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:167
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:168
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:169
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:170
+  [UP] unprotected variable rownames while calling allocating function Rf_mkChar stepR/src/Step.cpp:177
+  [UP] unprotected variable sclass while calling allocating function Rf_mkChar stepR/src/Step.cpp:182
+  [UP] unprotected variable scost while calling allocating function Rf_install stepR/src/Step.cpp:211
+
+Function Step::path(unsigned int) const
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:349
+  [UP] unprotected variable names while calling allocating function Rf_mkChar stepR/src/Step.cpp:350

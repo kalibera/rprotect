@@ -1,0 +1,31 @@
+Package: msgl
+Type: Package
+Title: High Dimensional Multiclass Classification Using Sparse Group
+        Lasso
+Version: 2.3.5
+Date: 2016-12-28
+Author: Martin Vincent
+Maintainer: Martin Vincent <martin.vincent.dk@gmail.com>
+Description: Multinomial logistic regression with sparse group lasso penalty.
+    Simultaneous feature selection and parameter estimation for classification.
+    Suitable for high dimensional multiclass classification with many classes. The
+    algorithm computes the sparse group lasso penalized maximum likelihood estimate.
+    Use of parallel computing for cross validation and subsampling is supported
+    through the 'foreach' and 'doParallel' packages. Development version is on
+    GitHub, please report package issues on GitHub.
+URL: http://dx.doi.org/10.1016/j.csda.2013.06.004,
+        https://github.com/vincent- dk/msgl
+BugReports: https://github.com/vincent-dk/msgl/issues
+License: GPL (>= 2)
+LazyLoad: yes
+Imports: methods, tools, utils, stats
+Depends: R (>= 3.2.4), Matrix, sglOptim (== 1.3.5)
+LinkingTo: Rcpp, RcppProgress, RcppArmadillo, BH, sglOptim
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-12-28 18:30:34 UTC; martin
+Repository: CRAN
+Date/Publication: 2016-12-29 01:09:04
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:33:04 UTC; unix

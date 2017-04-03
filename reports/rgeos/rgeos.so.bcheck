@@ -1,0 +1,5 @@
+Function GC_Contains
+  [PB] has possible protection stack imbalance rgeos/src/rgeos_validate.c:164
+
+Function rgeos_GEOSversion
+  [UP] unprotected variable ans while calling allocating function Rf_mkChar rgeos/src/rgeos.c:8

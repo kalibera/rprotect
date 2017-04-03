@@ -1,0 +1,3 @@
+Function C_surrogates
+  [UP] allocating function C_init_orderedsplit(V,?) may destroy its unprotected argument (split), which is later used. party/src/SurrogateSplits.c:143
+  [UP] unprotected variable split while calling allocating function get_variable party/src/SurrogateSplits.c:146

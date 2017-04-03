@@ -1,0 +1,21 @@
+Package: FREGAT
+Title: Family REGional Association Tests
+Version: 1.0.2
+Author: Nadezhda M. Belonogova <belon@bionet.nsc.ru> and
+ Gulnara R. Svishcheva <gulsvi@mail.ru>,
+ with contributions from:
+ Seunggeun Lee (kernel functions), Pierre Lafaye de Micheaux ('davies' method),
+ Thomas Lumley ('kuonen' method), James O. Ramsay (functional data analysis functions),
+ David Clayton ('read.plink' function) and Brian Ripley ('ginv' function)
+Maintainer: Nadezhda M. Belonogova <belon@bionet.nsc.ru>
+Depends: R (>= 3.0.0)
+Imports: methods, Matrix, splines, parallel
+Suggests: doParallel, foreach, GenABEL, seqminer
+Repository: CRAN
+Description: Fast regional association analysis of quantitative traits for family-based and population studies.
+License: GPL-3
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-09-19 05:59:57 UTC; lima
+Date/Publication: 2016-09-19 11:09:59
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:04:56 UTC; unix

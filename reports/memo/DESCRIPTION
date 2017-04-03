@@ -1,0 +1,21 @@
+Package: memo
+Type: Package
+Title: In-Memory Caching for Repeated Computations
+Version: 1.0
+Date: 2016-8-22
+Author: Peter Meilstrup <peter.meilstrup@gmail.com>
+Maintainer: Peter Meilstrup <peter.meilstrup@gmail.com>
+Description: A simple in-memory, LRU cache that can be wrapped
+    around any function to memoize it. The cache can be keyed on a hash of the
+    input data (using 'digest') or on pointer equivalence.
+License: MIT + file LICENSE
+Imports: digest
+Suggests: testthat (>= 0.2), knitr, rmarkdown
+Collate: 'lru.R' 'cache.R' 'getPointer.R' 'memo-description.r'
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-08-24 22:42:15 UTC; peter
+Repository: CRAN
+Date/Publication: 2016-08-25 10:00:55
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:56:10 UTC; unix

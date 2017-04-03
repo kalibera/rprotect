@@ -1,0 +1,24 @@
+Package: vcrpart
+Type: Package
+Title: Tree-Based Varying Coefficient Regression for Generalized Linear
+        and Ordinal Mixed Models
+Version: 0.4-2
+Date: 2016-11-04
+Authors@R: c(
+  person("Reto", "Buergin", role = c("aut", "cre", "cph"), email = "rbuergin@gmx.ch"),
+  person("Gilbert", "Ritschard", role = c("ctb", "ths"),
+         email = "gilbert.ritschard@unige.ch"))
+Maintainer: Reto Buergin <rbuergin@gmx.ch>
+Description: Recursive partitioning for varying coefficient generalized linear models and ordinal linear mixed models. Special features are coefficient-wise partitioning, non-varying coefficients and partitioning of time-varying variables in longitudinal regression.
+License: GPL (>= 2)
+Depends: R (>= 3.1.0), parallel, partykit
+Imports: stats, grid, graphics, methods, nlme (>= 3.1-123), rpart,
+        numDeriv, ucminf, zoo, sandwich, strucchange
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-11-05 08:58:38 UTC; reto
+Author: Reto Buergin [aut, cre, cph],
+  Gilbert Ritschard [ctb, ths]
+Repository: CRAN
+Date/Publication: 2016-11-05 20:13:17
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:36:55 UTC; unix

@@ -1,0 +1,5 @@
+Function getMVBuildName
+  [UP] unprotected variable rName while calling allocating function Rf_mkChar nimble/inst/CppCode/ModelClassUtils.cpp:54
+
+Function populateIndexedNodeInfoTable
+  [PB] has possible protection stack imbalance nimble/inst/CppCode/accessorClasses.cpp:1261

@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at imreadgif /home/tomas/packages/build/UjJ4yGKM/nhlscrapr/src/Gif2R.cpp:56

@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RCatnet::genRcatnet(char const*) /home/tomas/packages/build/CVyDRllE/catnet/src/rcatnet.cpp:280

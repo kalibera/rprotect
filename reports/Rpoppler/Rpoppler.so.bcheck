@@ -1,0 +1,19 @@
+Function Rpoppler_PDF_fonts
+  [UP] unprotected variable ans while calling allocating function Rf_allocVector Rpoppler/src/Rpoppler.c:218
+  [UP] unprotected variable ans while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:220
+  [UP] unprotected variable ans while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:220
+  [UP] unprotected variable val while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:220
+  [UP] unprotected variable val while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:220
+  [UP] unprotected variable ans while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:223
+  [UP] unprotected variable ans while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:223
+  [UP] unprotected variable val while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:223
+  [UP] unprotected variable val while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:223
+  [UP] unprotected variable ans while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:226
+  [UP] unprotected variable val while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:226
+  [UP] unprotected variable ans while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:238
+  [UP] unprotected variable ans while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:238
+  [UP] unprotected variable val while calling allocating function Rf_ScalarString Rpoppler/src/Rpoppler.c:238
+  [UP] unprotected variable val while calling allocating function Rf_mkString Rpoppler/src/Rpoppler.c:238
+
+Function Rpoppler_PDF_info
+  [UP] unprotected variable val while calling allocating function Rf_mkChar Rpoppler/src/Rpoppler.c:171

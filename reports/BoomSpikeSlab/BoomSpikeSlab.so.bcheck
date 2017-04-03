@@ -1,0 +1,5 @@
+Function BOOM::RMemoryProtector::protect(SEXPREC*)
+  [PB] has possible protection stack imbalance /home/tomas/rchk/wllvm/bc/packages/lib/Boom/include/r_interface/boom_r_tools.hpp:259
+
+Function BOOM::appendListElement(SEXPREC*, SEXPREC*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+  [UP] unprotected variable old_list_names while calling allocating function Rf_allocVector Boom/src/boom_r_tools.cpp:122

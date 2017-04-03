@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_gsetVar at cairo_create_new_device /home/tomas/packages/build/PBabxT28/Cairo/src/cairogd.c:272

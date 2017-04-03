@@ -1,0 +1,16 @@
+Package: Rcsdp
+Version: 0.1.55
+Title: R Interface to the CSDP Semidefinite Programming Library
+Author: Hector Corrada Bravo (CSDP by Brian Borchers)
+Maintainer: Hector Corrada Bravo <hcorrada@gmail.com>
+Description: R interface to the CSDP semidefinite programming library. Installs version 6.1.1 of CSDP from the COIN-OR website if required. An existing installation of CSDP may be used by passing the proper configure arguments to the installation command. See the INSTALL file for further details.
+LazyLoad: yes
+Imports: methods
+Enhances: Matrix
+License: CPL-1.0
+URL: https://projects.coin-or.org/Csdp/
+NeedsCompilation: yes
+Packaged: 2016-04-25 14:51:44 UTC; hcorrada
+Repository: CRAN
+Date/Publication: 2016-04-25 17:02:41
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:46 UTC; unix

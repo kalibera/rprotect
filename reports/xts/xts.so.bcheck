@@ -1,0 +1,8 @@
+Function binsearch
+  [PB] has possible protection stack imbalance xts/src/binsearch.c:138
+
+Function do_xtsAttributes
+  [UP] unprotected variable values while calling allocating function Rf_lengthgets(V,?) xts/src/attr.c:74
+
+Function do_xtsCoreAttributes
+  [UP] unprotected variable values while calling allocating function Rf_lengthgets(V,?) xts/src/attr.c:115

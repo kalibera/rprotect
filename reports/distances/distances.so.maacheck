@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at dist_get_dist_matrix /home/tomas/packages/build/rnDldR5m/distances/src/get_dists.c:51
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at dist_get_dist_matrix /home/tomas/packages/build/rnDldR5m/distances/src/get_dists.c:54

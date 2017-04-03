@@ -1,0 +1,5 @@
+Function map_R_vecsxp_dims
+  [UP] unprotected variable names while calling allocating function map_R_object_dims rmatio/src/rmatio.c:294
+
+Function write_mat
+  [UP] unprotected variable names while calling allocating function write_elmt rmatio/src/rmatio.c:3328

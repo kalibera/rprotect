@@ -1,0 +1,6 @@
+Function R_firstOrder_sgCMatrix
+  [UP] unprotected variable ix while calling allocating function Rf_allocVector arulesSequences/src/matrix.c:348
+  [UP] unprotected variable ix while calling allocating function Rf_setAttrib(V,S:names,V) arulesSequences/src/matrix.c:348
+
+Function R_similarity_sgCMatrix
+  [UP] unprotected variable ix while calling allocating function Rf_getAttrib(?,S:names) arulesSequences/src/similarity.c:275

@@ -1,0 +1,24 @@
+Package: tileHMM
+Type: Package
+Title: Hidden Markov Models for ChIP-on-Chip Analysis
+Version: 1.0-7
+Date: 2015-07-01
+Authors@R: person("Peter", "Humburg", email="peter.humburg@gmail.com",
+		role=c("aut", "cre"))
+Description: Methods and classes to build HMMs
+        that are suitable for the analysis of ChIP-chip data. The
+        provided parameter estimation methods include the Baum-Welch
+        algorithm and Viterbi training as well as a combination of
+        both.
+Depends: R (>= 2.14.2), methods
+Imports: st, corpcor, graphics, stats, utils
+Suggests: preprocessCore
+License: GPL (>= 2)
+BugReports: https://github.com/humburg/tileHMM/issues
+NeedsCompilation: yes
+Packaged: 2015-07-02 21:33:26 UTC; Peter
+Author: Peter Humburg [aut, cre]
+Maintainer: Peter Humburg <peter.humburg@gmail.com>
+Repository: CRAN
+Date/Publication: 2015-07-03 00:25:58
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:26:05 UTC; unix

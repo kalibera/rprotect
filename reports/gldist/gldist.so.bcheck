@@ -1,0 +1,11 @@
+Function gldist_dgl
+  [UP] unprotected variable x while calling allocating function Rf_allocVector gldist/src/dgl.c:273
+
+Function gldist_pgl
+  [UP] unprotected variable q while calling allocating function Rf_allocVector gldist/src/pgl.c:360
+
+Function gldist_qdgl
+  [UP] unprotected variable p while calling allocating function Rf_allocVector gldist/src/qdgl.c:229
+
+Function gldist_qgl
+  [UP] unprotected variable p while calling allocating function Rf_allocVector gldist/src/qgl.c:240

@@ -1,0 +1,11 @@
+Function bigint_transposeR
+  [UP] unprotected variable dimAttr while calling allocating function bigintegerR::create_bignum(SEXPREC* const&) gmp/src/matrix.cc:118
+
+Function bigq_transposeR
+  [UP] unprotected variable dimAttr while calling allocating function bigrationalR::create_bignum(SEXPREC*) gmp/src/matrixq.cc:108
+
+Function bigrationalR::create_bignum(SEXPREC*)
+  [UP] unprotected variable denAttr while calling allocating function Rf_getAttrib(?,V) gmp/src/bigrationalR.cc:111
+  [UP] unprotected variable denAttr while calling allocating function Rf_mkString gmp/src/bigrationalR.cc:111
+  [UP] unprotected variable denAttr while calling allocating function Rf_getAttrib(?,V) gmp/src/bigrationalR.cc:116
+  [UP] unprotected variable denAttr while calling allocating function Rf_mkString gmp/src/bigrationalR.cc:116

@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_gsetVar at Rf_addJavaGDDevice /home/tomas/packages/build/TNgJsteO/JavaGD/src/javaGD.c:214
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at initJavaGD /home/tomas/packages/build/TNgJsteO/JavaGD/src/jGDtalk.c:799

@@ -1,0 +1,2 @@
+Function PlatformSupport::ReadTransfacFile(SEXPREC*, SEXPREC*)
+  [UP] allocating function Rf_coerceVector may destroy its unprotected argument (inputName), which is later used. MotIV/src/PlatformSupport.cpp:130

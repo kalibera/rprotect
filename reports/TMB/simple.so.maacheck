@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at SEXPREC* asSEXP<CppAD::ADFun<double> >(sphess_t<CppAD::ADFun<double> > const&, char const*) /home/tomas/rchk/wllvm/bc/packages/lib/TMB/include/tmb_core.hpp:1478
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at SEXPREC* asSEXP<CppAD::ADFun<double> >(sphess_t<CppAD::ADFun<double> > const&, char const*) /home/tomas/rchk/wllvm/bc/packages/lib/TMB/include/tmb_core.hpp:1479
+WARNING Suspicious call (two or more unprotected arguments) to Rf_defineVar at config_struct::set(char const*, bool&, bool) /home/tomas/rchk/wllvm/bc/packages/lib/TMB/include/config.hpp:46

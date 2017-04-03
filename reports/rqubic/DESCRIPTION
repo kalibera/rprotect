@@ -1,0 +1,19 @@
+Package: rqubic
+Type: Package
+Title: Qualitative biclustering algorithm for expression data analysis
+        in R
+Version: 1.21.0
+Date: 2015-04-09
+Author: Jitao David Zhang, with inputs from Laura Badi and Martin Ebeling
+Maintainer: Jitao David Zhang <jitao_david.zhang@roche.com>
+Description: This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data. 
+Imports: methods, Biobase, BiocGenerics, biclust
+Suggests: RColorBrewer
+Collates: onload.R AllClasses.R AllMethods.R c_output_parser.R
+        r_qubic_implementation.R rqubic_to_c_funcs.R combineBiclust.R
+biocViews: Microarray, Clustering
+License: GPL-2
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:48:31 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:27:41 UTC; unix

@@ -1,0 +1,6 @@
+Function NIRClass::prepSolTree(int)
+  [UP] unprotected variable names while calling allocating function Rf_mkChar neariso/src/NIR.cc:235
+  [UP] unprotected variable names while calling allocating function Rf_mkChar neariso/src/NIR.cc:236
+  [UP] unprotected variable names while calling allocating function Rf_mkChar neariso/src/NIR.cc:237
+  [UP] unprotected variable names while calling allocating function Rf_mkChar neariso/src/NIR.cc:238
+  [UP] unprotected variable names while calling allocating function Rf_mkChar neariso/src/NIR.cc:239

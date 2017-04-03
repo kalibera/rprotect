@@ -1,0 +1,31 @@
+Package: coop
+Type: Package
+Title: Co-Operation: Fast Covariance, Correlation, and Cosine
+        Similarity Operations
+Version: 0.6-0
+Description: Fast implementations of the co-operations: covariance,
+    correlation, and cosine similarity.  The implementations are
+    fast and memory-efficient and their use is resolved
+    automatically based on the input data, handled by R's S3
+    methods.  Full descriptions of the algorithms and benchmarks
+    are available in the package vignettes.
+License: BSD 2-clause License + file LICENSE
+Depends: R (>= 3.1.0)
+Enhances: slam (>= 0.1.32), Matrix
+Suggests: memuse
+NeedsCompilation: yes
+ByteCompile: yes
+URL: https://github.com/wrathematics/coop
+BugReports: https://github.com/wrathematics/coop/issues
+Authors@R: c(person("Drew", "Schmidt", role=c("aut", "cre"),
+    email="wrathematics@gmail.com"), 
+    person("Christian", "Heckendorf", role="ctb", comment="Caught some
+    memory errors."))
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
+RoxygenNote: 5.0.1
+Packaged: 2016-12-12 17:11:05 UTC; iao
+Author: Drew Schmidt [aut, cre],
+  Christian Heckendorf [ctb] (Caught some memory errors.)
+Repository: CRAN
+Date/Publication: 2016-12-13 01:21:11
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:45:54 UTC; unix

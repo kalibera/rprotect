@@ -1,0 +1,17 @@
+Function HIBAG_AlleleStrand
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:331
+
+Function HIBAG_AlleleStrand2
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:387
+
+Function HIBAG_Classifier_GetHaplos
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:712
+
+Function HIBAG_Predict_Resp
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:554
+
+Function HIBAG_Predict_Resp_Prob
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:596
+
+Function HIBAG_SortAlleleStr
+  [PB] has possible protection stack imbalance HIBAG/src/HIBAG.cpp:173

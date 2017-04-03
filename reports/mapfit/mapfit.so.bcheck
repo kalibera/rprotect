@@ -1,0 +1,2 @@
+Function ccMatrix(sci::matrix<double> const&, SEXPREC*&)
+  [PB] has possible protection stack imbalance mapfit/src/R_common.cc:130

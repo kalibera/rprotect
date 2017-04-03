@@ -1,0 +1,19 @@
+Function R_similarity_ngCMatrix
+  [UP] unprotected variable ix while calling allocating function Rf_getAttrib(?,S:names) arules/src/similarity.c:204
+
+Function R_transpose_ngCMatrix
+  [UP] unprotected variable ix while calling allocating function Rf_allocVector arules/src/matrix.c:60
+  [UP] unprotected variable ix while calling allocating function Rf_setAttrib(V,S:names,V) arules/src/matrix.c:60
+
+Function R_wcount_ngCMatrix
+  [PB] has possible protection stack imbalance arules/src/warm.c:706
+
+Function is_readapp_R
+  [PB] has possible protection stack imbalance arules/src/rapriori.c:358
+
+Function rapriori
+  [UP] unprotected variable ans while calling allocating function Rprintf arules/src/rapriori.c:1110
+  [UP] unprotected variable ans while calling allocating function Rprintf arules/src/rapriori.c:1111
+
+Function returnObject
+  [UP] unprotected variable tidLists while calling allocating function Rf_install arules/src/rapriori.c:953

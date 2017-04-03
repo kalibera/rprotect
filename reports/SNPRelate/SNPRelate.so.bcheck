@@ -1,0 +1,173 @@
+Function CalcEigen
+  [PB] has possible protection stack imbalance SNPRelate/src/genPCA.cpp:1329
+
+Function PCA::CRandomPCA::Run(int, bool)
+  [UP] unprotected variable rv_ans while calling allocating function Rprintf SNPRelate/src/genPCA.cpp:782
+
+Function gnrChromParse
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:1075
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:1075
+
+Function gnrChromParseNumeric
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:1138
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:1138
+
+Function gnrChromRangeNumeric
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:1105
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:1105
+
+Function gnrConvBED2GDS
+  [PB] has possible protection stack imbalance SNPRelate/src/ConvToGDS.cpp:624
+
+Function gnrCopyGenoMem
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:381
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:381
+
+Function gnrDiss
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBS.cpp:641
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBS.cpp:641
+
+Function gnrEigMixSNPLoading
+  [PB] has possible protection stack imbalance SNPRelate/src/genEIGMIX.cpp:772
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genEIGMIX.cpp:772
+
+Function gnrEigMixSampLoading
+  [PB] has possible protection stack imbalance SNPRelate/src/genEIGMIX.cpp:799
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genEIGMIX.cpp:799
+
+Function gnrErrMsg
+  [UP] unprotected variable ans_rv while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:1146
+
+Function gnrFst
+  [PB] has possible protection stack imbalance SNPRelate/src/genFst.cpp:241
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genFst.cpp:241
+
+Function gnrGRM
+  [PB] has possible protection stack imbalance SNPRelate/src/genPCA.cpp:1614
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genPCA.cpp:1614
+
+Function gnrGetGenoDim
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:164
+
+Function gnrHWE
+  [PB] has possible protection stack imbalance SNPRelate/src/genHWE.cpp:136
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genHWE.cpp:136
+
+Function gnrIBDSelSampID_List1
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1841
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1852
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1863
+
+Function gnrIBDSelSampID_List2
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1905
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1916
+  [UP] unprotected variable SampID while calling allocating function Rf_allocVector SNPRelate/src/genIBD.cpp:1927
+
+Function gnrIBD_Beta
+  [PB] has possible protection stack imbalance SNPRelate/src/genBeta.cpp:369
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genBeta.cpp:369
+
+Function gnrIBD_KING_Homo
+  [PB] has possible protection stack imbalance SNPRelate/src/genKING.cpp:536
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genKING.cpp:536
+
+Function gnrIBD_KING_Robust
+  [PB] has possible protection stack imbalance SNPRelate/src/genKING.cpp:610
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genKING.cpp:610
+
+Function gnrIBD_LogLik
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBD.cpp:1748
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBD.cpp:1748
+
+Function gnrIBD_LogLik_k01
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBD.cpp:1772
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBD.cpp:1772
+
+Function gnrIBD_PLINK
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBS.cpp:597
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBS.cpp:597
+
+Function gnrIBSAve
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBS.cpp:475
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBS.cpp:475
+
+Function gnrIBSNum
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBS.cpp:528
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBS.cpp:528
+
+Function gnrLDMat
+  [PB] has possible protection stack imbalance SNPRelate/src/genLD.cpp:944
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genLD.cpp:944
+
+Function gnrLDpair
+  [PB] has possible protection stack imbalance SNPRelate/src/genLD.cpp:887
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genLD.cpp:887
+
+Function gnrLDpruning
+  [PB] has possible protection stack imbalance SNPRelate/src/genLD.cpp:966
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genLD.cpp:966
+
+Function gnrPCACorr
+  [UP] unprotected variable rv_ans while calling allocating function Rprintf SNPRelate/src/genPCA.cpp:1465
+  [PB] has possible protection stack imbalance SNPRelate/src/genPCA.cpp:1467
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genPCA.cpp:1467
+
+Function gnrPCASNPLoading
+  [PB] has possible protection stack imbalance SNPRelate/src/genPCA.cpp:1520
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genPCA.cpp:1520
+
+Function gnrPCASampLoading
+  [PB] has possible protection stack imbalance SNPRelate/src/genPCA.cpp:1545
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genPCA.cpp:1545
+
+Function gnrPairIBD
+  [PB] has possible protection stack imbalance SNPRelate/src/genIBD.cpp:1724
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBD.cpp:1724
+
+Function gnrPairIBDLogLik
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBD.cpp:1813
+
+Function gnrPairScore
+  [UP] unprotected variable rv_ans while calling allocating function GWAS::CdBufSpace::ReadGeno(long) SNPRelate/src/genIBS.cpp:735
+  [UP] unprotected variable rv_ans while calling allocating function GWAS::CdBufSpace::ReadGeno(long) SNPRelate/src/genIBS.cpp:760
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/genIBS.cpp:796
+
+Function gnrParseGEN
+  [UP] unprotected variable rv_ans while calling allocating function GDS_GetError SNPRelate/src/ConvToGDS.cpp:1160
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/ConvToGDS.cpp:1160
+  [PB] has possible protection stack imbalance SNPRelate/src/ConvToGDS.cpp:1161
+
+Function gnrParseVCF4
+  [UP] unprotected variable rv_ans while calling allocating function GDS_GetError SNPRelate/src/ConvToGDS.cpp:1000
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/ConvToGDS.cpp:1000
+  [PB] has possible protection stack imbalance SNPRelate/src/ConvToGDS.cpp:1001
+
+Function gnrSNPFreq
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:271
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:271
+
+Function gnrSNPRateFreq
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:260
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:260
+
+Function gnrSampFreq
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:282
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:282
+
+Function gnrSelSNP_Base
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:205
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:205
+
+Function gnrSelSNP_Base_Ex
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:238
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:238
+
+Function gnrSetGenoSpace
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:113
+
+Function gnrSetSeqSpace
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:153
+
+Function gnrStrandSwitch
+  [PB] has possible protection stack imbalance SNPRelate/src/SNPRelate.cpp:538
+  [UP] unprotected variable rv_ans while calling allocating function GDS_SetError SNPRelate/src/SNPRelate.cpp:538

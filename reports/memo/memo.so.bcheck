@@ -1,0 +1,4 @@
+Function _string_reps
+  [UP] unprotected variable in_names while calling allocating function Rf_allocVector memo/src/getPointer.c:50
+  [UP] unprotected variable in_names while calling allocating function Rf_allocVector memo/src/getPointer.c:59
+  [UP] unprotected variable in_names while calling allocating function Rf_mkChar memo/src/getPointer.c:80

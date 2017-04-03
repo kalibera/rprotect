@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at sdists_align /home/tomas/packages/build/woQQ1RhN/cba/src/sdists.c:733
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at sdists_align /home/tomas/packages/build/woQQ1RhN/cba/src/sdists.c:737
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at sdists_transcript /home/tomas/packages/build/woQQ1RhN/cba/src/sdists.c:700

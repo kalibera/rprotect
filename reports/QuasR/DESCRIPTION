@@ -1,0 +1,27 @@
+Package: QuasR
+Type: Package
+Title: Quantify and Annotate Short Reads in R
+Version: 1.15.2
+Date: 2016-12-08
+Author: Anita Lerch, Dimos Gaiditzis and Michael Stadler
+Maintainer: Michael Stadler <michael.stadler@fmi.ch>
+Depends: parallel, GenomicRanges (>= 1.13.3), Rbowtie
+Imports: methods, grDevices, graphics, utils, zlibbioc, BiocGenerics,
+        S4Vectors (>= 0.9.25), IRanges, BiocInstaller, Biobase,
+        Biostrings, BSgenome, Rsamtools (>= 1.19.38), GenomicFeatures
+        (>= 1.17.13), ShortRead (>= 1.19.1), GenomicAlignments,
+        BiocParallel, GenomeInfoDb, rtracklayer, GenomicFiles
+Suggests: Gviz, RUnit, BiocStyle
+LinkingTo: Rsamtools
+Description: This package provides a framework for the quantification
+        and analysis of Short Reads. It covers a complete workflow
+        starting from raw sequence reads, over creation of alignments
+        and quality control plots, to the quantification of genomic
+        regions of interest.
+License: GPL-2
+biocViews: Genetics, Preprocessing, Sequencing, ChIPSeq, RNASeq,
+        MethylSeq, Coverage, Alignment, QualityControl
+Archs: x64
+NeedsCompilation: yes
+Packaged: 2016-12-09 00:20:01 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:23:45 UTC; unix

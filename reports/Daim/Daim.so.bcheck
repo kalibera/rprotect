@@ -1,0 +1,6 @@
+Function one_roc
+  [UP] unprotected variable result while calling allocating function Rf_mkString Daim/src/sens_spec.c:57
+
+Function rocDaim
+  [UP] unprotected variable result while calling allocating function Rf_allocVector Daim/src/rocDaim.c:53
+  [UP] unprotected variable result while calling allocating function Rf_mkString Daim/src/rocDaim.c:63

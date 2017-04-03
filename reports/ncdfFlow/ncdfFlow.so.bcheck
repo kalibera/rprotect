@@ -1,0 +1,6 @@
+Function createFile
+  [UP] unprotected variable k while calling allocating function Rf_translateChar ncdfFlow/src/hdfFlow.c:137
+  [UP] unprotected variable k while calling allocating function Rf_translateChar ncdfFlow/src/hdfFlow.c:142
+
+Function writeSlice
+  [UP] unprotected variable k while calling allocating function Rf_translateChar ncdfFlow/src/hdfFlow.c:157

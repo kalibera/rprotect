@@ -1,0 +1,6 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:161
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:163
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:165
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:167
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:169
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at readChain /home/tomas/packages/build/cBrNhenT/rtracklayer/src/chain_io.c:171

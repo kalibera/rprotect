@@ -1,0 +1,12 @@
+Function krlmmComputeM
+  [UP] unprotected variable A while calling allocating function Rf_coerceVector crlmm/src/gtypeCaller.c:433
+  [UP] unprotected variable A while calling allocating function Rf_allocMatrix crlmm/src/gtypeCaller.c:438
+  [UP] unprotected variable B while calling allocating function Rf_allocMatrix crlmm/src/gtypeCaller.c:438
+
+Function krlmmComputeS
+  [UP] unprotected variable A while calling allocating function Rf_coerceVector crlmm/src/gtypeCaller.c:476
+  [UP] unprotected variable A while calling allocating function Rf_allocMatrix crlmm/src/gtypeCaller.c:480
+  [UP] unprotected variable B while calling allocating function Rf_allocMatrix crlmm/src/gtypeCaller.c:480
+
+Function krlmmConfidenceScore
+  [UP] unprotected variable M while calling allocating function Rf_allocMatrix crlmm/src/gtypeCaller.c:609

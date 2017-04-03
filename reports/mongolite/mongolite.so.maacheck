@@ -1,0 +1,3 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at ConvertBinary /home/tomas/packages/build/L7JhidCF/mongolite/src/bson.c:159
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at bson_reader_feed /home/tomas/packages/build/L7JhidCF/mongolite/src/reader.c:11
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at bson_reader_feed /home/tomas/packages/build/L7JhidCF/mongolite/src/reader.c:11

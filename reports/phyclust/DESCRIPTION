@@ -1,0 +1,41 @@
+Package: phyclust
+Version: 0.1-18
+Date: 2016-12-10
+Title: Phylogenetic Clustering (Phyloclustering)
+Authors@R: c(person("Wei-Chen", "Chen", role = c("aut", "cre"), email =
+        "wccsnow@gmail.com"), person("Karin", "Dorman", role =
+        "aut"))
+Depends: R (>= 3.0.0), ape
+LazyLoad: yes
+LazyData: yes
+Copyright: See phyclust/inst/Documents/ for files in src/msdir/,
+        src/seq-gen/, src/paml_baseml, and R/ttzeng-*.r.
+Description: Phylogenetic clustering (phyloclustering) is an evolutionary
+        Continuous Time Markov Chain model-based approach to identify
+        population structure from molecular data without assuming
+        linkage equilibrium. The package phyclust (Chen 2011) provides a
+        convenient implementation of phyloclustering for DNA and SNP data,
+        capable of clustering individuals into subpopulations and identifying
+        molecular sequences representative of those subpopulations. It is
+        designed in C for performance, interfaced with R for visualization,
+        and incorporates other popular open source programs including
+        ms (Hudson 2002) <doi:10.1093/bioinformatics/18.2.337>,
+        seq-gen (Rambaut and Grassly 1997)
+        <doi:10.1093/bioinformatics/13.3.235>,
+        Hap-Clustering (Tzeng 2005) <doi:10.1002/gepi.20063> and
+        PAML baseml (Yang 1997, 2007) <doi:10.1093/bioinformatics/13.5.555>,
+        <doi:10.1093/molbev/msm088>,
+        for simulating data, additional analyses, and searching the best tree.
+        See the phyclust website for more information, documentations and
+        examples.
+BugReports: https://github.com/snoweye/phyclust/issues
+License: GPL (>= 2)
+URL: http://snoweye.github.io/phyclust/
+NeedsCompilation: yes
+Packaged: 2016-12-11 01:33:03 UTC; snoweye
+Author: Wei-Chen Chen [aut, cre],
+  Karin Dorman [aut]
+Maintainer: Wei-Chen Chen <wccsnow@gmail.com>
+Repository: CRAN
+Date/Publication: 2016-12-11 12:26:36
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:22:56 UTC; unix

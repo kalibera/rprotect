@@ -1,0 +1,27 @@
+Package: dequer
+Type: Package
+Title: Stacks, Queues, and 'Deques' for R
+Version: 2.0-0
+Description: Queues, stacks, and 'deques' are list-like, abstract data types. 
+    These are meant to be very cheap to "grow", or insert new objects into.
+    A typical use case involves storing data in a list in a streaming fashion,
+    when you do not necessarily know how may elements need to be stored.
+    Unlike R's lists, the new data structures provided here are not
+    necessarily stored contiguously, making insertions and deletions at the
+    front/end of the structure much faster.  The underlying implementation
+    is new and uses a head/tail doubly linked list; thus, we do not rely on R's
+    environments or hashing.  To avoid unnecessary data copying, most operations
+    on these data structures are performed via side-effects.
+License: BSD 2-clause License + file LICENSE
+Depends: R (>= 3.1.0)
+NeedsCompilation: yes
+ByteCompile: yes
+Author: Drew Schmidt [aut, cre]
+URL: https://github.com/wrathematics/dequer
+BugReports: https://github.com/wrathematics/dequer/issues
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
+RoxygenNote: 5.0.1
+Packaged: 2016-09-26 12:40:34 UTC; mschmid3
+Repository: CRAN
+Date/Publication: 2016-09-26 16:46:57
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:46:03 UTC; unix

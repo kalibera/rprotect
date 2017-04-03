@@ -1,0 +1,5 @@
+Function vsn2_point
+  [UP] unprotected variable res while calling allocating function loglik vsn/src/vsn2.c:395
+
+Function vsn_c
+  [UP] unprotected variable res while calling allocating function Rf_allocVector vsn/src/vsn.c:279

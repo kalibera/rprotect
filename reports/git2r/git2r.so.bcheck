@@ -1,0 +1,129 @@
+Function git2r_blame_init
+  [UP] unprotected variable hunks while calling allocating function R_do_MAKE_CLASS git2r/src/git2r_blame.c:56
+  [UP] unprotected variable hunks while calling allocating function R_do_new_object git2r/src/git2r_blame.c:56
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:lines_in_hunk,V) git2r/src/git2r_blame.c:58
+  [UP] unprotected variable hunks while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:58
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:58
+  [UP] unprotected variable item while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:58
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:58
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:final_commit_id,V) git2r/src/git2r_blame.c:65
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:65
+  [UP] unprotected variable hunks while calling allocating function Rf_mkString git2r/src/git2r_blame.c:65
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:65
+  [UP] unprotected variable item while calling allocating function Rf_mkString git2r/src/git2r_blame.c:65
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:final_start_line_number,V) git2r/src/git2r_blame.c:67
+  [UP] unprotected variable hunks while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:67
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:67
+  [UP] unprotected variable item while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:67
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:67
+  [UP] unprotected variable hunks while calling allocating function git2r_signature_init git2r/src/git2r_blame.c:72
+  [UP] unprotected variable item while calling allocating function git2r_signature_init git2r/src/git2r_blame.c:72
+  [UP] allocating function R_do_slot(?,S:final_signature) may destroy its unprotected argument (item), which is later used. git2r/src/git2r_blame.c:74
+  [UP] unprotected variable hunks while calling allocating function R_do_slot(?,S:final_signature) git2r/src/git2r_blame.c:74
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:74
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:74
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:orig_commit_id,V) git2r/src/git2r_blame.c:78
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:78
+  [UP] unprotected variable hunks while calling allocating function Rf_mkString git2r/src/git2r_blame.c:78
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:78
+  [UP] unprotected variable item while calling allocating function Rf_mkString git2r/src/git2r_blame.c:78
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:orig_start_line_number,V) git2r/src/git2r_blame.c:80
+  [UP] unprotected variable hunks while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:80
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:80
+  [UP] unprotected variable item while calling allocating function Rf_ScalarInteger git2r/src/git2r_blame.c:80
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:80
+  [UP] unprotected variable hunks while calling allocating function git2r_signature_init git2r/src/git2r_blame.c:85
+  [UP] unprotected variable item while calling allocating function git2r_signature_init git2r/src/git2r_blame.c:85
+  [UP] allocating function R_do_slot(?,S:orig_signature) may destroy its unprotected argument (item), which is later used. git2r/src/git2r_blame.c:87
+  [UP] unprotected variable hunks while calling allocating function R_do_slot(?,S:orig_signature) git2r/src/git2r_blame.c:87
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:87
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:87
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:orig_path,V) git2r/src/git2r_blame.c:89
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:89
+  [UP] unprotected variable hunks while calling allocating function Rf_mkString git2r/src/git2r_blame.c:89
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:89
+  [UP] unprotected variable item while calling allocating function Rf_mkString git2r/src/git2r_blame.c:89
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:boundary,?) git2r/src/git2r_blame.c:92
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:92
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:92
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:boundary,?) git2r/src/git2r_blame.c:94
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:94
+  [UP] unprotected variable item while calling allocating function Rf_install git2r/src/git2r_blame.c:94
+  [UP] unprotected variable hunks while calling allocating function R_do_slot_assign(?,S:repo,?) git2r/src/git2r_blame.c:96
+  [UP] unprotected variable hunks while calling allocating function Rf_install git2r/src/git2r_blame.c:96
+
+Function git2r_config_set
+  [UP] unprotected variable names while calling allocating function git_config_set_string git2r/src/git2r_config.c:358
+  [UP] unprotected variable names while calling allocating function git_config_delete_entry git2r/src/git2r_config.c:360
+  [UP] unprotected variable names while calling allocating function Rf_warning git2r/src/git2r_config.c:364
+
+Function git2r_diff_get_file_cb
+  [UP] unprotected variable file_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:686
+  [UP] unprotected variable file_obj while calling allocating function Rf_mkString git2r/src/git2r_diff.c:686
+
+Function git2r_diff_get_hunk_cb
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:740
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:740
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:742
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:742
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:744
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:744
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:746
+  [UP] unprotected variable hunk_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:746
+
+Function git2r_diff_get_line_cb
+  [UP] unprotected variable line_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:788
+  [UP] unprotected variable line_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:788
+  [UP] unprotected variable line_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:789
+  [UP] unprotected variable line_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:789
+  [UP] unprotected variable line_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:791
+  [UP] unprotected variable line_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:791
+  [UP] unprotected variable line_obj while calling allocating function Rf_ScalarInteger git2r/src/git2r_diff.c:793
+  [UP] unprotected variable line_obj while calling allocating function Rf_install git2r/src/git2r_diff.c:793
+
+Function git2r_diff_print
+  [PB] has possible protection stack imbalance git2r/src/git2r_diff.c:913
+
+Function git2r_repository_fetchhead_foreach_cb
+  [UP] unprotected variable fetch_head while calling allocating function Rf_install git2r/src/git2r_repository.c:100
+  [UP] unprotected variable fetch_head while calling allocating function Rf_mkString git2r/src/git2r_repository.c:100
+  [UP] unprotected variable fetch_head while calling allocating function Rf_install git2r/src/git2r_repository.c:101
+  [UP] unprotected variable fetch_head while calling allocating function Rf_mkString git2r/src/git2r_repository.c:101
+  [UP] unprotected variable fetch_head while calling allocating function Rf_install git2r/src/git2r_repository.c:103
+  [UP] unprotected variable fetch_head while calling allocating function Rf_mkString git2r/src/git2r_repository.c:103
+  [UP] unprotected variable fetch_head while calling allocating function Rf_install git2r/src/git2r_repository.c:104
+
+Function git2r_repository_workdir
+  [UP] unprotected variable result while calling allocating function git_repository_free git2r/src/git2r_repository.c:513
+
+Function git2r_tree_init
+  [UP] unprotected variable filemode while calling allocating function R_do_slot_assign(?,S:id,V) git2r/src/git2r_tree.c:44
+  [UP] unprotected variable filemode while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:44
+  [UP] unprotected variable filemode while calling allocating function Rf_install git2r/src/git2r_tree.c:44
+  [UP] unprotected variable filemode while calling allocating function R_do_slot_assign(?,S:type,V) git2r/src/git2r_tree.c:45
+  [UP] unprotected variable filemode while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:45
+  [UP] unprotected variable filemode while calling allocating function Rf_install git2r/src/git2r_tree.c:45
+  [UP] unprotected variable id while calling allocating function R_do_slot_assign(?,S:type,V) git2r/src/git2r_tree.c:45
+  [UP] unprotected variable id while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:45
+  [UP] unprotected variable id while calling allocating function Rf_install git2r/src/git2r_tree.c:45
+  [UP] unprotected variable filemode while calling allocating function R_do_slot_assign(?,S:name,V) git2r/src/git2r_tree.c:46
+  [UP] unprotected variable filemode while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:46
+  [UP] unprotected variable filemode while calling allocating function Rf_install git2r/src/git2r_tree.c:46
+  [UP] unprotected variable id while calling allocating function R_do_slot_assign(?,S:name,V) git2r/src/git2r_tree.c:46
+  [UP] unprotected variable id while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:46
+  [UP] unprotected variable id while calling allocating function Rf_install git2r/src/git2r_tree.c:46
+  [UP] unprotected variable type while calling allocating function R_do_slot_assign(?,S:name,V) git2r/src/git2r_tree.c:46
+  [UP] unprotected variable type while calling allocating function Rf_allocVector git2r/src/git2r_tree.c:46
+  [UP] unprotected variable type while calling allocating function Rf_install git2r/src/git2r_tree.c:46
+  [UP] unprotected variable filemode while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:52
+  [UP] unprotected variable id while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:52
+  [UP] unprotected variable name while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:52
+  [UP] unprotected variable type while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:52
+  [UP] unprotected variable filemode while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:53
+  [UP] unprotected variable id while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:53
+  [UP] unprotected variable name while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:53
+  [UP] unprotected variable type while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:53
+  [UP] unprotected variable filemode while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:54
+  [UP] unprotected variable id while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:54
+  [UP] unprotected variable name while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:54
+  [UP] unprotected variable type while calling allocating function Rf_mkChar git2r/src/git2r_tree.c:54

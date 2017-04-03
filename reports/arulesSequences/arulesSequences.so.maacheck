@@ -1,0 +1,17 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_as_dist_dsCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:319
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_colAppend_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:181
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_colAppend_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:182
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_colAppend_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:198
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_colAppend_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:202
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_rowSubset_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:107
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_rowSubset_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:108
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_rowSubset_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:123
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_rowSubset_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/matrix.c:130
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:148
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:160
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:161
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:162
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:182
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:188
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:250
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_similarity_sgCMatrix /home/tomas/packages/build/WjMMmwnl/arulesSequences/src/similarity.c:256

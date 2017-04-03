@@ -1,0 +1,20 @@
+Package: FLLat
+Title: Fused Lasso Latent Feature Model
+Version: 1.2
+Date: 2015-09-16
+Authors@R: c(person("Gen", "Nowak", role = c("aut","cre"), email = "gen.nowak@gmail.com"), person("Trevor", "Hastie", role = "aut"), person(c("Jonathan", "R."), "Pollack", role = "aut"), person("Robert", "Tibshirani", role = "aut"), person("Nicholas", "Johnson", role = "aut"))
+Imports: graphics, stats, gplots
+Description: Fits the Fused Lasso Latent Feature model, which is used for modeling multi-sample aCGH data to identify regions of copy number variation (CNV).  Produces a set of features that describe the patterns of CNV and a set of weights that describe the composition of each sample.  Also provides functions for choosing the optimal tuning parameters and the appropriate number of features, and for estimating the false discovery rate.
+License: GPL (>= 2)
+LazyData: yes
+NeedsCompilation: yes
+Packaged: 2015-09-16 08:18:05 UTC; gennowak
+Author: Gen Nowak [aut, cre],
+  Trevor Hastie [aut],
+  Jonathan R. Pollack [aut],
+  Robert Tibshirani [aut],
+  Nicholas Johnson [aut]
+Maintainer: Gen Nowak <gen.nowak@gmail.com>
+Repository: CRAN
+Date/Publication: 2015-09-16 12:47:04
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:19:07 UTC; unix

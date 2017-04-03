@@ -1,0 +1,2 @@
+Function rmtrend
+  [UP] unprotected variable lmnames while calling allocating function Rf_allocList dplR/src/redfit.c:110

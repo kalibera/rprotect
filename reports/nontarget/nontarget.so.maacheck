@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at kdtree4 /home/tomas/packages/build/kCKI7sqy/nontarget/src/searchTree.cpp:710
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at peak_search /home/tomas/packages/build/kCKI7sqy/nontarget/src/searchTree.cpp:401

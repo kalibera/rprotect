@@ -1,0 +1,4 @@
+Function R_webp_decode
+  [UP] unprotected variable image while calling allocating function Rf_allocVector webp/src/webp.c:23
+  [UP] unprotected variable dim while calling allocating function Rf_mkString webp/src/webp.c:27
+  [UP] unprotected variable image while calling allocating function Rf_mkString webp/src/webp.c:27

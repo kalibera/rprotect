@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at generate_sorted_seeds /home/tomas/packages/build/TbbjFyiz/rqubic/src/graph.c:172

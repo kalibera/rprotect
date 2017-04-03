@@ -1,0 +1,7 @@
+Function cdffix
+  [UP] unprotected variable mass while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:110
+  [UP] unprotected variable intensity while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:111
+  [UP] unprotected variable mass while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:111
+  [UP] unprotected variable intensity while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:112
+  [UP] unprotected variable mass while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:112
+  [UP] unprotected variable scanIndex while calling allocating function Rf_coerceVector TargetSearch/src/ncdf.c:112

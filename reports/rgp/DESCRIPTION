@@ -1,0 +1,26 @@
+Package: rgp
+Version: 0.4-1
+Title: R genetic programming framework
+Description: RGP is a simple modular Genetic Programming (GP) system build in
+    pure R. In addition to general GP tasks, the system supports Symbolic
+    Regression by GP through the familiar R model formula interface. GP
+    individuals are represented as R expressions, an (optional) type system
+    enables domain-specific function sets containing functions of diverse
+    domain- and range types. A basic set of genetic operators for variation
+    (mutation and crossover) and selection is provided.
+Author: Oliver Flasch, Olaf Mersmann, Thomas Bartz-Beielstein, Joerg Stork,
+    Martin Zaefferer
+Maintainer: Oliver Flasch <oliver.flasch@fh-koeln.de>
+License: GPL-2
+URL: http://rsymbolic.org/projects/show/rgp
+LazyData: yes
+Depends: R (>= 3.0.0), utils
+Imports: emoa (>= 0.5-0)
+Suggests: igraph (>= 0.5.5), rrules (>= 0.1-0), rgpui (>= 0.1-0),
+        snowfall (>= 1.84-4)
+Date:
+Packaged: 2014-08-08 10:05:41 UTC; oflasch
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-08-08 14:05:23
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:58:45 UTC; unix

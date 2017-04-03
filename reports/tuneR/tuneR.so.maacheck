@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at do_read_mp3 /home/tomas/packages/build/UaTD77Fb/tuneR/src/readmp3.c:113
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at do_read_mp3 /home/tomas/packages/build/UaTD77Fb/tuneR/src/readmp3.c:116

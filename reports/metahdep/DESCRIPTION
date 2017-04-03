@@ -1,0 +1,20 @@
+Package: metahdep
+Type: Package
+Title: Hierarchical Dependence in Meta-Analysis
+Version: 1.33.0
+Date: 2011-09-15
+Author: John R. Stevens, Gabriel Nicholas
+Maintainer: John R. Stevens <john.r.stevens@usu.edu>
+Depends: R (>= 2.10), methods
+Suggests: affyPLM
+Description: Tools for meta-analysis in the presence of hierarchical
+        (and/or sampling) dependence, including with gene expression
+        studies
+Collate: ES.obj.R metaprep.R getPLM.es.R metahdep.format.R metahdep.R
+        metahdep.FEMA.R metahdep.REMA.R metahdep.HBLM.R
+        metahdep.other.R
+License: GPL-3
+biocViews: Microarray, DifferentialExpression
+NeedsCompilation: yes
+Packaged: 2016-10-17 22:24:23 UTC; biocbuild
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:37 UTC; unix

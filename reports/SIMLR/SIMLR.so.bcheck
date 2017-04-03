@@ -1,0 +1,2 @@
+Function projsplx
+  [UP] unprotected variable s while calling allocating function Rf_allocMatrix SIMLR/src/projsplx_R.c:28

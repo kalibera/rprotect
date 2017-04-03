@@ -1,0 +1,5 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang4 at InstanceObjectTable::methodClosure(char const*) const /home/tomas/packages/build/QinswYdB/qtbase/src/InstanceObjectTable.cpp:34
+WARNING Suspicious call (two or more unprotected arguments) to Rf_findVarInFrame at RClass::findMethod(MethodCall const&) const /home/tomas/packages/build/QinswYdB/qtbase/src/RClass.cpp:61
+WARNING Suspicious call (two or more unprotected arguments) to Rf_findVarInFrame at RClass::hasMethod(char const*, QFlags<Method::Qualifier>) const /home/tomas/packages/build/QinswYdB/qtbase/src/RClass.cpp:75
+WARNING Suspicious call (two or more unprotected arguments) to Rf_findVarInFrame at RClass::implementsMethod(char const*) const /home/tomas/packages/build/QinswYdB/qtbase/src/RClass.cpp:121
+WARNING Suspicious call (two or more unprotected arguments) to Rf_findVarInFrame at RClass::property(char const*) const /home/tomas/packages/build/QinswYdB/qtbase/src/RClass.cpp:106

@@ -1,0 +1,19 @@
+Package: Rgb
+Type: Package
+Title: The R Genome Browser
+Version: 1.5.0
+Date: 2017-03-03
+Author: Sylvain Mareschal
+Maintainer: Sylvain Mareschal <maressyl@gmail.com>
+URL: http://bioinformatics.ovsa.fr/Rgb
+BugReports: https://github.com/maressyl/R.Rgb/issues
+Description: Classes and methods to efficiently handle (slice, annotate, draw ...) genomic features (such as genes or transcripts), and an interactive interface to browse them.
+License: GPL (>= 3)
+Depends: R (>= 3.0.0), methods
+Imports: utils, stats
+Suggests: tcltk, tkrplot, graphics, grDevices
+NeedsCompilation: yes
+Packaged: 2017-03-03 10:39:12 UTC; sylvain
+Repository: CRAN
+Date/Publication: 2017-03-03 18:02:08
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:48:53 UTC; unix

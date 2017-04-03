@@ -1,0 +1,25 @@
+Package: CorrBin
+Title: Nonparametrics with Clustered Binary and Multinomial Data
+Version: 1.5
+Date: 2015-1-8
+Authors@R: person("Aniko", "Szabo", role=c("aut","cre"), email="aszabo@mcw.edu")
+Depends: R (>= 2.10)
+Imports: boot, combinat, geepack, dirmult, mvtnorm
+Suggests: lattice
+Description: This package implements non-parametric analyses for clustered
+    binary and multinomial data. The elements of the cluster are assumed
+    exchangeable, and identical joint distribution (also known as marginal
+    compatibility, or reproducibility) is assumed for clusters of different
+    sizes. A trend test based on stochastic ordering is implemented.
+License: GPL (>= 2)
+LazyLoad: yes
+Author: Aniko Szabo [aut, cre]
+Maintainer: Aniko Szabo <aszabo@mcw.edu>
+Repository: CRAN
+Repository/R-Forge/Project: corrbin
+Repository/R-Forge/Revision: 88
+Repository/R-Forge/DateTimeStamp: 2015-01-04 21:34:33
+Date/Publication: 2015-01-05 07:45:55
+Packaged: 2015-01-04 21:45:56 UTC; rforge
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:53:45 UTC; unix

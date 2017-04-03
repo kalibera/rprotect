@@ -1,0 +1,17 @@
+Function RCatnet::genSamples(SEXPREC*, SEXPREC*, SEXPREC*)
+  [PB] has possible protection stack imbalance catnet/src/rcatnet.cpp:643
+
+Function catnetEntropyOrder
+  [PB] has possible protection stack imbalance catnet/src/catnet_entropy.cpp:468
+
+Function catnetEntropyPairwise
+  [PB] has possible protection stack imbalance catnet/src/catnet_entropy.cpp:239
+
+Function catnetKLpairwise
+  [PB] has possible protection stack imbalance catnet/src/catnet_entropy.cpp:694
+
+Function catnetNodeLoglik
+  [PB] has possible protection stack imbalance catnet/src/catnet_rexport.cpp:699
+
+Function catnetPearsonPairwise
+  [PB] has possible protection stack imbalance catnet/src/catnet_entropy.cpp:914

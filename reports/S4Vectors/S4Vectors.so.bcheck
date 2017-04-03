@@ -1,0 +1,8 @@
+Function _subset_vector_OR_factor_by_ranges
+  [UP] unprotected variable x_names while calling allocating function Rf_allocVector S4Vectors/src/subsetting_utils.c:127
+
+Function alloc_lengths
+  [UP] allocating function _get_Linteger_dataptr may destroy its unprotected argument (lengths), which is later used. S4Vectors/src/Rle_class.c:692
+
+Function top_prenv_dots
+  [UP] unprotected variable dots while calling allocating function Rf_allocVector S4Vectors/src/eval_utils.c:28

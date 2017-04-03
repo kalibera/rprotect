@@ -1,0 +1,15 @@
+Package: crrp
+Type: Package
+Title: Penalized Variable Selection in Competing Risks Regression
+Version: 1.0
+Date: 2015-06-19
+Author: Zhixuan Fu
+Maintainer: Zhixuan Fu <zhixuan.fu@yale.edu>
+Depends: survival, Matrix, cmprsk
+Description: In competing risks regression, the proportional subdistribution hazards(PSH) model is popular for its direct assessment of covariate effects on the cumulative incidence function. This package allows for penalized variable selection for the PSH model. Penalties include LASSO, SCAD, MCP, and their group versions.
+License: GPL (>= 2)
+Packaged: 2015-06-19 22:39:06 UTC; Evie
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-06-20 00:56:59
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 15:29:09 UTC; unix

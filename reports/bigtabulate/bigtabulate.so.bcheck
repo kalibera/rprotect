@@ -1,0 +1,39 @@
+Function SEXPREC* TAPPLY<double, MatrixAccessor<double> >(MatrixAccessor<double>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<double, SepMatrixAccessor<double> >(SepMatrixAccessor<double>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, MatrixAccessor<char> >(MatrixAccessor<char>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, MatrixAccessor<int> >(MatrixAccessor<int>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, MatrixAccessor<short> >(MatrixAccessor<short>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, SepMatrixAccessor<char> >(SepMatrixAccessor<char>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, SepMatrixAccessor<int> >(SepMatrixAccessor<int>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717
+
+Function SEXPREC* TAPPLY<int, SepMatrixAccessor<short> >(SepMatrixAccessor<short>, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*, SEXPREC*)
+  [UP] unprotected variable mapRet while calling allocating function Rf_mkChar bigtabulate/src/bigtabulate.cpp:683
+  [UP] unprotected variable dimnames while calling allocating function StringVec2RChar(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&) bigtabulate/src/bigtabulate.cpp:715
+  [UP] unprotected variable dimnames while calling allocating function Rf_allocMatrix bigtabulate/src/bigtabulate.cpp:717

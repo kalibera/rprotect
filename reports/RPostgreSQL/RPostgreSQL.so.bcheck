@@ -1,0 +1,18 @@
+Function RS_PostgreSQL_cloneConnection
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_allocVector RPostgreSQL/src/RS-PostgreSQL.c:139
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:140
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:141
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:142
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:143
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:144
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:145
+  [UP] unprotected variable mgrHandle while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PostgreSQL.c:146
+
+Function RS_PostgreSQL_escape
+  [UP] unprotected variable output while calling allocating function Rf_mkChar RPostgreSQL/src/RS-PQescape.c:34
+
+Function RS_PostgreSQL_exec
+  [UP] allocating function RS_DBI_getResultSet(V) may destroy its unprotected argument (rsHandle), which is later used. RPostgreSQL/src/RS-PostgreSQL.c:338
+
+Function RS_PostgreSQL_getResult
+  [UP] allocating function RS_DBI_getResultSet(V) may destroy its unprotected argument (rsHandle), which is later used. RPostgreSQL/src/RS-pgsql-getResult.c:50

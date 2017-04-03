@@ -1,0 +1,35 @@
+Function hess_error_set
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:x) spdep/src/ml_sse.c:161
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:161
+  [UP] unprotected variable x while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:162
+  [UP] unprotected variable x while calling allocating function Rf_install spdep/src/ml_sse.c:162
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:162
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:162
+  [UP] unprotected variable wy while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:163
+  [UP] unprotected variable wy while calling allocating function Rf_install spdep/src/ml_sse.c:163
+  [UP] unprotected variable x while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:163
+  [UP] unprotected variable x while calling allocating function Rf_install spdep/src/ml_sse.c:163
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:163
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:163
+
+Function hess_lag_set
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:x) spdep/src/ml_sse.c:239
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:239
+  [UP] unprotected variable x while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:240
+  [UP] unprotected variable x while calling allocating function Rf_install spdep/src/ml_sse.c:240
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:240
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:240
+
+Function opt_error_set
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:x) spdep/src/ml_sse.c:76
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:76
+  [UP] unprotected variable x while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:77
+  [UP] unprotected variable x while calling allocating function Rf_install spdep/src/ml_sse.c:77
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:wy) spdep/src/ml_sse.c:77
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:77
+  [UP] unprotected variable wy while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:78
+  [UP] unprotected variable wy while calling allocating function Rf_install spdep/src/ml_sse.c:78
+  [UP] unprotected variable x while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:78
+  [UP] unprotected variable x while calling allocating function Rf_install spdep/src/ml_sse.c:78
+  [UP] unprotected variable y while calling allocating function Rf_findVarInFrame(?,S:WX) spdep/src/ml_sse.c:78
+  [UP] unprotected variable y while calling allocating function Rf_install spdep/src/ml_sse.c:78

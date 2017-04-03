@@ -1,0 +1,26 @@
+Package: WhopGenome
+Type: Package
+Title: High-Speed Processing of VCF, FASTA and Alignment Data
+Version: 0.9.7
+Date: 2017-03-10
+Author: Ulrich Wittelsbuerger [aut, cre], Heng Li [ctb], Bob Handsaker [ctb]
+Authors@R: c(	person("Ulrich", "Wittelsbuerger", role = c("aut", "cre"),email = "ulrich.wittelsbuerger@uni-duesseldorf.de"),
+				person("Heng", "Li", role = "ctb"),
+				person("Bob", "Handsaker", role = "ctb")			)
+Maintainer: Ulrich Wittelsbuerger <ulrich.wittelsbuerger@uni-duesseldorf.de>
+Depends: R (>= 1.8.0)
+Suggests: RMySQL, DBI, AnnotationDbi
+Description: Provides very fast access to whole genome, population scale variation data
+	from VCF files and sequence data from FASTA-formatted files.
+	It also reads in alignments from FASTA, Phylip, MAF and other file formats.
+	Provides easy-to-use interfaces to genome annotation from UCSC and Bioconductor and gene ontology data
+	from AmiGO and is capable to read, modify and write PLINK .PED-format pedigree files.
+License: GPL (>= 2)
+SystemRequirements: zlib headers and library
+NeedsCompilation: yes
+LazyLoad: yes
+Copyright: inst/COPYRIGHTS
+Packaged: 2017-03-10 10:54:15 UTC; uli
+Repository: CRAN
+Date/Publication: 2017-03-13 17:10:56
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 14:50:17 UTC; unix

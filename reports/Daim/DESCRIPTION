@@ -1,0 +1,22 @@
+Package: Daim
+Title: Diagnostic accuracy of classification models.
+Version: 1.1.0
+Author: Sergej Potapov, Werner Adler, Benjamin Hofner and Berthold Lausen.
+Description: Several functions for evaluating the accuracy of
+        classification models. The package provides the following
+        performance measures: repeated k-fold cross-validation, 
+		0.632 and 0.632+ bootstrap estimation of the misclassification rate, 
+        sensitivity, specificity and AUC. If an application is 
+        computationally intensive, parallel execution can be used 
+        to reduce the computational effort.
+Depends: R (>= 2.15.1), parallel
+Imports: rms
+Suggests: MASS, rpart, ipred, e1071, randomForest, mboost, TH.data
+Date: 02.09.2013
+License: GPL-2
+Maintainer: Sergej Potapov <sergej.potapov@gmail.com>
+Packaged: 2013-09-13 11:56:24 UTC; spotapov
+Repository: CRAN
+Date/Publication: 2013-09-13 14:18:09
+NeedsCompilation: yes
+Built: R 3.5.0; x86_64-pc-linux-gnu; 2017-03-29 16:00:27 UTC; unix

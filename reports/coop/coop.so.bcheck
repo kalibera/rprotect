@@ -1,0 +1,7 @@
+Function R_check_badvals
+  [PB] has possible protection stack imbalance coop/src/R_checks.c:55
+
+Function R_naomit_vecvec
+  [UP] unprotected variable x_ret while calling allocating function R_fast_naomit_dbl_small coop/src/R_naomit.c:397
+  [UP] unprotected variable x_ret while calling allocating function Rf_allocVector coop/src/R_naomit.c:402
+  [UP] unprotected variable y_ret while calling allocating function Rf_allocVector coop/src/R_naomit.c:402

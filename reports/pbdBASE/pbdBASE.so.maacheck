@@ -1,0 +1,8 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at COMM_PRINT /home/tomas/packages/build/bKp12BdI/pbdBASE/src/comm_utils.c:57
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at COMM_STOP /home/tomas/packages/build/bKp12BdI/pbdBASE/src/comm_utils.c:16
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at COMM_WARNING /home/tomas/packages/build/bKp12BdI/pbdBASE/src/comm_utils.c:37
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull /home/tomas/packages/build/bKp12BdI/pbdBASE/src/../inst/RNACI/RNACI.h:245
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull.101 /home/tomas/packages/build/bKp12BdI/pbdBASE/src/../inst/RNACI/RNACI.h:245
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull.120 /home/tomas/packages/build/bKp12BdI/pbdBASE/src/../inst/RNACI/RNACI.h:245
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull.38 /home/tomas/packages/build/bKp12BdI/pbdBASE/src/../inst/RNACI/RNACI.h:245
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at is_Rnull.81 /home/tomas/packages/build/bKp12BdI/pbdBASE/src/../inst/RNACI/RNACI.h:245

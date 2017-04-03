@@ -1,0 +1,5 @@
+Function fast_factor(SEXPREC*, SEXPREC*)
+  [UP] unprotected variable levels while calling allocating function Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(SEXPREC*) Kmisc/src/Kmisc_cpp.cpp:220
+  [UP] unprotected variable levels while calling allocating function Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(SEXPREC*) Kmisc/src/Kmisc_cpp.cpp:221
+  [UP] unprotected variable levels while calling allocating function Rcpp::Vector<16, Rcpp::PreserveStorage>::Vector(SEXPREC*) Kmisc/src/Kmisc_cpp.cpp:222
+  [UP] unprotected variable levels while calling allocating function Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(SEXPREC*) Kmisc/src/Kmisc_cpp.cpp:223

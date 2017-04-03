@@ -1,0 +1,5 @@
+Function ocl_call
+  [UP] unprotected variable res while calling allocating function ocl_call_context_fin OpenCL/src/ocl.c:566
+
+Function ocl_collect_call
+  [UP] unprotected variable res while calling allocating function ocl_call_context_fin OpenCL/src/ocl.c:633

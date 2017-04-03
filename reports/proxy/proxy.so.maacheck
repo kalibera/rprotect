@@ -1,0 +1,15 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_binary_matrix /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:287
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at R_apply_dist_data_frame /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:440
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_data_frame /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:459
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_data_frame /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:460
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_data_frame /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:477
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_data_frame /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:482
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_list /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:177
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_apply_dist_matrix /home/tomas/packages/build/y6brUwvW/proxy/src/apply.c:69
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_bjaccard /home/tomas/packages/build/y6brUwvW/proxy/src/distance.c:427
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_cosine /home/tomas/packages/build/y6brUwvW/proxy/src/distance.c:868
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_edice /home/tomas/packages/build/y6brUwvW/proxy/src/distance.c:718
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_ejaccard /home/tomas/packages/build/y6brUwvW/proxy/src/distance.c:566
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_subset_dist /home/tomas/packages/build/y6brUwvW/proxy/src/util.c:78
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at R_subset_dist /home/tomas/packages/build/y6brUwvW/proxy/src/util.c:82
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at dists /home/tomas/packages/build/y6brUwvW/proxy/src/distance.c:304

@@ -1,0 +1,12 @@
+Function FLSABackwards::allocateSolutions()
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/flsaBackwards.cc:291
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/flsaBackwards.cc:292
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/flsaBackwards.cc:293
+  [PB] has possible protection stack imbalance flsa/src/flsaBackwards.cc:306
+
+Function FLSAClass::prepSolTree(int)
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/FLSA.cc:238
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/FLSA.cc:239
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/FLSA.cc:240
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/FLSA.cc:241
+  [UP] unprotected variable names while calling allocating function Rf_mkChar flsa/src/FLSA.cc:242

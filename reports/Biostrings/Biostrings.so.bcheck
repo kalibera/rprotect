@@ -1,0 +1,64 @@
+Function DNAStringSet_translate
+  [UP] unprotected variable ans_width while calling allocating function _get_elt_from_XStringSet_holder Biostrings/src/translate.c:176
+  [UP] unprotected variable ans_width while calling allocating function _get_elt_from_XStringSet_holder Biostrings/src/translate.c:177
+  [UP] unprotected variable ans_width while calling allocating function Rf_warning Biostrings/src/translate.c:200
+  [UP] unprotected variable ans_width while calling allocating function Rf_warning Biostrings/src/translate.c:202
+
+Function PairwiseAlignmentsSingleSubject_align_aligned
+  [UP] unprotected variable namesPattern while calling allocating function R_do_slot(?,S:indel) Biostrings/src/align_utils.c:170
+  [UP] unprotected variable namesPattern while calling allocating function Rf_install Biostrings/src/align_utils.c:170
+  [UP] unprotected variable namesPattern while calling allocating function hold_CompressedIRangesList Biostrings/src/align_utils.c:171
+  [UP] unprotected variable namesPattern while calling allocating function R_do_slot(?,S:subject) Biostrings/src/align_utils.c:173
+  [UP] unprotected variable namesPattern while calling allocating function Rf_install Biostrings/src/align_utils.c:173
+  [UP] unprotected variable namesPattern while calling allocating function R_do_slot(?,S:range) Biostrings/src/align_utils.c:174
+  [UP] unprotected variable namesPattern while calling allocating function Rf_install Biostrings/src/align_utils.c:174
+  [UP] unprotected variable namesPattern while calling allocating function R_do_slot(?,S:indel) Biostrings/src/align_utils.c:175
+  [UP] unprotected variable namesPattern while calling allocating function Rf_install Biostrings/src/align_utils.c:175
+  [UP] unprotected variable namesPattern while calling allocating function hold_CompressedIRangesList Biostrings/src/align_utils.c:176
+  [UP] unprotected variable namesPattern while calling allocating function get_qualityless_classname Biostrings/src/align_utils.c:178
+  [UP] unprotected variable namesPattern while calling allocating function _get_XStringSet_xsbaseclassname Biostrings/src/align_utils.c:179
+  [UP] unprotected variable namesPattern while calling allocating function get_IRanges_length Biostrings/src/align_utils.c:181
+  [UP] unprotected variable namesPattern while calling allocating function R_do_slot(?,S:unaligned) Biostrings/src/align_utils.c:182
+  [UP] unprotected variable namesPattern while calling allocating function Rf_install Biostrings/src/align_utils.c:182
+  [UP] unprotected variable namesPattern while calling allocating function _get_XStringSet_width Biostrings/src/align_utils.c:182
+  [UP] unprotected variable namesPattern while calling allocating function Rf_allocVector Biostrings/src/align_utils.c:187
+  [UP] unprotected variable namesPattern while calling allocating function Rf_allocVector Biostrings/src/align_utils.c:188
+  [UP] unprotected variable namesPattern while calling allocating function Rf_allocVector Biostrings/src/align_utils.c:199
+
+Function _new_HeadTail
+  [UP] unprotected variable low2high while calling allocating function _alloc_RoSeqs Biostrings/src/match_pdict_utils.c:364
+  [UP] unprotected variable low2high while calling allocating function _new_RoSeqs_from_XStringSet Biostrings/src/match_pdict_utils.c:368
+  [UP] unprotected variable low2high while calling allocating function _alloc_RoSeqs Biostrings/src/match_pdict_utils.c:371
+  [UP] unprotected variable low2high while calling allocating function _new_RoSeqs_from_XStringSet Biostrings/src/match_pdict_utils.c:375
+
+Function append_other_to_names
+  [UP] unprotected variable codes_names while calling allocating function Rf_duplicate Biostrings/src/letter_frequency.c:314
+
+Function match_pdict
+  [UP] unprotected variable low2high while calling allocating function _match_Twobit Biostrings/src/match_pdict.c:66
+  [UP] unprotected variable low2high while calling allocating function _match_tbACtree2 Biostrings/src/match_pdict.c:68
+
+Function write_XStringSet_to_fasta
+  [UP] unprotected variable x_names while calling allocating function filexp_puts Biostrings/src/XStringSet_io.c:543
+  [UP] unprotected variable x_names while calling allocating function filexp_puts Biostrings/src/XStringSet_io.c:548
+  [UP] unprotected variable x_names while calling allocating function filexp_puts Biostrings/src/XStringSet_io.c:550
+  [UP] unprotected variable x_names while calling allocating function _get_elt_from_XStringSet_holder Biostrings/src/XStringSet_io.c:551
+  [UP] unprotected variable x_names while calling allocating function Ocopy_bytes_from_i1i2_with_lkup Biostrings/src/XStringSet_io.c:558
+  [UP] unprotected variable x_names while calling allocating function filexp_puts Biostrings/src/XStringSet_io.c:563
+  [UP] unprotected variable x_names while calling allocating function filexp_puts Biostrings/src/XStringSet_io.c:564
+
+Function write_XStringSet_to_fastq
+  [UP] unprotected variable q_names while calling allocating function get_XVectorList_names Biostrings/src/XStringSet_io.c:1007
+  [UP] unprotected variable q_names while calling allocating function _get_elt_from_XStringSet_holder Biostrings/src/XStringSet_io.c:1010
+  [UP] unprotected variable x_names while calling allocating function _get_elt_from_XStringSet_holder Biostrings/src/XStringSet_io.c:1010
+  [UP] unprotected variable q_names while calling allocating function Ocopy_bytes_from_i1i2_with_lkup Biostrings/src/XStringSet_io.c:1011
+  [UP] unprotected variable x_names while calling allocating function Ocopy_bytes_from_i1i2_with_lkup Biostrings/src/XStringSet_io.c:1011
+  [UP] unprotected variable q_names while calling allocating function write_FASTQ_id Biostrings/src/XStringSet_io.c:1016
+  [UP] unprotected variable x_names while calling allocating function write_FASTQ_id Biostrings/src/XStringSet_io.c:1016
+  [UP] unprotected variable q_names while calling allocating function write_FASTQ_seq Biostrings/src/XStringSet_io.c:1017
+  [UP] unprotected variable x_names while calling allocating function write_FASTQ_seq Biostrings/src/XStringSet_io.c:1017
+  [UP] unprotected variable q_names while calling allocating function write_FASTQ_id Biostrings/src/XStringSet_io.c:1018
+  [UP] unprotected variable x_names while calling allocating function write_FASTQ_id Biostrings/src/XStringSet_io.c:1018
+  [UP] unprotected variable q_names while calling allocating function write_FASTQ_qual Biostrings/src/XStringSet_io.c:1020
+  [UP] unprotected variable x_names while calling allocating function write_FASTQ_qual Biostrings/src/XStringSet_io.c:1020
+  [UP] unprotected variable x_names while calling allocating function write_FASTQ_fakequal Biostrings/src/XStringSet_io.c:1022

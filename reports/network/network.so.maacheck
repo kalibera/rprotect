@@ -1,0 +1,2 @@
+WARNING Suspicious call (two or more unprotected arguments) to vecUnion at getEdges /home/tomas/packages/build/qi04y6ct/network/src/access.c:210
+WARNING Suspicious call (two or more unprotected arguments) to vecAppend at getEdges /home/tomas/packages/build/qi04y6ct/network/src/access.c:227

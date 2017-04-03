@@ -1,0 +1,1 @@
+WARNING Suspicious call (two or more unprotected arguments) to R_do_slot_assign at RGEOS_SpatialPolygons_c /home/tomas/rchk/wllvm/bc/packages/lib/sp/include/sp_xports.c:331

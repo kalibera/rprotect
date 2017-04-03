@@ -1,0 +1,10 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at map_sexp /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:21
+WARNING Suspicious call (two or more unprotected arguments) to Rf_cons at map_sexp /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:24
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at map_sexp_inner_nodes /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:51
+WARNING Suspicious call (two or more unprotected arguments) to Rf_cons at map_sexp_inner_nodes /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:54
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at map_sexp_leafs /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:36
+WARNING Suspicious call (two or more unprotected arguments) to Rf_cons at map_sexp_leafs /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:39
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at map_sexp_shortcut /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:69
+WARNING Suspicious call (two or more unprotected arguments) to Rf_cons at map_sexp_shortcut /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:77
+WARNING Suspicious call (two or more unprotected arguments) to Rf_lcons at map_sexp_shortcut_depth_recursive /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:95
+WARNING Suspicious call (two or more unprotected arguments) to Rf_cons at map_sexp_shortcut_depth_recursive /home/tomas/packages/build/ZHzOSAOW/rgp/src/sexp_utils.c:103
