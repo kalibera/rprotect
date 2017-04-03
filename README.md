@@ -182,7 +182,7 @@ will be incomplete'' for a function which it does not sufficiently
 understand).  While this may be also because of a true error in the code,
 these reports were still excluded.  Also, reports mentioning `Rcpp` were
 excluded, because they otherwise would appear with every package that uses
-`Rcpp', even recursively, thus polluting the reports.  Some of these reports
+`Rcpp`, even recursively, thus polluting the reports.  Some of these reports
 are because of the `Rcpp` design -- functions that wrap PROTECT indeed have
 pointer protection imbalance, some of these are true errors like the first
 example above. The tool has been primarily developed for checking C code and
