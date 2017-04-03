@@ -66,7 +66,7 @@ allocate or does not allocate in some circumstances; it often is infeasible
 to check all callers (recursively!) whenever introducing allocation into a
 function. The R API definitely does not guarantee that certain functions
 won't allocate and allocation gets often introduced (note that e.g. a
-typical thing such as introducing a ``warning'' means introducing also
+typical thing such as introducing a warning means introducing also
 allocation).
 
 4.  **any return value may need protection**: it is highly recommended to
@@ -88,8 +88,8 @@ explicit protections actually make code more readable (comments may help).
 
 ## maacheck
 
-This tool is quite simple and only reports instances of ``multiple
-allocating arguments'' pattern, such as (from `Rcpp` code):
+This tool is quite simple and only reports instances of *multiple
+allocating arguments* pattern, such as (from `Rcpp` code):
 
 ```
 Rf_lang2(::Rf_install("simpleError"), Rf_mkString(str.c_str()))
@@ -118,7 +118,7 @@ complexity.
 
 Still, the tool reports some false alarms as any bug-finding tool.  In the
 interest of prevention of further PROTECT errors, it might yet still be
-advisable to ``fix'' some ``false alarms'' by making the code conform to the
+advisable to "fix" some "false alarms" by making the code conform to the
 rules suggested above, like in the following example.  The reports usually
 have multiple lines per C function where issues are found, such as (from
 `curl` code)
@@ -140,7 +140,7 @@ SEXP optnames = getAttrib(values, R_NamesSymbol);
 
 This pointer is not protected.  In practice `getAttrib` sometimes returns
 newly allocated objects and sometimes existing objects (pointed from the
-object they are attributes of).  In particular, the ``names'' attribute will
+object they are attributes of).  In particular, the `names` attribute will
 be newly allocated if `values` are represented as a pairlist (e.g.  it is a
 language object).  Further analysis of `R_handle_setopt` reveals that
 `values` will in fact be represented as a vector:
@@ -177,8 +177,8 @@ also in line with the rules mentioned above.
 
 In the provided outputs from the tools, some reports were filtered out in
 the interest of focusing on reports that are most likely true errors. 
-Sometimes the tool knows it is confused by the code (it reports ``results
-will be incomplete'' for a function which it does not sufficiently
+Sometimes the tool knows it is confused by the code (it reports "results
+will be incomplete" for a function which it does not sufficiently
 understand).  While this may be also because of a true error in the code,
 these reports were still excluded.  Also, reports mentioning `Rcpp` were
 excluded, because they otherwise would appear with every package that uses
