@@ -11,7 +11,8 @@ Often, however, the code is worth making more readable anyway in these
 cases.  The tools are [available](http://www.github.com/kalibera/rchk) but
 using them is somewhat difficult because one needs to build native code into
 LLVM bitcode (using Link-Time-Optimization, Clang and Clang++), which is a
-rather painful process.
+rather painful process (detailed instructions are available for Ubuntu
+16.04, also one can install automatically into a virtual machine).
 
 ## The danger of PROTECT errors
 
@@ -185,8 +186,11 @@ excluded, because they otherwise would appear with every package that uses
 `Rcpp`, even recursively, thus polluting the reports.  Some of these reports
 are because of the `Rcpp` design -- functions that wrap PROTECT indeed have
 pointer protection imbalance, some of these are true errors like the first
-example above. The tool has been primarily developed for checking C code and
-it was debugged based on experience with finding bugs in the R runtime. It
-works less well with C++ code, but it still has reported true PROTECT errors
-in C++ code.
-
+example above.  The tool has been primarily developed for checking C code
+and it was debugged/tuned based on experience with finding bugs in the R
+runtime.  It works less well with C++ code, but it still has reported true
+PROTECT errors in C++ code in packages.  The reports should be considered
+incomplete also because 100 packages that needed compilation according to
+their DESCRIPTION file failed to build/install with clang: absence of a
+package in the reports should not be taken as indication that the package
+would not have PROTECT errors.
