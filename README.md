@@ -11,8 +11,9 @@ Often, however, the code is worth making more readable anyway in these
 cases.  The tools are [available](http://www.github.com/kalibera/rchk) but
 using them is somewhat difficult because one needs to build native code into
 LLVM bitcode (using Link-Time-Optimization, Clang and Clang++), which is a
-rather painful process (detailed instructions are available for Ubuntu
-16.04, also one can install automatically into a virtual machine).
+somewhat painful process (detailed instructions are available for Ubuntu
+16.04, also one can install automatically into a virtual machine which takes
+about 1 hour).
 
 ## The danger of PROTECT errors
 
@@ -27,14 +28,16 @@ causes an R error at runtime that has no logical explanation.  A PROTECT
 error could also lead to incorrect results for programs in R.  Given these
 difficulties, there is a need for tools that specifically aim at detecting
 PROTECT errors, such as `rchk`.  Another tool is
-[gctorture](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Using-gctorture)
+`gctorture` (see [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Using-gctorture))
 which increases the chances that PROTECT errors will trigger (cause a crash
 or error that can be detected with strict barrier checking) while running
 tests.
 
 ## How to PROTECT
 
-One has to make sure that during any allocation from the R heap, all R
+Detailed information on when and how to PROTECT is available in [Writing R
+Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Garbage-Collection).
+In short, one has to make sure that during any allocation from the R heap, all R
 objects (values) that may still be used by the program are reachable by the
 garbage collector.  The garbage collector will find objects that are on the
 *precious list* (`Rf_PreserveObject` and `Rf_ReleaseObject`), on the
@@ -82,10 +85,14 @@ should protect all their arguments (not just some) and protect them for the
 whole duration of the function, even if some of the values may not be needed
 anymore in the execution of the function.
 
-6. It is ok to depend on that an object pointer from a protected object is
+6.  It is ok to depend on that an object pointer from a protected object is
 also implicitly protected, but one should only use this when fewer
 explicit protections actually make code more readable (comments may help).
-
+One also has to keep in mind that the size of the pointer protection stack
+is bounded, and hence when operating on recursive structures such as
+pairlists it is advisable to only PROTECT the head of the structure and
+rely on that the rest would be found by the GC indirectly. Yet, such code is
+perhaps uncommon in packages, anyway.
 
 ## maacheck
 
