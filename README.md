@@ -113,6 +113,20 @@ by `Rf_mkString`. The full text of this report is e.g.
 WARNING Suspicious call (two or more unprotected arguments) to Rf_lang2 at string_to_try_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) Rcpp/include/Rcpp/exceptions.h:236
 ```
 
+This problem can be fixed by protecting the result of `Rf_mkString` before
+passing it to `Rf_lang2`. There result of `Rf_install` does not have to be
+protected, because symbols are implicitly protected via the symbol table.
+Technically speaking, one could take advantage of that `Rf_lang2` is a
+callee-protect function and also fix by
+
+```
+SEXP sSimpleError = ::Rf_install("simpleError")
+Rf_lang2(sSimpleError, Rf_mkString(str.c_str()))
+```
+This is correct as long as `Rf_lang2` is callee-protect and the tool will
+treat it as correct, yet it might be more robust not to depend on
+callee-protection and protect anyway.
+
 ## bcheck
 
 This tool is far more sophisticated and looks for a wide range of protection
@@ -201,3 +215,31 @@ incomplete also because 100 packages that needed compilation according to
 their DESCRIPTION file failed to build/install with clang: absence of a
 package in the reports should not be taken as indication that the package
 would not have PROTECT errors.
+
+## Hints for interpreting the reports
+
+The tool requires protection balance within each function.  Hence, if
+`PROTECT` and similar calls are wrapped into functions with different names,
+the tool will report an error.  Wrapping `PROTECT` calls is not recommended
+in the interest of readability, but it is not necessarily an error.  A
+special case is that the tool reports protection imbalance for C++ code
+where `UNPROTECT` is called in destructors, this is usually a false alarm.
+
+Some reports may include a reference to an "unnamed" variable when a
+function directly returns a result of another function call without storing
+that result in a local variable.  This can happen with C++ destructors:
+
+```
+SEXP fun1() {
+  CXXObject o;
+  ...
+  return fun2(); // unprotected unnamed variable while calling destructor of o
+}
+```
+
+This may be a true error: if the destructor of `o` allocates from the R
+heap, it may kill the result of `fun2`. It is therefore very important to
+check that the destructor is not an allocating function. The tool may be
+wrong here: the tool conservatively assumes that a function is allocating
+when it calls another function via a pointer, because it does not know the
+function called.
